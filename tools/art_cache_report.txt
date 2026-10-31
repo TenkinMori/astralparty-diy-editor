@@ -1,0 +1,166 @@
+游戏根      = d:\steam\steamapps\common\Astral Party\8vJXn6CN
+游戏包目录  = d:\steam\steamapps\common\Astral Party\8vJXn6CN\AstralParty_CN_Data\StreamingAssets\aa\StandaloneWindows64（存在 = True）
+catalog     = C:\Users\DELL\AppData\LocalLow\feimo\AstralParty_CN\com.unity.addressables\catalog_3.2.0.json
+产物缓存    = D:\小小兔趴\5-DIY关卡\贴图缓存
+
+要用的贴图名 303 个
+catalog 地址 13805 条（能解到 bundle 的 4749 条）
+已在缓存 9 · 游戏目录里已有 147 · catalog 里查不到 58
+这一趟要从包里抠 89 张
+
+  [1/89] 02905bfb09d2 → 拿到 1 / 要 1
+  [2/89] 0362f12ebf72 → 拿到 1 / 要 1
+  [3/89] 044e762d75d9 → 拿到 1 / 要 1
+  [4/89] 053906bf0e50 → 拿到 1 / 要 1
+  [5/89] 0d720a7ca299 → 拿到 1 / 要 1
+  [7/89] 186dd7bdd567 → 拿到 1 / 要 1
+  [8/89] 1a69795d186a → 拿到 1 / 要 1
+  [9/89] 1b50e4e4d615 → 拿到 1 / 要 1
+  [10/89] 1f72b71a3de4 → 拿到 1 / 要 1
+  [11/89] 23a5ec7933f2 → 拿到 1 / 要 1
+  [12/89] 262b0ff8fd4e → 拿到 1 / 要 1
+  [13/89] 271b9f0713ac → 拿到 1 / 要 1
+  [14/89] 2c21e9155d17 → 拿到 1 / 要 1
+  [15/89] 2da992ec1f74 → 拿到 1 / 要 1
+  [16/89] 308c7ad1c735 → 拿到 1 / 要 1
+  [17/89] 3371d9f5a3ac → 拿到 1 / 要 1
+  [18/89] 3b99f5f0c72b → 拿到 1 / 要 1
+  [19/89] 3be9ec38f018 → 拿到 1 / 要 1
+  [20/89] 3ec751620bdf → 拿到 1 / 要 1
+  [21/89] 419a4b4069ac → 拿到 1 / 要 1
+  [22/89] 469519a79686 → 拿到 1 / 要 1
+  [23/89] 495bb0cd0c4b → 拿到 1 / 要 1
+  [24/89] 4d97242c93e7 → 拿到 1 / 要 1
+  [25/89] 4ecb2c19fb85 → 拿到 1 / 要 1
+  [26/89] 5010820933c8 → 拿到 1 / 要 1
+  [27/89] 5169f640d780 → 拿到 1 / 要 1
+  [28/89] 54a70c032540 → 拿到 1 / 要 1
+  [29/89] 58038148a2c0 → 拿到 1 / 要 1
+  [30/89] 59d48d65c651 → 拿到 1 / 要 1
+  [31/89] 5a5fa2959aa9 → 拿到 1 / 要 1
+  [32/89] 5b9ac87b5f5f → 拿到 1 / 要 1
+  [33/89] 5ba7e2e32127 → 拿到 1 / 要 1
+  [34/89] 5e03025fd7d3 → 拿到 1 / 要 1
+  [35/89] 606330a6c766 → 拿到 1 / 要 1
+  [36/89] 680ca3891b36 → 拿到 1 / 要 1
+  [37/89] 6a5bd9ea8503 → 拿到 1 / 要 1
+  [39/89] 6f46b6b0bef8 → 拿到 1 / 要 1
+  [40/89] 70666dc7de84 → 拿到 1 / 要 1
+  [41/89] 7709f41c5bfb → 拿到 1 / 要 1
+  [42/89] 7add40fe5c8e → 拿到 1 / 要 1
+  [43/89] 80060ddb0abb → 拿到 1 / 要 1
+  [44/89] 80536e8282b9 → 拿到 1 / 要 1
+  [45/89] 82bfaf732093 → 拿到 1 / 要 1
+  [46/89] 87f1b2a7cb1b → 拿到 1 / 要 1
+  [47/89] 8adec5294b47 → 拿到 1 / 要 1
+  [48/89] 98a9a2100e97 → 拿到 1 / 要 1
+  [50/89] 9f8c5f46b775 → 拿到 1 / 要 1
+  [51/89] a3004be29308 → 拿到 1 / 要 1
+  [53/89] a6fdb0dd0037 → 拿到 1 / 要 1
+  [54/89] af69ccd76f54 → 拿到 1 / 要 1
+  [55/89] b20696162174 → 拿到 1 / 要 1
+  [56/89] b6c3a2b607be → 拿到 1 / 要 1
+  [57/89] bbdfe97f6206 → 拿到 1 / 要 1
+  [58/89] c408deedc1e4 → 拿到 1 / 要 1
+  [59/89] c6a455f3806e → 拿到 1 / 要 1
+  [60/89] c80067d0f82f → 拿到 1 / 要 1
+  [61/89] cac02e5e8546 → 拿到 1 / 要 1
+  [62/89] cbb3130b136f → 拿到 1 / 要 1
+  [63/89] ceb6bc277007 → 拿到 1 / 要 1
+  [64/89] cfb047b39cc0 → 拿到 1 / 要 1
+  [65/89] d1b7d464c67c → 拿到 1 / 要 1
+  [66/89] d4cc5541a02f → 拿到 1 / 要 1
+  [67/89] d99fadca6293 → 拿到 1 / 要 1
+  [68/89] db5abd10d017 → 拿到 1 / 要 1
+  [69/89] dc94db4ea2be → 拿到 1 / 要 1
+  [70/89] ddaa176668e1 → 拿到 1 / 要 1
+  [71/89] e02c478ad794 → 拿到 1 / 要 1
+  [72/89] e249c0a0a33f → 拿到 1 / 要 1
+  [73/89] e6138a945dd8 → 拿到 1 / 要 1
+  [74/89] e8c3966a475c → 拿到 1 / 要 1
+  [75/89] f5159d43d5a1 → 拿到 1 / 要 1
+  [76/89] f6ff8f137b1e → 拿到 1 / 要 1
+  [77/89] f75fad375b96 → 拿到 1 / 要 1
+  [78/89] f775ba58ee3a → 拿到 1 / 要 1
+  [79/89] f7dae4b2bb42 → 拿到 1 / 要 1
+  [80/89] f9644c9624f0 → 拿到 1 / 要 1
+  [81/89] f9a870095681 → 拿到 1 / 要 1
+  [82/89] f9ebcc2f8a01 → 拿到 1 / 要 1
+  [83/89] fa8382e96345 → 拿到 1 / 要 1
+  [84/89] fa8edaf96b6b → 拿到 1 / 要 1
+  [85/89] fab7570a4822 → 拿到 1 / 要 1
+  [86/89] faf74942a42e → 拿到 1 / 要 1
+  [88/89] fbd0bbc4242e → 拿到 1 / 要 1
+  [89/89] ffad4606a8e9 → 拿到 1 / 要 1
+
+==============================================================================
+现在能读到的：93 / 303（比动手前多 -54）
+这一趟从包里抠出来：84 张
+这一趟失败：5 张
+
+—— ★ 还是缺的 63 张（官方包里也没有 / 名字对不上）——
+  UT_Monster_Bust_1006_0           海盗精锐             怪头像 monster 1006 catalog 里没登记这个名字
+  UT_Monster_Bust_1012_0           天王寺雅央            怪头像 monster 1012 catalog 里没登记这个名字
+  UT_Monster_Bust_1049_0           姬梦枫（孔雀意识）        怪头像 monster 1049 catalog 里没登记这个名字
+  UT_Monster_Bust_1050_0           姬梦枫（友方）          怪头像 monster 1050 catalog 里没登记这个名字
+  UT_Monster_Bust_1051_0           海盗王嘎呜            怪头像 monster 1051 catalog 里没登记这个名字
+  UT_Monster_Bust_1052_0           海盗鲨鱼             怪头像 monster 1052 catalog 里没登记这个名字
+  UT_Monster_Bust_1060_0           海盗王嘎呜            怪头像 monster 1060 catalog 里没登记这个名字
+  UT_Monster_Bust_2026_0           天川真梦梓（友方）        怪头像 monster 2026 catalog 里没登记这个名字
+  UT_Monster_Bust_2027_0           天川苍鲤（友方）         怪头像 monster 2027 catalog 里没登记这个名字
+  UT_Monster_Bust_3001_0           学院安全官            怪头像 monster 3001 catalog 里没登记这个名字
+  UT_Monster_Bust_3002_0           代理院长             怪头像 monster 3002 catalog 里没登记这个名字
+  UT_Monster_Bust_3003_0           天川真梦梓            怪头像 monster 3003 catalog 里没登记这个名字
+  UT_Monster_Bust_3004_0           天川苍鲤             怪头像 monster 3004 catalog 里没登记这个名字
+  UT_Monster_Bust_3005_0           学院安全官            怪头像 monster 3005 catalog 里没登记这个名字
+  UT_Monster_Bust_3006_0           天川苍鲤             怪头像 monster 3006 catalog 里没登记这个名字
+  UT_Monster_Bust_3051_0           金小鱼              怪头像 monster 3051 catalog 里没登记这个名字
+  UT_Monster_Bust_100401_0         海盗王嘎呜            怪头像 monster 100401 catalog 里没登记这个名字
+  UT_Monster_Card_1006             海盗精锐             怪手牌画 monster 1006 catalog 里没登记这个名字
+  UT_Monster_Card_1012             天王寺雅央            怪手牌画 monster 1012 catalog 里没登记这个名字
+  UT_Monster_Card_1016             爆竹呱呱             怪手牌画 monster 1016 包 9a457c44a2b7 里没有
+  UT_Monster_Card_1049             姬梦枫（孔雀意识）        怪手牌画 monster 1049 catalog 里没登记这个名字
+  UT_Monster_Card_1051             海盗王嘎呜            怪手牌画 monster 1051 catalog 里没登记这个名字
+  UT_Monster_Card_1052             海盗鲨鱼             怪手牌画 monster 1052 catalog 里没登记这个名字
+  UT_Monster_Card_1060             海盗王嘎呜            怪手牌画 monster 1060 catalog 里没登记这个名字
+  UT_Monster_Card_1067             典狱长              怪手牌画 monster 1067 包 6c38165c7796 里没有
+  UT_Monster_Card_1068             看守               怪手牌画 monster 1068 包 13db8b536f54 里没有
+  UT_Monster_Card_1069             罪恶茶壶             怪手牌画 monster 1069 包 a6ce8e3af626 里没有
+  UT_Monster_Card_1070             大盗               怪手牌画 monster 1070 包 fafce27e8f55 里没有
+  UT_Monster_Card_2026             天川真梦梓（友方）        怪手牌画 monster 2026 catalog 里没登记这个名字
+  UT_Monster_Card_2027             天川苍鲤（友方）         怪手牌画 monster 2027 catalog 里没登记这个名字
+  UT_Monster_Card_3001             学院安全官            怪手牌画 monster 3001 catalog 里没登记这个名字
+  UT_Monster_Card_3002             代理院长             怪手牌画 monster 3002 catalog 里没登记这个名字
+  UT_Monster_Card_3003             天川真梦梓            怪手牌画 monster 3003 catalog 里没登记这个名字
+  UT_Monster_Card_3004             天川苍鲤             怪手牌画 monster 3004 catalog 里没登记这个名字
+  UT_Monster_Card_3005             学院安全官            怪手牌画 monster 3005 catalog 里没登记这个名字
+  UT_Monster_Card_3006             天川苍鲤             怪手牌画 monster 3006 catalog 里没登记这个名字
+  UT_Monster_Card_3051             金小鱼              怪手牌画 monster 3051 catalog 里没登记这个名字
+  UT_Monster_Card_100401           海盗王嘎呜            怪手牌画 monster 100401 catalog 里没登记这个名字
+  UT_HandCard_20029                符卡-祸             手牌 card 20029 catalog 里没登记这个名字
+  UT_HandCard_20031                活体书页             手牌 card 20031 catalog 里没登记这个名字
+  UT_HandCard_20034                13号药水            手牌 card 20034 catalog 里没登记这个名字
+  UT_HandCard_20035                安定剂              手牌 card 20035 catalog 里没登记这个名字
+  UT_HandCard_21012                对怪激光             手牌 card 21012 catalog 里没登记这个名字
+  UT_HandCard_21013                对怪板砖             手牌 card 21013 catalog 里没登记这个名字
+  UT_MapPreview_103                海盗王嘎呜            地图缩略图 103  catalog 里没登记这个名字
+  UT_MapScene_103                  海盗王嘎呜            地图大图 103   catalog 里没登记这个名字
+  UT_MapPreview_104                浣熊               地图缩略图 104  catalog 里没登记这个名字
+  UT_MapScene_104                  浣熊               地图大图 104   catalog 里没登记这个名字
+  UT_MapPreview_102                对抗训练             地图缩略图 102  catalog 里没登记这个名字
+  UT_MapScene_102                  对抗训练             地图大图 102   catalog 里没登记这个名字
+  UT_MapPreview_1001               地图 1001          地图缩略图 1001 catalog 里没登记这个名字
+  UT_MapScene_1001                 地图 1001          地图大图 1001  catalog 里没登记这个名字
+  UT_MapPreview_1002               地图 1002          地图缩略图 1002 catalog 里没登记这个名字
+  UT_MapScene_1002                 地图 1002          地图大图 1002  catalog 里没登记这个名字
+  UT_MapPreview_021                梦想号-上层甲板         地图缩略图 021  catalog 里没登记这个名字
+  UT_MapPreview_999                Map_010          地图缩略图 999  catalog 里没登记这个名字
+  UT_MapScene_999                  Map_010          地图大图 999   catalog 里没登记这个名字
+  UT_MapPreview_017                园林中庭             地图缩略图 017  catalog 里没登记这个名字
+  UT_MapScene_017                  园林中庭             地图大图 017   catalog 里没登记这个名字
+  UT_MapPreview_023                异变图书馆            地图缩略图 023  catalog 里没登记这个名字
+  UT_MapScene_023                  异变图书馆            地图大图 023   catalog 里没登记这个名字
+  UT_MapPreview_022                淘汰赛运动场           地图缩略图 022  catalog 里没登记这个名字
+  UT_MapScene_022                  淘汰赛运动场           地图大图 022   catalog 里没登记这个名字
+
+用时 5.0 秒

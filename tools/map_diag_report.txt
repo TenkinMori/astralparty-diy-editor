@@ -1,0 +1,126 @@
+﻿python : D:\小小兔趴\5-DIY关卡\tools\map_diag.py:5: SyntaxWarning: invalid escape sequence '\s'
+所在位置 行:1 字符: 188
++ ... ools'; $env:PYTHONIOENCODING='utf-8'; python map_diag.py 2>&1 | Out-F ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\小小兔趴\5-DIY关卡...e sequence '\s':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  `4-服务端\server\astralnext\codec.py` 的线格式读法，把每层的
+==============================================================================
+Map.bin  D:\小小兔趴\4-服务端\server\data\gamedata\Map.bin  (22102 字节)
+  顶层字段：
+    field 1    wire 2  ×24
+    field 2    wire 2  ×25
+    field 3    wire 2  ×27
+    field 4    wire 2  ×27
+    field 5    wire 2  ×18
+    field 6    wire 2  ×19
+    field 7    wire 2  ×5
+    field 8    wire 2  ×5
+    field 9    wire 2  ×12
+    field 10   wire 2  ×13
+    field 11   wire 2  ×32
+    field 12   wire 2  ×32
+
+  各 field 的第一条解出来看看：
+    -- field 1 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=6b3c0100
+         field 2    wire 5  bytes(4)=6b3c0100
+         field 3    wire 5  bytes(4)=2e5c0c00
+         field 4    wire 5  bytes(4)=2f5c0c00
+         field 5    wire 2  bytes(1)=02  packed→[1]
+         field 7    wire 2  bytes(4)=19790000  packed→[-13, -61, 0, 0]
+         field 8    wire 2  bytes(17)='UT_MapPreview_003'  packed→[-43, 42, -48, -39, -49, 56]
+         field 9    wire 2  bytes(15)='UT_MapScene_003'  packed→[-43, 42, -48, -39, -49, 56]
+         field 15   wire 2  bytes(4)=eb030000  packed→[-246, 0, 0]
+         field 17   wire 2  bytes(6)=08c081d6ca06  packed→[4, 883605600]
+         field 18   wire 2  bytes(6)=08ffff93ca0c  packed→[4, -1688371200]
+         field 21   wire 5  bytes(4)=02000000
+    -- field 2 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=6b3c0100
+         field 2    wire 2  bytes(95)=0d6b3c0100156b3c01001d2e5c0c00252f5c0c002a01023a
+    -- field 3 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=01000000
+         field 2    wire 2  bytes(7)='Map_003'
+         field 3    wire 2  bytes(11)='MiniMap_003'  packed→[-39, -53, 55, -53, -39, -49]
+         field 4    wire 5  bytes(4)=33331341
+         field 5    wire 5  bytes(4)=33331341
+         field 6    wire 5  bytes(4)=67000000
+    -- field 4 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=01000000
+         field 2    wire 2  bytes(42)=0d0100000012074d61705f3030331a0b4d696e694d61705f
+    -- field 5 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=57400100
+         field 2    wire 2  bytes(61)=15140000001a10027d0000017d0000047d0000057d000022
+         field 2    wire 2  bytes(66)=0d0100000015140000001a10027d0000017d0000047d0000
+         field 2    wire 2  bytes(70)=0d0200000015140000001a14027d0000077d0000097d0000
+         field 2    wire 2  bytes(76)=0d0300000015120000001a14027d0000077d0000097d0000
+         field 2    wire 2  bytes(76)=0d0400000015120000001a140b7d0000077d0000087d0000
+    -- field 6 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=57400100
+         field 2    wire 2  bytes(454)=0d57400100123d15140000001a10027d0000017d0000047d
+    -- field 7 wire 2 --
+       内层：
+    -- field 8 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=00000000
+         field 2    wire 2  bytes(0)=''
+    -- field 9 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=57400100
+         field 2    wire 2  bytes(0)=''
+         field 2    wire 2  bytes(5)=0d01000000
+         field 2    wire 2  bytes(5)=0d02000000
+         field 2    wire 2  bytes(5)=0d03000000
+         field 2    wire 2  bytes(5)=0d04000000
+    -- field 10 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=57400100
+         field 2    wire 2  bytes(42)=0d57400100120012050d0100000012050d0200000012050d
+    -- field 11 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=f901d404
+         field 2    wire 5  bytes(4)=e9030000
+         field 3    wire 5  bytes(4)=e9030000
+         field 4    wire 5  bytes(4)=e9030000
+    -- field 12 wire 2 --
+       内层：
+         field 1    wire 5  bytes(4)=f901d404
+         field 2    wire 2  bytes(20)=0df901d40415e90300001de903000025e9030000
+==============================================================================
+GameMode.bin  D:\小小兔趴\4-服务端\server\data\gamedata\GameMode.bin  (3248 字节)
+  顶层字段：
+    field 1    wire 2  ×12
+    field 2    wire 2  ×12
+    field 3    wire 2  ×12
+    field 4    wire 2  ×12
+    field 5    wire 2  ×1
+    field 6    wire 2  ×1
+    field 7    wire 2  ×1
+    field 8    wire 2  ×1
+    field 9    wire 2  ×1
+    field 10   wire 2  ×1
+    field 11   wire 2  ×3
+    field 12   wire 2  ×3
+
+  -- 第 1 条 field-2 entry --
+     field 1    wire 5  bytes(4)=04000000
+     field 2    wire 2  bytes(104)=080415040000001801250a0000002d32000000350a000000  (非文本)
+  -- 第 2 条 field-2 entry --
+     field 1    wire 5  bytes(4)=01000000
+     field 2    wire 2  bytes(120)=080115010000001801250a0000002d32000000351e000000  (非文本)
+  -- 第 3 条 field-2 entry --
+     field 1    wire 5  bytes(4)=03000000
+     field 2    wire 2  bytes(155)=080315030000001801250a0000002d32000000351e000000  (非文本)
+==============================================================================
+照 gamedata.py:79-140 的读法复算一遍：
+  场景表 27 条，样本：[(1, '\r\x01\x00\x00\x00\x12\x07Map_003\x1a\x0bMiniMap_003%33\x13A-33\x13A5g\x00\x00\x00'), (5, '\r\x05\x00\x00\x00\x12\x07Map_005\x1a\x0bMiniMap_005%\x00\x000A-\x00\x000A5�\x00\x00\x00'), (4, '\r\x04\x00\x00\x00\x12\x07Map_004\x1a\x0bMiniMap_004%fff@-fff@5g\x00\x00\x00'), (6, '\r\x06\x00\x00\x00\x12\x07Map_006\x1a\x0bMiniMap_006%\x00\x00\x18A-\x00\x00\x18A5�\x00\x00\x00'), (11, '\r\x0b\x00\x00\x00\x12\x07Map_011\x1a\x0bMiniMap_011%33CA-\x00\x00@A5�\x00\x00\x00')]
+  map 82016 -> suffix=None difficulties=None
+  map 82007 -> suffix=None difficulties=None
+  map 82017 -> suffix=None difficulties=None

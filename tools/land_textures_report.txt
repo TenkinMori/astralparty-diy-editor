@@ -1,0 +1,155 @@
+﻿python : D:\小小兔趴\5-DIY关卡\tools\extract_land_textures.py:5: SyntaxWarning: invalid escape sequence '\<'
+所在位置 行:1 字符: 188
++ ... NG='utf-8'; python extract_land_textures.py 023 007 008 010 016 017 0 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\小小兔趴\5-DIY关卡...e sequence '\<':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  `5-DIY关卡\棋盘缓存\<后缀>.json` 里只有几何 + landType，
+==============================================================================
+Map_023（42 个格子）bundle=370c53bd3c4b8d4fdbcf99fcd9898172
+landType 格子数    物件名(=贴图线索)                     主贴图                        全部贴图
+1        4      Land_Born_0,Land_Born_5,Land_Born_18,Land_Born_23 -                          -
+2        2      Land_FillingStation_11,Land_FillingStation_29 -                          -
+8        4      Land_Event_6,Land_Event_14,Land_Event_24,Land_Event_32 -                          -
+12       4      Land_MoveAgain_16,Land_MoveAgain_27,Land_MoveAgain_34,Land_MoveAgain_38 -                          -
+14       4      Land_DrawCard_4,Land_DrawCard_19,Land_DrawCard_36,Land_DrawCard_40 -                          -
+15       4      Land_RollGold_7,Land_RollGold_21,Land_RollGold_31,Land_RollGold_42 -                          -
+17       4      Land_BloodLoss_9,Land_BloodLoss_26,Land_BloodLoss_35,Land_BloodLoss_41 -                          -
+19       4      Land_Monster_1,Land_Monster_17,Land_Monster_37,Land_Monster_39 -                          -
+20       4      Land_Heal_2,Land_Heal_10,Land_Heal_22,Land_Heal_28 -                          -
+21       4      Land_MonsterPursuit_3,Land_MonsterPursuit_13,Land_MonsterPursuit_20,Land_MonsterPursuit_30 -                          -
+22       2      Land_Pveshop_8,Land_Pveshop_15 -                          -
+24       2      Land_Relic_25,Land_Relic_33    -                          -
+==============================================================================
+Map_007（56 个格子）bundle=aa0f7413bf1efbfb8c8d8e6274e5039b
+landType 格子数    物件名(=贴图线索)                     主贴图                        全部贴图
+1        4      Land_Born_1,Land_Born_21,Land_Born_42,Land_Born_47 -                          -
+2        1      Land_FillingStation_11         -                          -
+3        4      Land_Portal_7,Land_Portal_15,Land_Portal_24,Land_Portal_30 -                          -
+8        8      Land_Event_6,Land_Event_16,Land_Event_26,Land_Event_28,Land_Event_36,Land_Event_40,Land_Event_49,Land_Event_53 -                          -
+12       4      Land_MoveAgain_4,Land_MoveAgain_18,Land_MoveAgain_41,Land_MoveAgain_48 -                          -
+14       4      Land_DrawCard_5,Land_DrawCard_17,Land_DrawCard_43,Land_DrawCard_46 -                          -
+15       5      Land_RollGold_0,Land_RollGold_8,Land_RollGold_14,Land_RollGold_22,Land_RollGold_32 -                          -
+17       6      Land_BloodLoss_3,Land_BloodLoss_19,Land_BloodLoss_25,Land_BloodLoss_29,Land_BloodLoss_34,Land_BloodLoss_52 -                          -
+19       8      Land_Monster_2,Land_Monster_10,Land_Monster_12,Land_Monster_20,Land_Monster_38,Land_Monster_39,Land_Monster_50,Land_Monster_55 -                          -
+20       4      Land_Heal_9,Land_Heal_13,Land_Heal_23,Land_Heal_31 -                          -
+21       4      Land_MonsterPursuit_35,Land_MonsterPursuit_44,Land_MonsterPursuit_45,Land_MonsterPursuit_51 -                          -
+22       3      Land_Pveshop_33,Land_Pveshop_37,Land_Pveshop_54 -                          -
+24       1      Land_Relic_27                  -                          -
+==============================================================================
+Map_008（65 个格子）bundle=fbfe9dd4c94ecf861ebf332fb1c3b987
+landType 格子数    物件名(=贴图线索)                     主贴图                        全部贴图
+1        4      Land_Born_0,Land_Born_16,Land_Born_24,Land_Born_40 -                          -
+2        1      Land_FillingStation_48         -                          -
+3        4      Land_Portal_2,Land_Portal_14,Land_Portal_26,Land_Portal_38 -                          -
+8        6      Land_Event_18,Land_Event_22,Land_Event_42,Land_Event_46,Land_Event_54,Land_Event_59 -                          -
+12       6      Land_MoveAgain_17,Land_MoveAgain_23,Land_MoveAgain_41,Land_MoveAgain_47,Land_MoveAgain_56,Land_MoveAgain_61 -                          -
+14       4      Land_DrawCard_4,Land_DrawCard_12,Land_DrawCard_28,Land_DrawCard_36 -                          -
+15       4      Land_RollGold_5,Land_RollGold_11,Land_RollGold_29,Land_RollGold_35 -                          -
+17       10     Land_BloodLoss_3,Land_BloodLoss_7,Land_BloodLoss_13,Land_BloodLoss_19,Land_BloodLoss_27,Land_BloodLoss_31,Land_BloodLoss_37,Land_BloodLoss_43,Land_BloodLoss_52,Land_BloodLoss_63 -                          -
+19       8      Land_Monster_1,Land_Monster_15,Land_Monster_25,Land_Monster_39,Land_Monster_51,Land_Monster_55,Land_Monster_60,Land_Monster_62 -                          -
+20       4      Land_Heal_9,Land_Heal_33,Land_Heal_53,Land_Heal_64 -                          -
+21       8      Land_MonsterPursuit_6,Land_MonsterPursuit_10,Land_MonsterPursuit_21,Land_MonsterPursuit_30,Land_MonsterPursuit_34,Land_MonsterPursuit_45,Land_MonsterPursuit_49,Land_MonsterPursuit_57 -                          -
+22       4      Land_Pveshop_20,Land_Pveshop_44,Land_Pveshop_50,Land_Pveshop_58 -                          -
+24       2      Land_Relic_8,Land_Relic_32     -                          -
+==============================================================================
+Map_010（56 个格子）bundle=9dcefde2bcbf2988695a3477a2f559e5
+landType 格子数    物件名(=贴图线索)                     主贴图                        全部贴图
+1        4      Land_Born_0,Land_Born_5,Land_Born_10,Land_Born_15 -                          -
+2        2      Land_FillingStation_33,Land_FillingStation_42 -                          -
+3        4      Land_Portal_4,Land_Portal_14,Land_Portal_27,Land_Portal_48 -                          -
+8        6      Land_Event_7,Land_Event_17,Land_Event_21,Land_Event_32,Land_Event_43,Land_Event_54 -                          -
+12       4      Land_MoveAgain_25,Land_MoveAgain_35,Land_MoveAgain_40,Land_MoveAgain_50 -                          -
+14       4      Land_DrawCard_8,Land_DrawCard_18,Land_DrawCard_31,Land_DrawCard_44 -                          -
+15       6      Land_RollGold_3,Land_RollGold_13,Land_RollGold_23,Land_RollGold_37,Land_RollGold_38,Land_RollGold_52 -                          -
+17       6      Land_BloodLoss_20,Land_BloodLoss_28,Land_BloodLoss_29,Land_BloodLoss_46,Land_BloodLoss_47,Land_BloodLoss_55 -                          -
+19       6      Land_Monster_9,Land_Monster_19,Land_Monster_26,Land_Monster_34,Land_Monster_41,Land_Monster_49 -                          -
+20       4      Land_Heal_6,Land_Heal_16,Land_Heal_30,Land_Heal_45 -                          -
+21       4      Land_MonsterPursuit_1,Land_MonsterPursuit_11,Land_MonsterPursuit_22,Land_MonsterPursuit_53 -                          -
+22       4      Land_Pveshop_2,Land_Pveshop_12,Land_Pveshop_36,Land_Pveshop_39 -                          -
+24       2      Land_Relic_24,Land_Relic_51    -                          -
+==============================================================================
+Map_016（42 个格子）bundle=a3169d1bd72deffbd8566f3ef6f2bb50
+landType 格子数    物件名(=贴图线索)                     主贴图                        全部贴图
+1        4      Land_Born_0,Land_Born_10,Land_Born_16,Land_Born_28 -                          -
+2        2      Land_FillingStation_5,Land_FillingStation_22 -                          -
+8        5      Land_Event_4,Land_Event_13,Land_Event_23,Land_Event_31,Land_Event_38 -                          -
+12       4      Land_MoveAgain_2,Land_MoveAgain_8,Land_MoveAgain_18,Land_MoveAgain_26 -                          -
+14       3      Land_DrawCard_15,Land_DrawCard_29,Land_DrawCard_37 -                          -
+15       4      Land_RollGold_11,Land_RollGold_20,Land_RollGold_24,Land_RollGold_33 -                          -
+17       4      Land_BloodLoss_6,Land_BloodLoss_14,Land_BloodLoss_21,Land_BloodLoss_30 -                          -
+19       4      Land_Monster_17,Land_Monster_27,Land_Monster_34,Land_Monster_36 -                          -
+20       3      Land_Heal_12,Land_Heal_32,Land_Heal_41 -                          -
+21       3      Land_MonsterPursuit_3,Land_MonsterPursuit_7,Land_MonsterPursuit_39 -                          -
+22       4      Land_Pveshop_1,Land_Pveshop_9,Land_Pveshop_19,Land_Pveshop_25 -                          -
+24       1      Land_Relic_40                  -                          -
+26       1      Land_Vendor_35                 -                          -
+==============================================================================
+Map_017（44 个格子）bundle=bad81bbcaa8d40089eda4c1c0f755990
+landType 格子数    物件名(=贴图线索)                     主贴图                        全部贴图
+1        4      Land_Born_2,Land_Born_1,Land_Born_26,Land_Born_27 -                          -
+2        2      Land_FillingStation_9,Land_FillingStation_10 -                          -
+8        4      Land_Event_41,Land_Event_42,Land_Event_47,Land_Event_48 -                          -
+12       4      Land_MoveAgain_24,Land_MoveAgain_25,Land_MoveAgain_43,Land_MoveAgain_44 -                          -
+14       4      Land_DrawCard_35,Land_DrawCard_36,Land_DrawCard_39,Land_DrawCard_40 -                          -
+15       4      Land_RollGold_19,Land_RollGold_20,Land_RollGold_21,Land_RollGold_22 -                          -
+17       4      Land_BloodLoss_13,Land_BloodLoss_14,Land_BloodLoss_17,Land_BloodLoss_18 -                          -
+19       4      Land_Monster_0,Land_Monster_3,Land_Monster_29,Land_Monster_30 -                          -
+20       4      Land_Heal_37,Land_Heal_38,Land_Heal_45,Land_Heal_46 -                          -
+21       4      Land_MonsterPursuit_31,Land_MonsterPursuit_32,Land_MonsterPursuit_33,Land_MonsterPursuit_34 -                          -
+22       4      Land_Pveshop_11,Land_Pveshop_12,Land_Pveshop_23,Land_Pveshop_28 -                          -
+24       2      Land_Relic_15,Land_Relic_16    -                          -
+==============================================================================
+Map_020（40 个格子）bundle=09aac07035156cc45bf06769d51a96ab
+landType 格子数    物件名(=贴图线索)                     主贴图                        全部贴图
+1        3      Land_Born_30,Land_Born_34,Land_Born_37 -                          -
+2        2      Land_FillingStation_13,Land_FillingStation_27 -                          -
+8        4      Land_Event_7,Land_Event_21,Land_Event_31,Land_Event_38 -                          -
+12       4      Land_MoveAgain_1,Land_MoveAgain_8,Land_MoveAgain_16,Land_MoveAgain_23 -                          -
+14       4      Land_DrawCard_12,Land_DrawCard_24,Land_DrawCard_29,Land_DrawCard_39 -                          -
+15       4      Land_RollGold_6,Land_RollGold_14,Land_RollGold_20,Land_RollGold_28 -                          -
+17       3      Land_BloodLoss_9,Land_BloodLoss_22,Land_BloodLoss_36 -                          -
+19       4      Land_Monster_0,Land_Monster_5,Land_Monster_15,Land_Monster_19 -                          -
+20       2      Land_Heal_2,Land_Heal_32       -                          -
+21       4      Land_MonsterPursuit_11,Land_MonsterPursuit_26,Land_MonsterPursuit_33,Land_MonsterPursuit_35 -                          -
+22       3      Land_Pveshop_4,Land_Pveshop_10,Land_Pveshop_18 -                          -
+24       1      Land_Relic_25                  -                          -
+27       2      Land_MindTraining_3,Land_MindTraining_17 -                          -
+
+已写出：D:\小小兔趴\5-DIY关卡\tools\land_textures.json
+
+── landType -> 贴图名（跨所有导出的图汇总） ──
+  1      tex=(没有贴图)                             go=Land_Born_0,Land_Born_5,Land_Born_18,Land_Born_23,Land_Born_1,Land_Born_21,Land_Born_42,Land_Born_47,Land_Born_16,Land_Born_24,Land_Born_40,Land_Born_10,Land_Born_15,Land_Born_28,Land_Born_2,Land_Born_26,Land_Born_27,Land_Born_30,Land_Born_34,Land_Born_37
+  2      tex=(没有贴图)                             go=Land_FillingStation_11,Land_FillingStation_29,Land_FillingStation_48,Land_FillingStation_33,Land_FillingStation_42,Land_FillingStation_5,Land_FillingStation_22,Land_FillingStation_9,Land_FillingStation_10,Land_FillingStation_13,Land_FillingStation_27
+  3      tex=(没有贴图)                             go=Land_Portal_7,Land_Portal_15,Land_Portal_24,Land_Portal_30,Land_Portal_2,Land_Portal_14,Land_Portal_26,Land_Portal_38,Land_Portal_4,Land_Portal_27,Land_Portal_48
+  8      tex=(没有贴图)                             go=Land_Event_6,Land_Event_14,Land_Event_24,Land_Event_32,Land_Event_16,Land_Event_26,Land_Event_28,Land_Event_36,Land_Event_40,Land_Event_49,Land_Event_53,Land_Event_18,Land_Event_22,Land_Event_42,Land_Event_46,Land_Event_54,Land_Event_59,Land_Event_7,Land_Event_17,Land_Event_21,Land_Event_43,Land_Event_4,Land_Event_13,Land_Event_23,Land_Event_31,Land_Event_38,Land_Event_41,Land_Event_47,Land_Event_48
+  12     tex=(没有贴图)                             go=Land_MoveAgain_16,Land_MoveAgain_27,Land_MoveAgain_34,Land_MoveAgain_38,Land_MoveAgain_4,Land_MoveAgain_18,Land_MoveAgain_41,Land_MoveAgain_48,Land_MoveAgain_17,Land_MoveAgain_23,Land_MoveAgain_47,Land_MoveAgain_56,Land_MoveAgain_61,Land_MoveAgain_25,Land_MoveAgain_35,Land_MoveAgain_40,Land_MoveAgain_50,Land_MoveAgain_2,Land_MoveAgain_8,Land_MoveAgain_26,Land_MoveAgain_24,Land_MoveAgain_43,Land_MoveAgain_44,Land_MoveAgain_1
+  14     tex=(没有贴图)                             go=Land_DrawCard_4,Land_DrawCard_19,Land_DrawCard_36,Land_DrawCard_40,Land_DrawCard_5,Land_DrawCard_17,Land_DrawCard_43,Land_DrawCard_46,Land_DrawCard_12,Land_DrawCard_28,Land_DrawCard_8,Land_DrawCard_18,Land_DrawCard_31,Land_DrawCard_44,Land_DrawCard_15,Land_DrawCard_29,Land_DrawCard_37,Land_DrawCard_35,Land_DrawCard_39,Land_DrawCard_24
+  15     tex=(没有贴图)                             go=Land_RollGold_7,Land_RollGold_21,Land_RollGold_31,Land_RollGold_42,Land_RollGold_0,Land_RollGold_8,Land_RollGold_14,Land_RollGold_22,Land_RollGold_32,Land_RollGold_5,Land_RollGold_11,Land_RollGold_29,Land_RollGold_35,Land_RollGold_3,Land_RollGold_13,Land_RollGold_23,Land_RollGold_37,Land_RollGold_38,Land_RollGold_52,Land_RollGold_20,Land_RollGold_24,Land_RollGold_33,Land_RollGold_19,Land_RollGold_6,Land_RollGold_28
+  17     tex=(没有贴图)                             go=Land_BloodLoss_9,Land_BloodLoss_26,Land_BloodLoss_35,Land_BloodLoss_41,Land_BloodLoss_3,Land_BloodLoss_19,Land_BloodLoss_25,Land_BloodLoss_29,Land_BloodLoss_34,Land_BloodLoss_52,Land_BloodLoss_7,Land_BloodLoss_13,Land_BloodLoss_27,Land_BloodLoss_31,Land_BloodLoss_37,Land_BloodLoss_43,Land_BloodLoss_63,Land_BloodLoss_20,Land_BloodLoss_28,Land_BloodLoss_46,Land_BloodLoss_47,Land_BloodLoss_55,Land_BloodLoss_6,Land_BloodLoss_14,Land_BloodLoss_21,Land_BloodLoss_30,Land_BloodLoss_17,Land_BloodLoss_18,Land_BloodLoss_22,Land_BloodLoss_36
+  19     tex=(没有贴图)                             go=Land_Monster_1,Land_Monster_17,Land_Monster_37,Land_Monster_39,Land_Monster_2,Land_Monster_10,Land_Monster_12,Land_Monster_20,Land_Monster_38,Land_Monster_50,Land_Monster_55,Land_Monster_15,Land_Monster_25,Land_Monster_51,Land_Monster_60,Land_Monster_62,Land_Monster_9,Land_Monster_19,Land_Monster_26,Land_Monster_34,Land_Monster_41,Land_Monster_49,Land_Monster_27,Land_Monster_36,Land_Monster_0,Land_Monster_3,Land_Monster_29,Land_Monster_30,Land_Monster_5
+  20     tex=(没有贴图)                             go=Land_Heal_2,Land_Heal_10,Land_Heal_22,Land_Heal_28,Land_Heal_9,Land_Heal_13,Land_Heal_23,Land_Heal_31,Land_Heal_33,Land_Heal_53,Land_Heal_64,Land_Heal_6,Land_Heal_16,Land_Heal_30,Land_Heal_45,Land_Heal_12,Land_Heal_32,Land_Heal_41,Land_Heal_37,Land_Heal_38,Land_Heal_46
+  21     tex=(没有贴图)                             go=Land_MonsterPursuit_3,Land_MonsterPursuit_13,Land_MonsterPursuit_20,Land_MonsterPursuit_30,Land_MonsterPursuit_35,Land_MonsterPursuit_44,Land_MonsterPursuit_45,Land_MonsterPursuit_51,Land_MonsterPursuit_6,Land_MonsterPursuit_10,Land_MonsterPursuit_21,Land_MonsterPursuit_34,Land_MonsterPursuit_49,Land_MonsterPursuit_57,Land_MonsterPursuit_1,Land_MonsterPursuit_11,Land_MonsterPursuit_22,Land_MonsterPursuit_53,Land_MonsterPursuit_7,Land_MonsterPursuit_39,Land_MonsterPursuit_31,Land_MonsterPursuit_32,Land_MonsterPursuit_33,Land_MonsterPursuit_26
+  22     tex=(没有贴图)                             go=Land_Pveshop_8,Land_Pveshop_15,Land_Pveshop_33,Land_Pveshop_37,Land_Pveshop_54,Land_Pveshop_20,Land_Pveshop_44,Land_Pveshop_50,Land_Pveshop_58,Land_Pveshop_2,Land_Pveshop_12,Land_Pveshop_36,Land_Pveshop_39,Land_Pveshop_1,Land_Pveshop_9,Land_Pveshop_19,Land_Pveshop_25,Land_Pveshop_11,Land_Pveshop_23,Land_Pveshop_28,Land_Pveshop_4,Land_Pveshop_10,Land_Pveshop_18
+  24     tex=(没有贴图)                             go=Land_Relic_25,Land_Relic_33,Land_Relic_27,Land_Relic_8,Land_Relic_32,Land_Relic_24,Land_Relic_51,Land_Relic_40,Land_Relic_15,Land_Relic_16
+  26     tex=(没有贴图)                             go=Land_Vendor_35
+  27     tex=(没有贴图)                             go=Land_MindTraining_3,Land_MindTraining_17
+
+── 交叉核对：Land_<名字> ↔ GameRes\Img\UT_Platform_<名字>.png ──
+  landType 1    -> Land_Born                   ★ 没有 UT_Platform_Born.png
+  landType 2    -> Land_FillingStation         ★ 没有 UT_Platform_FillingStation.png
+  landType 3    -> Land_Portal                 ★ 没有 UT_Platform_Portal.png
+  landType 8    -> Land_Event                  有图
+  landType 12   -> Land_MoveAgain              有图
+  landType 14   -> Land_DrawCard               ★ 没有 UT_Platform_DrawCard.png
+  landType 15   -> Land_RollGold               ★ 没有 UT_Platform_RollGold.png
+  landType 17   -> Land_BloodLoss              ★ 没有 UT_Platform_BloodLoss.png
+  landType 19   -> Land_Monster                有图
+  landType 20   -> Land_Heal                   有图
+  landType 21   -> Land_MonsterPursuit         ★ 没有 UT_Platform_MonsterPursuit.png
+  landType 22   -> Land_Pveshop                ★ 没有 UT_Platform_Pveshop.png
+  landType 24   -> Land_Relic                  有图
+  landType 26   -> Land_Vendor                 ★ 没有 UT_Platform_Vendor.png
+  landType 27   -> Land_MindTraining           有图
+  （GameRes\Img 里 UT_Platform_* 共 44 张）

@@ -1,0 +1,466 @@
+﻿==============================================================================
+A. Land.bin 结构（前 40 条顶层 entries）
+==============================================================================
+Land.bin  3499 字节
+---- 顶层 field 1 w2 第 1 条 ----
+  f1   w0  varint=1
+  f2   w2  len=8    bytes=6b03000000000000
+  f3   w0  varint=1
+  f5   w5  fixed32=80001
+  f6   w5  fixed32=800010
+  f9   w2  text='UT_Platform_108'
+  f10  w5  fixed32=52
+  f11  w2  len=1    bytes=04
+  f12  w5  fixed32=8000100
+---- 顶层 field 1 w2 第 2 条 ----
+  f1   w0  varint=2
+  f2   w2  len=8    bytes=7d000000fa000000  fixed32列表=[125, 250]
+    f15  w5  fixed32=-100663296
+  f3   w0  varint=1
+  f5   w5  fixed32=80002
+  f6   w5  fixed32=800020
+  f9   w2  text='UT_Platform_Start'
+  f10  w5  fixed32=52
+  f11  w2  len=1    bytes=04
+  f12  w5  fixed32=8000200
+---- 顶层 field 1 w2 第 3 条 ----
+  f1   w0  varint=3
+  f2   w2  len=8    bytes=fa000000ee020000  fixed32列表=[250, 750]
+    f15  w2  len=0    bytes=
+  f3   w0  varint=1
+  f5   w5  fixed32=80003
+  f6   w5  fixed32=800030
+  f9   w2  text='UT_Platform_Teleport'
+  f10  w5  fixed32=54
+  f11  w2  len=1    bytes=06
+  f12  w5  fixed32=8000300
+  f13  w5  fixed32=8000301
+---- 顶层 field 1 w2 第 4 条 ----
+  f1   w0  varint=4
+  f2   w2  len=8    bytes=7d000000ee020000  fixed32列表=[125, 750]
+    f15  w5  fixed32=-301989888
+  f3   w0  varint=1
+  f5   w5  fixed32=80004
+  f6   w5  fixed32=800040
+  f9   w2  text='UT_Platform_TeleportPoint'
+  f10  w5  fixed32=50
+  f12  w5  fixed32=8000400
+  f13  w5  fixed32=8000401
+---- 顶层 field 1 w2 第 5 条 ----
+  f1   w0  varint=6
+  f2   w2  len=8    bytes=71020000f4010000  fixed32列表=[625, 500]
+    f14  w1  64bit
+  f3   w0  varint=1
+  f5   w5  fixed32=80006
+  f6   w5  fixed32=800060
+  f9   w2  text='UT_Platform_Divine'
+  f10  w5  fixed32=54
+  f11  w2  len=1    bytes=04
+---- 顶层 field 1 w2 第 6 条 ----
+  f1   w0  varint=7
+  f2   w2  len=8    bytes=f4010000ee020000  fixed32列表=[500, 750]
+  f3   w0  varint=1
+  f5   w5  fixed32=80007
+  f6   w5  fixed32=800070
+  f9   w2  text='UT_Platform_Shop'
+  f10  w5  fixed32=52
+  f11  w2  len=3    bytes=040206
+  f12  w5  fixed32=8000700
+  f13  w5  fixed32=8000701
+---- 顶层 field 1 w2 第 7 条 ----
+  f1   w0  varint=8
+  f2   w2  len=8    bytes=77010000f4010000  fixed32列表=[375, 500]
+  f3   w0  varint=1
+  f5   w5  fixed32=80008
+  f6   w5  fixed32=800080
+  f9   w2  text='UT_Platform_Event'
+  f10  w5  fixed32=54
+---- 顶层 field 1 w2 第 8 条 ----
+  f1   w0  varint=9
+  f2   w2  len=8    bytes=ee020000ee020000  fixed32列表=[750, 750]
+  f3   w0  varint=1
+  f5   w5  fixed32=80009
+  f6   w5  fixed32=800090
+  f7   w2  text='UT_LandLottery_element'
+  f8   w2  text='UT_LandLottery_sfwelement'
+  f9   w2  text='UT_Platform_Lottery'
+  f10  w5  fixed32=52
+  f11  w2  len=1    bytes=02
+---- 顶层 field 1 w2 第 9 条 ----
+  f1   w0  varint=10
+  f2   w2  len=8    bytes=7d000000f4010000  fixed32列表=[125, 500]
+    f15  w5  fixed32=-201326592
+  f3   w0  varint=1
+  f5   w5  fixed32=80010
+  f6   w5  fixed32=800100
+  f9   w2  text='UT_Platform_Gamble'
+  f10  w5  fixed32=54
+  f11  w2  len=2    bytes=0c06
+---- 顶层 field 1 w2 第 10 条 ----
+  f1   w0  varint=11
+  f2   w2  len=8    bytes=fa000000f4010000  fixed32列表=[250, 500]
+    f15  w2  len=0    bytes=
+  f3   w0  varint=1
+  f5   w5  fixed32=80011
+  f6   w5  fixed32=800110
+  f9   w2  text='UT_Platform_Fire'
+  f10  w5  fixed32=50
+  f11  w2  len=1    bytes=03
+  f12  w5  fixed32=8001100
+---- 顶层 field 1 w2 第 11 条 ----
+  f1   w0  varint=12
+  f2   w2  len=8    bytes=71020000ee020000  fixed32列表=[625, 750]
+    f14  w1  64bit
+  f3   w0  varint=1
+  f5   w5  fixed32=80012
+  f6   w5  fixed32=800120
+  f9   w2  text='UT_Platform_MoveAgain'
+  f10  w5  fixed32=54
+---- 顶层 field 1 w2 第 12 条 ----
+  f1   w0  varint=13
+  f2   w2  len=8    bytes=6b030000ee020000  fixed32列表=[875, 750]
+  f3   w0  varint=1
+  f5   w5  fixed32=80013
+  f6   w5  fixed32=800130
+  f9   w2  text='UT_Platform_Hospital'
+  f10  w5  fixed32=53
+  f11  w2  len=2    bytes=0604
+  f12  w5  fixed32=8001300
+  f13  w5  fixed32=8001301
+---- 顶层 field 1 w2 第 13 条 ----
+  f1   w0  varint=14
+  f2   w2  len=8    bytes=00000000fa000000
+  f3   w0  varint=1
+  f5   w5  fixed32=80014
+  f6   w5  fixed32=800140
+  f9   w2  text='UT_Platform_Card'
+  f10  w5  fixed32=54
+  f11  w2  len=1    bytes=04
+  f12  w5  fixed32=8001400
+---- 顶层 field 1 w2 第 14 条 ----
+  f1   w0  varint=15
+  f2   w2  len=8    bytes=00000000f4010000
+  f3   w0  varint=1
+  f5   w5  fixed32=80015
+  f6   w5  fixed32=800150
+  f9   w2  text='UT_Platform_Gold'
+  f10  w5  fixed32=52
+  f11  w2  len=5    bytes=0406080a14
+  f12  w5  fixed32=8001500
+---- 顶层 field 1 w2 第 15 条 ----
+  f1   w0  varint=16
+  f2   w2  len=8    bytes=ee020000f4010000  fixed32列表=[750, 500]
+  f3   w0  varint=1
+  f5   w5  fixed32=80016
+  f6   w5  fixed32=800160
+  f9   w2  text='UT_Platform_Destiny'
+  f10  w5  fixed32=54
+---- 顶层 field 1 w2 第 16 条 ----
+  f1   w0  varint=17
+  f2   w2  len=8    bytes=6b030000f4010000  fixed32列表=[875, 500]
+  f3   w0  varint=1
+  f5   w5  fixed32=80017
+  f6   w5  fixed32=800170
+  f9   w2  text='UT_Platform_Damage'
+  f10  w5  fixed32=51
+  f11  w2  len=1    bytes=03
+  f12  w5  fixed32=8001700
+---- 顶层 field 1 w2 第 17 条 ----
+  f1   w0  varint=18
+  f2   w2  len=8    bytes=77010000ee020000  fixed32列表=[375, 750]
+  f3   w0  varint=1
+  f5   w5  fixed32=80018
+  f6   w5  fixed32=800180
+  f9   w2  text='UT_Platform_Jump'
+  f10  w5  fixed32=54
+  f12  w5  fixed32=8000300
+  f13  w5  fixed32=8000301
+---- 顶层 field 1 w2 第 18 条 ----
+  f1   w0  varint=19
+  f2   w2  len=8    bytes=77010000fa000000  fixed32列表=[375, 250]
+  f3   w0  varint=1
+  f5   w5  fixed32=80019
+  f6   w5  fixed32=800190
+  f9   w2  text='UT_Platform_Monster'
+  f10  w5  fixed32=50
+---- 顶层 field 1 w2 第 19 条 ----
+  f1   w0  varint=20
+  f2   w2  len=8    bytes=fa000000fa000000  fixed32列表=[250, 250]
+    f15  w2  len=0    bytes=
+  f3   w0  varint=1
+  f5   w5  fixed32=80020
+  f6   w5  fixed32=800200
+  f9   w2  text='UT_Platform_Heal'
+  f10  w5  fixed32=54
+  f11  w2  len=1    bytes=04
+  f12  w5  fixed32=8001301
+---- 顶层 field 1 w2 第 20 条 ----
+  f1   w0  varint=21
+  f2   w2  len=8    bytes=7d000000ee020000  fixed32列表=[125, 750]
+    f15  w5  fixed32=-301989888
+  f3   w0  varint=1
+  f5   w5  fixed32=80021
+  f6   w5  fixed32=800210
+  f9   w2  text='UT_Platform_TeleportPoint'
+  f10  w5  fixed32=50
+---- 顶层 field 1 w2 第 21 条 ----
+  f1   w0  varint=22
+  f2   w2  len=8    bytes=f4010000ee020000  fixed32列表=[500, 750]
+  f5   w5  fixed32=80007
+  f6   w5  fixed32=800070
+  f9   w2  text='UT_Platform_Shop'
+  f10  w5  fixed32=52
+  f11  w2  len=4    bytes=0402060a
+  f12  w5  fixed32=8000700
+  f13  w5  fixed32=8000701
+---- 顶层 field 1 w2 第 22 条 ----
+  f1   w0  varint=23
+  f2   w2  len=8    bytes=f4010000fa000000  fixed32列表=[500, 250]
+  f3   w0  varint=1
+  f4   w0  varint=1
+  f5   w5  fixed32=80023
+  f6   w5  fixed32=800230
+  f9   w2  text='UT_Platform_Gift'
+  f10  w5  fixed32=54
+  f11  w2  len=1    bytes=02
+  f12  w5  fixed32=8002301
+---- 顶层 field 1 w2 第 23 条 ----
+  f1   w0  varint=24
+  f2   w2  len=8    bytes=71020000fa000000  fixed32列表=[625, 250]
+    f14  w1  64bit
+  f3   w0  varint=1
+  f5   w5  fixed32=80024
+  f6   w5  fixed32=800240
+  f9   w2  text='UT_Platform_Relic'
+  f10  w5  fixed32=52
+  f11  w2  len=3    bytes=0a140a
+    f1   w2  len=1    bytes=0a
+      f1   w2  len=0    bytes=
+---- 顶层 field 1 w2 第 24 条 ----
+  f1   w0  varint=25
+  f2   w2  len=8    bytes=ee020000fa000000  fixed32列表=[750, 250]
+  f3   w0  varint=1
+  f4   w0  varint=1
+  f5   w5  fixed32=80025
+  f6   w5  fixed32=800250
+  f9   w2  text='UT_Platform_Gimmick'
+  f10  w5  fixed32=52
+---- 顶层 field 1 w2 第 25 条 ----
+  f1   w0  varint=26
+  f2   w2  len=8    bytes=6b030000fa000000  fixed32列表=[875, 250]
+  f3   w0  varint=1
+  f4   w0  varint=1
+  f5   w5  fixed32=80026
+  f6   w5  fixed32=800260
+  f9   w2  text='UT_Platform_CandyGhost'
+  f10  w5  fixed32=52
+  f11  w2  len=13   bytes=0aacc80250aec8023cb0c8023c
+    f1   w2  len=9    bytes=50aec8023cb0c8023c
+      f10  w0  varint=42030
+---- 顶层 field 1 w2 第 26 条 ----
+  f1   w0  varint=27
+  f2   w2  len=8    bytes=6b030000fa000000  fixed32列表=[875, 250]
+  f3   w0  varint=1
+  f4   w0  varint=1
+  f5   w5  fixed32=80027
+  f6   w5  fixed32=800270
+  f9   w2  text='UT_Platform_MindTraining'
+  f10  w5  fixed32=52
+  f11  w2  len=2    bytes=0302
+  f12  w5  fixed32=8002700
+---- 顶层 field 2 w2 第 27 条 ----
+  f1   w5  fixed32=1
+  f2   w2  len=54   bytes=080112086b0300000000000018012d8138010035
+    f1   w0  varint=1
+    f2   w2  len=8    bytes=6b03000000000000
+    f3   w0  varint=1
+    f5   w5  fixed32=80001
+    f6   w5  fixed32=800010
+    f9   w2  text='UT_Platform_108'
+    f10  w5  fixed32=52
+    f11  w2  len=1    bytes=04
+    f12  w5  fixed32=8000100
+---- 顶层 field 2 w2 第 28 条 ----
+  f1   w5  fixed32=2
+  f2   w2  len=56   bytes=080212087d000000fa00000018012d8238010035
+    f1   w0  varint=2
+    f2   w2  len=8    bytes=7d000000fa000000  fixed32列表=[125, 250]
+      f15  w5  fixed32=-100663296
+    f3   w0  varint=1
+    f5   w5  fixed32=80002
+    f6   w5  fixed32=800020
+    f9   w2  text='UT_Platform_Start'
+    f10  w5  fixed32=52
+    f11  w2  len=1    bytes=04
+    f12  w5  fixed32=8000200
+---- 顶层 field 2 w2 第 29 条 ----
+  f1   w5  fixed32=3
+  f2   w2  len=64   bytes=08031208fa000000ee02000018012d8338010035
+    f1   w0  varint=3
+    f2   w2  len=8    bytes=fa000000ee020000  fixed32列表=[250, 750]
+      f15  w2  len=0    bytes=
+    f3   w0  varint=1
+    f5   w5  fixed32=80003
+    f6   w5  fixed32=800030
+    f9   w2  text='UT_Platform_Teleport'
+    f10  w5  fixed32=54
+    f11  w2  len=1    bytes=06
+    f12  w5  fixed32=8000300
+    f13  w5  fixed32=8000301
+---- 顶层 field 2 w2 第 30 条 ----
+  f1   w5  fixed32=4
+  f2   w2  len=66   bytes=080412087d000000ee02000018012d8438010035
+    f1   w0  varint=4
+    f2   w2  len=8    bytes=7d000000ee020000  fixed32列表=[125, 750]
+      f15  w5  fixed32=-301989888
+    f3   w0  varint=1
+    f5   w5  fixed32=80004
+    f6   w5  fixed32=800040
+    f9   w2  text='UT_Platform_TeleportPoint'
+    f10  w5  fixed32=50
+    f12  w5  fixed32=8000400
+    f13  w5  fixed32=8000401
+---- 顶层 field 2 w2 第 31 条 ----
+  f1   w5  fixed32=6
+  f2   w2  len=52   bytes=0806120871020000f401000018012d8638010035
+    f1   w0  varint=6
+    f2   w2  len=8    bytes=71020000f4010000  fixed32列表=[625, 500]
+      f14  w1  64bit
+    f3   w0  varint=1
+    f5   w5  fixed32=80006
+    f6   w5  fixed32=800060
+    f9   w2  text='UT_Platform_Divine'
+    f10  w5  fixed32=54
+    f11  w2  len=1    bytes=04
+---- 顶层 field 2 w2 第 32 条 ----
+  f1   w5  fixed32=7
+  f2   w2  len=62   bytes=08071208f4010000ee02000018012d8738010035
+    f1   w0  varint=7
+    f2   w2  len=8    bytes=f4010000ee020000  fixed32列表=[500, 750]
+    f3   w0  varint=1
+    f5   w5  fixed32=80007
+    f6   w5  fixed32=800070
+    f9   w2  text='UT_Platform_Shop'
+    f10  w5  fixed32=52
+    f11  w2  len=3    bytes=040206
+    f12  w5  fixed32=8000700
+    f13  w5  fixed32=8000701
+---- 顶层 field 2 w2 第 33 条 ----
+  f1   w5  fixed32=8
+  f2   w2  len=48   bytes=0808120877010000f401000018012d8838010035
+    f1   w0  varint=8
+    f2   w2  len=8    bytes=77010000f4010000  fixed32列表=[375, 500]
+    f3   w0  varint=1
+    f5   w5  fixed32=80008
+    f6   w5  fixed32=800080
+    f9   w2  text='UT_Platform_Event'
+    f10  w5  fixed32=54
+---- 顶层 field 2 w2 第 34 条 ----
+  f1   w5  fixed32=9
+  f2   w2  len=104  bytes=08091208ee020000ee02000018012d8938010035
+    f1   w0  varint=9
+    f2   w2  len=8    bytes=ee020000ee020000  fixed32列表=[750, 750]
+    f3   w0  varint=1
+    f5   w5  fixed32=80009
+    f6   w5  fixed32=800090
+    f7   w2  text='UT_LandLottery_element'
+    f8   w2  text='UT_LandLottery_sfwelement'
+    f9   w2  text='UT_Platform_Lottery'
+    f10  w5  fixed32=52
+    f11  w2  len=1    bytes=02
+---- 顶层 field 2 w2 第 35 条 ----
+  f1   w5  fixed32=10
+  f2   w2  len=53   bytes=080a12087d000000f401000018012d8a38010035
+    f1   w0  varint=10
+    f2   w2  len=8    bytes=7d000000f4010000  fixed32列表=[125, 500]
+      f15  w5  fixed32=-201326592
+    f3   w0  varint=1
+    f5   w5  fixed32=80010
+    f6   w5  fixed32=800100
+    f9   w2  text='UT_Platform_Gamble'
+    f10  w5  fixed32=54
+    f11  w2  len=2    bytes=0c06
+---- 顶层 field 2 w2 第 36 条 ----
+  f1   w5  fixed32=11
+  f2   w2  len=55   bytes=080b1208fa000000f401000018012d8b38010035
+    f1   w0  varint=11
+    f2   w2  len=8    bytes=fa000000f4010000  fixed32列表=[250, 500]
+      f15  w2  len=0    bytes=
+    f3   w0  varint=1
+    f5   w5  fixed32=80011
+    f6   w5  fixed32=800110
+    f9   w2  text='UT_Platform_Fire'
+    f10  w5  fixed32=50
+    f11  w2  len=1    bytes=03
+    f12  w5  fixed32=8001100
+---- 顶层 field 2 w2 第 37 条 ----
+  f1   w5  fixed32=12
+  f2   w2  len=52   bytes=080c120871020000ee02000018012d8c38010035
+    f1   w0  varint=12
+    f2   w2  len=8    bytes=71020000ee020000  fixed32列表=[625, 750]
+      f14  w1  64bit
+    f3   w0  varint=1
+    f5   w5  fixed32=80012
+    f6   w5  fixed32=800120
+    f9   w2  text='UT_Platform_MoveAgain'
+    f10  w5  fixed32=54
+---- 顶层 field 2 w2 第 38 条 ----
+  f1   w5  fixed32=13
+  f2   w2  len=65   bytes=080d12086b030000ee02000018012d8d38010035
+    f1   w0  varint=13
+    f2   w2  len=8    bytes=6b030000ee020000  fixed32列表=[875, 750]
+    f3   w0  varint=1
+    f5   w5  fixed32=80013
+    f6   w5  fixed32=800130
+    f9   w2  text='UT_Platform_Hospital'
+    f10  w5  fixed32=53
+    f11  w2  len=2    bytes=0604
+    f12  w5  fixed32=8001300
+    f13  w5  fixed32=8001301
+---- 顶层 field 2 w2 第 39 条 ----
+  f1   w5  fixed32=14
+  f2   w2  len=55   bytes=080e120800000000fa00000018012d8e38010035
+    f1   w0  varint=14
+    f2   w2  len=8    bytes=00000000fa000000
+    f3   w0  varint=1
+    f5   w5  fixed32=80014
+    f6   w5  fixed32=800140
+    f9   w2  text='UT_Platform_Card'
+    f10  w5  fixed32=54
+    f11  w2  len=1    bytes=04
+    f12  w5  fixed32=8001400
+---- 顶层 field 2 w2 第 40 条 ----
+  f1   w5  fixed32=15
+  f2   w2  len=59   bytes=080f120800000000f401000018012d8f38010035
+    f1   w0  varint=15
+    f2   w2  len=8    bytes=00000000f4010000
+    f3   w0  varint=1
+    f5   w5  fixed32=80015
+    f6   w5  fixed32=800150
+    f9   w2  text='UT_Platform_Gold'
+    f10  w5  fixed32=52
+    f11  w2  len=5    bytes=0406080a14
+    f12  w5  fixed32=8001500
+（顶层 w2 条目数上限 40，实际见上）
+
+==============================================================================
+B. STRLand.bin：landType -> 中文名
+==============================================================================
+
+==============================================================================
+C. GameMode.bin 模式 -> 地图数 / STRGameMode.bin 名字
+==============================================================================
+STRGameMode.bin 条目：
+
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []
+  模式 None 名字=?              地图 0 张 []

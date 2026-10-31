@@ -1,0 +1,105 @@
+<UserControl x:Class="DiyEditor.PageStory"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DiyEditor">
+  <!-- 第③页：进度 / 事件。
+       规格里的四块，按他的顺序：① 关卡总进度上限 ② 现在的进度清单 ③ 编辑进度 ④ 获胜条件。 -->
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <StackPanel Grid.Row="0">
+      <TextBlock Text="进度 / 事件" Style="{StaticResource H2}" />
+      <TextBlock x:Name="SubLine" Style="{StaticResource Note}" Margin="0,8,0,0" MaxWidth="1100"
+                 HorizontalAlignment="Left" Text="还没打开关卡。先去「地图模板 / 新建」建一份。" />
+      <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+        <TextBlock Text="进度事件" Style="{StaticResource FieldLabel}" VerticalAlignment="Center" />
+        <ComboBox x:Name="EventPick" Style="{StaticResource Drop}" Width="300" Margin="10,0,0,0"
+                  VerticalAlignment="Center" SelectionChanged="OnEventPicked"
+                  ToolTip="新建时自带一条「DIY进度」（内容包预留位）。" />
+      </StackPanel>
+      <TextBlock x:Name="EventNote" Style="{StaticResource FieldHint}" Margin="0,8,0,0" MaxWidth="1100"
+                 HorizontalAlignment="Left" Text="" />
+    </StackPanel>
+
+    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto"
+                  HorizontalScrollBarVisibility="Disabled" Focusable="False">
+      <StackPanel Margin="0,14,14,20">
+
+        <!-- ① 关卡总进度上限 -->
+        <local:GlassSurface Style="{StaticResource CapBig}">
+          <StackPanel>
+            <TextBlock Text="① 关卡总进度上限" Style="{StaticResource H1}" />
+            <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+              <TextBox x:Name="LimitBox" Style="{StaticResource Field}" Width="120"
+                       MaxLength="6" LostFocus="OnLimitChanged"
+                       ToolTip="留空 = 不写这个键。" />
+              <TextBlock x:Name="LimitNote" Style="{StaticResource FieldHint}" VerticalAlignment="Center"
+                         Margin="14,0,0,0" Text="" />
+            </StackPanel>
+          </StackPanel>
+        </local:GlassSurface>
+
+        <!-- ② 现在的进度清单 -->
+        <local:GlassSurface Style="{StaticResource CapBig}" Margin="0,16,0,0">
+          <StackPanel>
+            <TextBlock Text="② 这一关的事件" Style="{StaticResource H1}" />
+            <TextBlock x:Name="ListNote" Style="{StaticResource FieldHint}" Margin="0,10,0,0"
+                       TextWrapping="Wrap" MaxWidth="1000" HorizontalAlignment="Left" Text="" />
+            <StackPanel x:Name="ItemList" Margin="0,10,0,0" />
+          </StackPanel>
+        </local:GlassSurface>
+
+        <!-- ③ 编辑进度 -->
+        <local:GlassSurface Style="{StaticResource CapBig}" Margin="0,16,0,0">
+          <StackPanel>
+            <TextBlock Text="③ 编辑这个事件（刷怪 / 奖励）" Style="{StaticResource H1}" />
+            <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+              <Button x:Name="BtnAddItem" Style="{StaticResource Primary}" Content="＋ 新增事件"
+                      Click="OnAddEvent"
+                      ToolTip="挑一条官方事件 id 当触发点 ⇒ 多一个事件（扁平模型：一个事件 = 一个触发点）。" />
+              <TextBlock x:Name="EditNote" Style="{StaticResource FieldHint}" VerticalAlignment="Center"
+                         Margin="14,0,0,0" Text="" />
+            </StackPanel>
+
+            <StackPanel x:Name="EffPanel" Visibility="Collapsed" Margin="0,14,0,0">
+              <TextBlock x:Name="EditHead" Style="{StaticResource FieldLabel}" Text="" />
+              <!-- ★★ 第 11 波：触发点（"这条进度事件在第几回合触发"）。
+                   触发进度只能靠事件 id 编码（MapEvent.bin 的 field4 ÷ 2）⇒ 填完自动挑 id；
+                   也可以点「挑官方事件…」从官方事件里挑。见 DiyTrigger。 -->
+              <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Text="触发进度 / 回合" Style="{StaticResource FieldLabel}" VerticalAlignment="Center" />
+                <TextBox x:Name="TriggerBox" Style="{StaticResource Field}" Width="90" Margin="10,0,0,0"
+                         MaxLength="6" LostFocus="OnTriggerChanged"
+                         ToolTip="这一条进度事件在第几点进度触发（服务端认的就是这个）。填完编辑器会自动挑一条 field4÷2 对得上的官方事件 id 写进配置；官方没有这一档就明说，不会硬编一个错的 id。留空 = 取消触发点。" />
+                <Button x:Name="BtnTriggerPick" Style="{StaticResource Ghost}" Content="挑官方事件…"
+                        Margin="10,0,0,0" Click="OnTriggerPick"
+                        ToolTip="列出 MapEvent.bin 里的官方事件（按触发进度升序），点一条就把它当成本条事件的触发点。" />
+                <TextBlock x:Name="TriggerRound" Style="{StaticResource FieldHint}" VerticalAlignment="Center"
+                           Margin="12,0,0,0" Text="" />
+              </StackPanel>
+              <TextBlock x:Name="TriggerNote" Style="{StaticResource FieldHint}" Margin="0,8,0,0"
+                         TextWrapping="Wrap" MaxWidth="1000" HorizontalAlignment="Left" Text="" />
+              <StackPanel x:Name="EffList" Margin="0,8,0,0" />
+              <TextBlock Text="加一条条词" Style="{StaticResource FieldLabel}" Margin="0,10,0,6" />
+              <StackPanel x:Name="AddEffRow" Orientation="Horizontal" />
+            </StackPanel>
+          </StackPanel>
+        </local:GlassSurface>
+
+        <!-- ④ 获胜条件 -->
+        <local:GlassSurface Style="{StaticResource CapBig}" Margin="0,16,0,20">
+          <StackPanel>
+            <TextBlock Text="④ 获胜条件" Style="{StaticResource H1}" />
+            <TextBlock x:Name="VictoryNote" Style="{StaticResource FieldHint}" Margin="0,10,0,0"
+                       TextWrapping="Wrap" MaxWidth="1000" HorizontalAlignment="Left" Text="" />
+            <StackPanel x:Name="VictoryBox" Margin="0,8,0,0" />
+          </StackPanel>
+        </local:GlassSurface>
+
+      </StackPanel>
+    </ScrollViewer>
+  </Grid>
+</UserControl>

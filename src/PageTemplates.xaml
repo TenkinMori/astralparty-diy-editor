@@ -1,0 +1,55 @@
+<UserControl x:Class="DiyEditor.PageTemplates"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DiyEditor">
+  <!-- 第①页：地图模板 / 新建。 -->
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <StackPanel Grid.Row="0">
+      <TextBlock Text="地图模板 / 新建" Style="{StaticResource H2}" />
+      <TextBlock x:Name="SubLine" Style="{StaticResource Note}" Margin="0,8,0,0" MaxWidth="980"
+                 HorizontalAlignment="Left" Text="正在读客户端配置表…" />
+      <TextBlock x:Name="WhereLine" Style="{StaticResource FieldHint}" Margin="0,6,0,0" MaxWidth="980"
+                 HorizontalAlignment="Left" Text="" />
+    </StackPanel>
+
+    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto"
+                  HorizontalScrollBarVisibility="Disabled" Focusable="False">
+      <StackPanel Margin="0,14,14,20">
+
+        <local:GlassSurface Style="{StaticResource CapBig}">
+          <StackPanel>
+            <TextBlock Text="新建" Style="{StaticResource H1}" />
+            <TextBlock x:Name="NewNote" Style="{StaticResource FieldHint}" Margin="0,10,0,0"
+                       TextWrapping="Wrap" MaxWidth="980" HorizontalAlignment="Left" Text="" />
+            <Button x:Name="BtnNew" Style="{StaticResource Primary}" Content="新建"
+                    HorizontalAlignment="Left" Margin="0,14,0,0" Padding="26,9,26,9"
+                    Click="OnNew" />
+          </StackPanel>
+        </local:GlassSurface>
+
+        <local:GlassSurface Style="{StaticResource CapBig}" Margin="0,16,0,0">
+          <StackPanel>
+            <TextBlock Text="现有关卡" Style="{StaticResource H1}" />
+            <TextBlock x:Name="DiyWhere" Style="{StaticResource FieldHint}" Margin="0,10,0,0"
+                       TextWrapping="Wrap" MaxWidth="980" HorizontalAlignment="Left" Text="" />
+            <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+              <Button x:Name="BtnRefresh" Style="{StaticResource Ghost}" Content="刷新列表"
+                      Click="OnRefresh" />
+              <Button x:Name="BtnOpenOther" Style="{StaticResource Ghost}" Content="打开其它位置的 JSON…"
+                      Margin="12,0,0,0" Click="OnOpenOther" />
+              <Button x:Name="BtnPickGame" Style="{StaticResource Ghost}" Content="指定游戏目录…"
+                      Margin="12,0,0,0" Click="OnPickGame" />
+            </StackPanel>
+            <StackPanel x:Name="DiyList" Margin="0,12,0,0" />
+          </StackPanel>
+        </local:GlassSurface>
+
+      </StackPanel>
+    </ScrollViewer>
+  </Grid>
+</UserControl>

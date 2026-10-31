@@ -1,0 +1,31 @@
+# 官方「地图美术图」登记表（来自 Map.bin 顶层 field 1）
+#
+# 字段 8 = MapImage（选图卡片那张美术预览，资产名 UT_MapPreview_<画板号>）
+# 字段 9 = MapSceneImage（横版大图/载入图，资产名 UT_MapScene_<画板号>）
+# 名字 = STRMap 里 field 3（名字 id）对应的文案
+#
+# 地图id	名字	MapImage	MapSceneImage	本地是否已有该 PNG
+101	?	-	-	- / -
+102	?	-	-	- / -
+103	?	-	-	- / -
+1001	?	-	-	- / -
+1002	?	-	-	- / -
+81003	运用自己的计谋，以及亿点点运气的来取得胜利吧！	UT_MapPreview_003	UT_MapScene_003	游戏目录有 / 游戏目录有
+81004	请注意来往车辆！	UT_MapPreview_004	UT_MapScene_004	有 / 游戏目录有
+81005	团子千奇百怪，内圈战火连天。	UT_MapPreview_005	UT_MapScene_005	有 / 游戏目录有
+81006	小偷出没，请看好你的钱袋子！	UT_MapPreview_006	UT_MapScene_006	有 / 游戏目录有
+81007	大平层的上层甲板已经对外开放？	UT_MapPreview_007	UT_MapScene_021	游戏目录有 / 有
+81011	高回报伴随着高风险！小心断桥！	UT_MapPreview_011	UT_MapScene_011	游戏目录有 / 游戏目录有
+81099	?	-	-	- / -
+82007	击败海盗王嘎呜，保护梦想号！	UT_MapPreview_007	UT_MapScene_007	游戏目录有 / 游戏目录有
+82008	擒鬼先擒王！	UT_MapPreview_008	UT_MapScene_008	游戏目录有 / 游戏目录有
+82009	?	UT_MapPreview_009	UT_MapScene_009	有 / 有
+82010	爆竹可是驱邪的好东西！	UT_MapPreview_010	UT_MapScene_010	游戏目录有 / 游戏目录有
+82012	古老的魔法学院发生了冲突！但地点竟是学院食堂？	UT_MapPreview_012	UT_MapScene_012	游戏目录有 / 游戏目录有
+82013	龙宫里有什么神奇的宝贝呢！？	UT_MapPreview_013	UT_MapScene_013	游戏目录有 / 游戏目录有
+82014	后街的巷子里正在举办一场疯狂的演唱会，与会者竟然...？	UT_MapPreview_014	UT_MapScene_014	游戏目录有 / 游戏目录有
+82015	隆兴饭店的中庭，连廊和拱桥组成了一个精致的庭院。	UT_MapPreview_015	UT_MapScene_015	游戏目录有 / 游戏目录有
+82016	被异变转化的图书馆会上演什么样的表演？	UT_MapPreview_016	UT_MapScene_016	有 / 有
+83001	全民参与，全民运动	UT_MapPreview_019	UT_MapScene_019	游戏目录有 / 游戏目录有
+83002	临时搭建，功能为主	UT_MapPreview_019	UT_MapScene_019	游戏目录有 / 游戏目录有
+83003	热血的运动需要有相应的场地	UT_MapPreview_020	UT_MapScene_020	游戏目录有 / 游戏目录有

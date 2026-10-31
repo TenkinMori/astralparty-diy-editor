@@ -1,0 +1,319 @@
+# 编辑器要用的贴图名（一行一个，制表符后面是「这是干什么的 / 中文名」）
+# 由 DIY关卡编辑器.exe --art-list 生成；给 tools\export_art_cache.py 用
+UT_Platform_108	格子 landType 1	起始点
+UT_Platform_Start	格子 landType 2	保障点
+UT_Platform_Teleport	格子 landType 3	传送门
+UT_Platform_TeleportPoint	格子 landType 4	突击门
+UT_Platform_Divine	格子 landType 6	占卜
+UT_Platform_Shop	格子 landType 7	商店
+UT_Platform_Event	格子 landType 8	全员事件
+UT_Platform_Lottery	格子 landType 9	彩票
+UT_Platform_Gamble	格子 landType 10	猜猜乐
+UT_Platform_Fire	格子 landType 11	炮台
+UT_Platform_MoveAgain	格子 landType 12	疾行
+UT_Platform_Hospital	格子 landType 13	医院
+UT_Platform_Card	格子 landType 14	卡牌奖励
+UT_Platform_Gold	格子 landType 15	天降横财
+UT_Platform_Destiny	格子 landType 16	个人命运
+UT_Platform_Damage	格子 landType 17	天降横祸
+UT_Platform_Jump	格子 landType 18	跳跃
+UT_Platform_Monster	格子 landType 19	怪物
+UT_Platform_Heal	格子 landType 20	恢复
+UT_Platform_Gift	格子 landType 23	礼物
+UT_Platform_Relic	格子 landType 24	筹码商店
+UT_Platform_Gimmick	格子 landType 25	机关控制台
+UT_Platform_CandyGhost	格子 landType 26	怪奇糖果机
+UT_Platform_MindTraining	格子 landType 27	思维强化
+UT_Monster_Bust_1001_0	怪头像 monster 1001	小偷
+UT_Monster_Bust_1002_0	怪头像 monster 1002	海盗鲨鱼
+UT_Monster_Bust_1003_0	怪头像 monster 1003	嘎呜
+UT_Monster_Bust_1004_0	怪头像 monster 1004	海盗王嘎呜
+UT_Monster_Bust_1005_0	怪头像 monster 1005	海盗精锐
+UT_Monster_Bust_1006_0	怪头像 monster 1006	海盗精锐
+UT_Monster_Bust_1007_0	怪头像 monster 1007	冰冷蓝灵
+UT_Monster_Bust_1008_0	怪头像 monster 1008	狂躁红灵
+UT_Monster_Bust_1009_0	怪头像 monster 1009	刀剑灵体
+UT_Monster_Bust_1010_0	怪头像 monster 1010	长戟灵体
+UT_Monster_Bust_1011_0	怪头像 monster 1011	天王寺雅央
+UT_Monster_Bust_1012_0	怪头像 monster 1012	天王寺雅央
+UT_Monster_Bust_1013_0	怪头像 monster 1013	舞狮嘎呜
+UT_Monster_Bust_1014_0	怪头像 monster 1014	指挥平台
+UT_Monster_Bust_1015_0	怪头像 monster 1015	氛围机器人
+UT_Monster_Bust_1016_0	怪头像 monster 1016	爆竹呱呱
+UT_Monster_Bust_1017_0	怪头像 monster 1017	机械蛇龙
+UT_Monster_Bust_1018_0	怪头像 monster 1018	学院安全官
+UT_Monster_Bust_1019_0	怪头像 monster 1019	代理院长
+UT_Monster_Bust_1020_0	怪头像 monster 1020	果冻战士
+UT_Monster_Bust_1021_0	怪头像 monster 1021	果冻护卫
+UT_Monster_Bust_1022_0	怪头像 monster 1022	果冻巫师
+UT_Monster_Bust_1023_0	怪头像 monster 1023	魔法茶壶
+UT_Monster_Bust_1024_0	怪头像 monster 1024	变异茶壶
+UT_Monster_Bust_1025_0	怪头像 monster 1025	海王鲨
+UT_Monster_Bust_1026_0	怪头像 monster 1026	天川真梦梓
+UT_Monster_Bust_1027_0	怪头像 monster 1027	天川苍鲤
+UT_Monster_Bust_1028_0	怪头像 monster 1028	蟹布罗
+UT_Monster_Bust_1029_0	怪头像 monster 1029	虾布罗
+UT_Monster_Bust_1030_0	怪头像 monster 1030	金小鱼
+UT_Monster_Bust_1031_0	怪头像 monster 1031	大嗓门
+UT_Monster_Bust_1032_0	怪头像 monster 1032	练家子
+UT_Monster_Bust_1033_0	怪头像 monster 1033	科学怪人
+UT_Monster_Bust_1034_0	怪头像 monster 1034	惊喜猴子盒
+UT_Monster_Bust_1035_0	怪头像 monster 1035	圆锯猴助手
+UT_Monster_Bust_1036_0	怪头像 monster 1036	科学怪猿
+UT_Monster_Bust_1037_0	怪头像 monster 1037	人工生命体—天崩
+UT_Monster_Bust_1038_0	怪头像 monster 1038	人工生命体—噩兆
+UT_Monster_Bust_1039_0	怪头像 monster 1039	人工生命体—混乱
+UT_Monster_Bust_1040_0	怪头像 monster 1040	糖果皮纳塔
+UT_Monster_Bust_1041_0	怪头像 monster 1041	武魂灵体-戮
+UT_Monster_Bust_1042_0	怪头像 monster 1042	武魂灵体-怨
+UT_Monster_Bust_1043_0	怪头像 monster 1043	迎宾燕
+UT_Monster_Bust_1044_0	怪头像 monster 1044	家禽服务员
+UT_Monster_Bust_1045_0	怪头像 monster 1045	铜盏仙鹤
+UT_Monster_Bust_1046_0	怪头像 monster 1046	铜盏孔雀
+UT_Monster_Bust_1047_0	怪头像 monster 1047	铜盏鸳鸯
+UT_Monster_Bust_1048_0	怪头像 monster 1048	姬梦枫（鸳鸯意识）
+UT_Monster_Bust_1049_0	怪头像 monster 1049	姬梦枫（孔雀意识）
+UT_Monster_Bust_1050_0	怪头像 monster 1050	姬梦枫（友方）
+UT_Monster_Bust_1051_0	怪头像 monster 1051	海盗王嘎呜
+UT_Monster_Bust_1052_0	怪头像 monster 1052	海盗鲨鱼
+UT_Monster_Bust_1053_0	怪头像 monster 1053	失控凤凰
+UT_Monster_Bust_1054_0	怪头像 monster 1054	三联爆竹呱
+UT_Monster_Bust_1055_0	怪头像 monster 1055	合体舞狮嘎呜
+UT_Monster_Bust_1056_0	怪头像 monster 1056	智械海盗鲨
+UT_Monster_Bust_1057_0	怪头像 monster 1057	智械海王鲨
+UT_Monster_Bust_1058_0	怪头像 monster 1058	智械中枢
+UT_Monster_Bust_1059_0	怪头像 monster 1059	宝藏桶
+UT_Monster_Bust_1060_0	怪头像 monster 1060	海盗王嘎呜
+UT_Monster_Bust_1061_0	怪头像 monster 1061	裁判艾米
+UT_Monster_Bust_1062_0	怪头像 monster 1062	机械投手
+UT_Monster_Bust_1063_0	怪头像 monster 1063	机械四分卫
+UT_Monster_Bust_1064_0	怪头像 monster 1064	机械监控师
+UT_Monster_Bust_1065_0	怪头像 monster 1065	科技巨头嘎呜
+UT_Monster_Bust_1066_0	怪头像 monster 1066	思维飞艇
+UT_Monster_Bust_1067_0	怪头像 monster 1067	典狱长
+UT_Monster_Bust_1068_0	怪头像 monster 1068	看守
+UT_Monster_Bust_1069_0	怪头像 monster 1069	罪恶茶壶
+UT_Monster_Bust_1070_0	怪头像 monster 1070	大盗
+UT_Monster_Bust_1071_0	怪头像 monster 1071	孩子王嘎呜
+UT_Monster_Bust_1072_0	怪头像 monster 1072	玩具恐龙
+UT_Monster_Bust_1073_0	怪头像 monster 1073	采集小熊
+UT_Monster_Bust_1074_0	怪头像 monster 1074	闹钟猫头鹰
+UT_Monster_Bust_2026_0	怪头像 monster 2026	天川真梦梓（友方）
+UT_Monster_Bust_2027_0	怪头像 monster 2027	天川苍鲤（友方）
+UT_Monster_Bust_3001_0	怪头像 monster 3001	学院安全官
+UT_Monster_Bust_3002_0	怪头像 monster 3002	代理院长
+UT_Monster_Bust_3003_0	怪头像 monster 3003	天川真梦梓
+UT_Monster_Bust_3004_0	怪头像 monster 3004	天川苍鲤
+UT_Monster_Bust_3005_0	怪头像 monster 3005	学院安全官
+UT_Monster_Bust_3006_0	怪头像 monster 3006	天川苍鲤
+UT_Monster_Bust_3051_0	怪头像 monster 3051	金小鱼
+UT_Monster_Bust_100401_0	怪头像 monster 100401	海盗王嘎呜
+UT_Monster_Card_1001	怪手牌画 monster 1001	小偷
+UT_Monster_Card_1002	怪手牌画 monster 1002	海盗鲨鱼
+UT_Monster_Card_1003	怪手牌画 monster 1003	嘎呜
+UT_Monster_Card_1004	怪手牌画 monster 1004	海盗王嘎呜
+UT_Monster_Card_1005	怪手牌画 monster 1005	海盗精锐
+UT_Monster_Card_1006	怪手牌画 monster 1006	海盗精锐
+UT_Monster_Card_1007	怪手牌画 monster 1007	冰冷蓝灵
+UT_Monster_Card_1008	怪手牌画 monster 1008	狂躁红灵
+UT_Monster_Card_1009	怪手牌画 monster 1009	刀剑灵体
+UT_Monster_Card_1010	怪手牌画 monster 1010	长戟灵体
+UT_Monster_Card_1011	怪手牌画 monster 1011	天王寺雅央
+UT_Monster_Card_1012	怪手牌画 monster 1012	天王寺雅央
+UT_Monster_Card_1013	怪手牌画 monster 1013	舞狮嘎呜
+UT_Monster_Card_1014	怪手牌画 monster 1014	指挥平台
+UT_Monster_Card_1015	怪手牌画 monster 1015	氛围机器人
+UT_Monster_Card_1016	怪手牌画 monster 1016	爆竹呱呱
+UT_Monster_Card_1017	怪手牌画 monster 1017	机械蛇龙
+UT_Monster_Card_1018	怪手牌画 monster 1018	学院安全官
+UT_Monster_Card_1019	怪手牌画 monster 1019	代理院长
+UT_Monster_Card_1020	怪手牌画 monster 1020	果冻战士
+UT_Monster_Card_1021	怪手牌画 monster 1021	果冻护卫
+UT_Monster_Card_1022	怪手牌画 monster 1022	果冻巫师
+UT_Monster_Card_1023	怪手牌画 monster 1023	魔法茶壶
+UT_Monster_Card_1024	怪手牌画 monster 1024	变异茶壶
+UT_Monster_Card_1025	怪手牌画 monster 1025	海王鲨
+UT_Monster_Card_1026	怪手牌画 monster 1026	天川真梦梓
+UT_Monster_Card_1027	怪手牌画 monster 1027	天川苍鲤
+UT_Monster_Card_1028	怪手牌画 monster 1028	蟹布罗
+UT_Monster_Card_1029	怪手牌画 monster 1029	虾布罗
+UT_Monster_Card_1030	怪手牌画 monster 1030	金小鱼
+UT_Monster_Card_1031	怪手牌画 monster 1031	大嗓门
+UT_Monster_Card_1032	怪手牌画 monster 1032	练家子
+UT_Monster_Card_1033	怪手牌画 monster 1033	科学怪人
+UT_Monster_Card_1034	怪手牌画 monster 1034	惊喜猴子盒
+UT_Monster_Card_1035	怪手牌画 monster 1035	圆锯猴助手
+UT_Monster_Card_1036	怪手牌画 monster 1036	科学怪猿
+UT_Monster_Card_1037	怪手牌画 monster 1037	人工生命体—天崩
+UT_Monster_Card_1038	怪手牌画 monster 1038	人工生命体—噩兆
+UT_Monster_Card_1039	怪手牌画 monster 1039	人工生命体—混乱
+UT_Monster_Card_1040	怪手牌画 monster 1040	糖果皮纳塔
+UT_Monster_Card_1041	怪手牌画 monster 1041	武魂灵体-戮
+UT_Monster_Card_1042	怪手牌画 monster 1042	武魂灵体-怨
+UT_Monster_Card_1043	怪手牌画 monster 1043	迎宾燕
+UT_Monster_Card_1044	怪手牌画 monster 1044	家禽服务员
+UT_Monster_Card_1045	怪手牌画 monster 1045	铜盏仙鹤
+UT_Monster_Card_1046	怪手牌画 monster 1046	铜盏孔雀
+UT_Monster_Card_1047	怪手牌画 monster 1047	铜盏鸳鸯
+UT_Monster_Card_1048	怪手牌画 monster 1048	姬梦枫（鸳鸯意识）
+UT_Monster_Card_1049	怪手牌画 monster 1049	姬梦枫（孔雀意识）
+UT_Monster_Card_1050	怪手牌画 monster 1050	姬梦枫（友方）
+UT_Monster_Card_1051	怪手牌画 monster 1051	海盗王嘎呜
+UT_Monster_Card_1052	怪手牌画 monster 1052	海盗鲨鱼
+UT_Monster_Card_1053	怪手牌画 monster 1053	失控凤凰
+UT_Monster_Card_1054	怪手牌画 monster 1054	三联爆竹呱
+UT_Monster_Card_1055	怪手牌画 monster 1055	合体舞狮嘎呜
+UT_Monster_Card_1056	怪手牌画 monster 1056	智械海盗鲨
+UT_Monster_Card_1057	怪手牌画 monster 1057	智械海王鲨
+UT_Monster_Card_1058	怪手牌画 monster 1058	智械中枢
+UT_Monster_Card_1059	怪手牌画 monster 1059	宝藏桶
+UT_Monster_Card_1060	怪手牌画 monster 1060	海盗王嘎呜
+UT_Monster_Card_1061	怪手牌画 monster 1061	裁判艾米
+UT_Monster_Card_1062	怪手牌画 monster 1062	机械投手
+UT_Monster_Card_1063	怪手牌画 monster 1063	机械四分卫
+UT_Monster_Card_1064	怪手牌画 monster 1064	机械监控师
+UT_Monster_Card_1065	怪手牌画 monster 1065	科技巨头嘎呜
+UT_Monster_Card_1066	怪手牌画 monster 1066	思维飞艇
+UT_Monster_Card_1067	怪手牌画 monster 1067	典狱长
+UT_Monster_Card_1068	怪手牌画 monster 1068	看守
+UT_Monster_Card_1069	怪手牌画 monster 1069	罪恶茶壶
+UT_Monster_Card_1070	怪手牌画 monster 1070	大盗
+UT_Monster_Card_1071	怪手牌画 monster 1071	孩子王嘎呜
+UT_Monster_Card_1072	怪手牌画 monster 1072	玩具恐龙
+UT_Monster_Card_1073	怪手牌画 monster 1073	采集小熊
+UT_Monster_Card_1074	怪手牌画 monster 1074	闹钟猫头鹰
+UT_Monster_Card_2026	怪手牌画 monster 2026	天川真梦梓（友方）
+UT_Monster_Card_2027	怪手牌画 monster 2027	天川苍鲤（友方）
+UT_Monster_Card_3001	怪手牌画 monster 3001	学院安全官
+UT_Monster_Card_3002	怪手牌画 monster 3002	代理院长
+UT_Monster_Card_3003	怪手牌画 monster 3003	天川真梦梓
+UT_Monster_Card_3004	怪手牌画 monster 3004	天川苍鲤
+UT_Monster_Card_3005	怪手牌画 monster 3005	学院安全官
+UT_Monster_Card_3006	怪手牌画 monster 3006	天川苍鲤
+UT_Monster_Card_3051	怪手牌画 monster 3051	金小鱼
+UT_Monster_Card_100401	怪手牌画 monster 100401	海盗王嘎呜
+UT_HandCard_10001	手牌 card 10001	攻击(中)
+UT_HandCard_10002	手牌 card 10002	防御(中)
+UT_HandCard_10003	手牌 card 10003	攻击(大)
+UT_HandCard_10004	手牌 card 10004	防御(大)
+UT_HandCard_10005	手牌 card 10005	攻击(特大)
+UT_HandCard_10006	手牌 card 10006	防御(特大)
+UT_HandCard_10007	手牌 card 10007	名刀：嘎呜切
+UT_HandCard_10008	手牌 card 10008	暗影突袭
+UT_HandCard_10009	手牌 card 10009	蓄力
+UT_HandCard_10010	手牌 card 10010	全力攻击
+UT_HandCard_10011	手牌 card 10011	毒牙
+UT_HandCard_10012	手牌 card 10012	撕咬
+UT_HandCard_10013	手牌 card 10013	龙之咆哮
+UT_HandCard_20001	手牌 card 20001	激光
+UT_HandCard_20002	手牌 card 20002	巧克力蛋糕
+UT_HandCard_20003	手牌 card 20003	保护屏障
+UT_HandCard_20004	手牌 card 20004	钓鱼执法
+UT_HandCard_20005	手牌 card 20005	遥控骰子
+UT_HandCard_20006	手牌 card 20006	以毒攻毒
+UT_HandCard_20007	手牌 card 20007	灵魂链接
+UT_HandCard_20008	手牌 card 20008	狂暴
+UT_HandCard_20009	手牌 card 20009	自爆
+UT_HandCard_20010	手牌 card 20010	路障
+UT_HandCard_20011	手牌 card 20011	方向抉择
+UT_HandCard_20012	手牌 card 20012	皮筋弹弓
+UT_HandCard_20013	手牌 card 20013	板砖
+UT_HandCard_20014	手牌 card 20014	汉堡
+UT_HandCard_20015	手牌 card 20015	以牙还牙
+UT_HandCard_20017	手牌 card 20017	错误的目标
+UT_HandCard_20018	手牌 card 20018	爆破专家
+UT_HandCard_20019	手牌 card 20019	过期便当
+UT_HandCard_20020	手牌 card 20020	丧心病狂
+UT_HandCard_20021	手牌 card 20021	传递炸弹
+UT_HandCard_20022	手牌 card 20022	抢夺
+UT_HandCard_20023	手牌 card 20023	拾荒
+UT_HandCard_20024	手牌 card 20024	随机传送门
+UT_HandCard_20025	手牌 card 20025	雪球攻击
+UT_HandCard_20026	手牌 card 20026	定向加速
+UT_HandCard_20027	手牌 card 20027	符卡-福
+UT_HandCard_20028	手牌 card 20028	符卡-祸
+UT_HandCard_20029	手牌 card 20029	符卡-祸
+UT_HandCard_20030	手牌 card 20030	活体书页
+UT_HandCard_20031	手牌 card 20031	活体书页
+UT_HandCard_20032	手牌 card 20032	命运的指引
+UT_HandCard_20033	手牌 card 20033	强化拒止
+UT_HandCard_20034	手牌 card 20034	13号药水
+UT_HandCard_20035	手牌 card 20035	安定剂
+UT_HandCard_21001	手牌 card 21001	轨道炮
+UT_HandCard_21002	手牌 card 21002	你有我有
+UT_HandCard_21003	手牌 card 21003	加急加快
+UT_HandCard_21004	手牌 card 21004	王之力
+UT_HandCard_21005	手牌 card 21005	岿然不动
+UT_HandCard_21006	手牌 card 21006	奢华大餐
+UT_HandCard_21007	手牌 card 21007	定向爆破
+UT_HandCard_21008	手牌 card 21008	支援
+UT_HandCard_21009	手牌 card 21009	高升炮
+UT_HandCard_21010	手牌 card 21010	是他干的
+UT_HandCard_21012	手牌 card 21012	对怪激光
+UT_HandCard_21013	手牌 card 21013	对怪板砖
+UT_HandCard_21014	手牌 card 21014	支援口香糖
+UT_HandCard_21015	手牌 card 21015	能量补充棒
+UT_HandCard_21016	手牌 card 21016	大聪明软糖
+UT_HandCard_21017	手牌 card 21017	古怪的附灵物
+UT_HandCard_21018	手牌 card 21018	释放青魂
+UT_HandCard_21019	手牌 card 21019	释放赤魂
+UT_HandCard_21020	手牌 card 21020	彩羽
+UT_HandCard_21021	手牌 card 21021	振作起来
+UT_HandCard_21022	手牌 card 21022	灰烬之羽
+UT_HandCard_21023	手牌 card 21023	吉星高照
+UT_HandCard_21024	手牌 card 21024	人机交融
+UT_HandCard_21025	手牌 card 21025	罪证嫌疑
+UT_HandCard_21026	手牌 card 21026	疾行菇
+UT_HandCard_21027	手牌 card 21027	仙品杨桃
+UT_HandCard_21028	手牌 card 21028	芳香蜜桃
+UT_HandCard_21029	手牌 card 21029	招财树
+UT_MapPreview_103	地图缩略图 103	海盗王嘎呜
+UT_MapScene_103	地图大图 103	海盗王嘎呜
+UT_MapPreview_104	地图缩略图 104	浣熊
+UT_MapScene_104	地图大图 104	浣熊
+UT_MapPreview_102	地图缩略图 102	对抗训练
+UT_MapScene_102	地图大图 102	对抗训练
+UT_MapPreview_1001	地图缩略图 1001	地图 1001
+UT_MapScene_1001	地图大图 1001	地图 1001
+UT_MapPreview_1002	地图缩略图 1002	地图 1002
+UT_MapScene_1002	地图大图 1002	地图 1002
+UT_MapPreview_003	地图缩略图 003	游乐园
+UT_MapScene_003	地图大图 003	游乐园
+UT_MapPreview_004	地图缩略图 004	十字路口站
+UT_MapScene_004	地图大图 004	十字路口站
+UT_MapPreview_005	地图缩略图 005	樱花小镇
+UT_MapScene_005	地图大图 005	樱花小镇
+UT_MapPreview_006	地图缩略图 006	魅影都市
+UT_MapScene_006	地图大图 006	魅影都市
+UT_MapPreview_021	地图缩略图 021	梦想号-上层甲板
+UT_MapScene_021	地图大图 021	梦想号-上层甲板
+UT_MapPreview_011	地图缩略图 011	丛林冒险
+UT_MapScene_011	地图大图 011	丛林冒险
+UT_MapPreview_999	地图缩略图 999	Map_010
+UT_MapScene_999	地图大图 999	Map_010
+UT_MapPreview_007	地图缩略图 007	星趴·梦想号
+UT_MapScene_007	地图大图 007	星趴·梦想号
+UT_MapPreview_008	地图缩略图 008	御魂庆典
+UT_MapScene_008	地图大图 008	御魂庆典
+UT_MapPreview_009	地图缩略图 009	礼物广场
+UT_MapScene_009	地图大图 009	礼物广场
+UT_MapPreview_010	地图缩略图 010	水乡古镇
+UT_MapScene_010	地图大图 010	水乡古镇
+UT_MapPreview_012	地图缩略图 012	魔法学院
+UT_MapScene_012	地图大图 012	魔法学院
+UT_MapPreview_015	地图缩略图 015	龙宫游乐园
+UT_MapScene_015	地图大图 015	龙宫游乐园
+UT_MapPreview_016	地图缩略图 016	幽魂暗巷
+UT_MapScene_016	地图大图 016	幽魂暗巷
+UT_MapPreview_017	地图缩略图 017	园林中庭
+UT_MapScene_017	地图大图 017	园林中庭
+UT_MapPreview_023	地图缩略图 023	异变图书馆
+UT_MapScene_023	地图大图 023	异变图书馆
+UT_MapPreview_024	地图缩略图 024	森秋幻境
+UT_MapScene_024	地图大图 024	森秋幻境
+UT_MapPreview_019	地图缩略图 019	海选赛运动场
+UT_MapScene_019	地图大图 019	海选赛运动场
+UT_MapPreview_022	地图缩略图 022	淘汰赛运动场
+UT_MapScene_022	地图大图 022	淘汰赛运动场
+UT_MapPreview_020	地图缩略图 020	决赛大赛场
+UT_MapScene_020	地图大图 020	决赛大赛场

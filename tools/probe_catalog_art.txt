@@ -1,0 +1,68 @@
+catalog = C:\Users\DELL\AppData\LocalLow\feimo\AstralParty_CN\com.unity.addressables\catalog_3.2.0.json
+catalog 在 = True
+key 数 = 13805 / internal id 数 = 6417
+
+UT_Platform_Gift                 entries=1  bundle=7db751de399a9a94c25687f2dcd0422e             __data=无
+UT_Platform_Hospital             entries=1  bundle=4fd444943abfa1e6471db675e7973646             __data=无
+UT_Platform_Lottery              entries=1  bundle=2ca7a0433fafe242f76c0912794950ec             __data=无
+UT_Platform_Fire                 entries=1  bundle=350fa1d468641f0d6466e5c06b0934a9             __data=无
+UT_Platform_Divine               entries=1  bundle=90cc6f071711ce59233f028fa70385de             __data=无
+UT_Platform_Gamble               entries=1  bundle=8bd5a131c3aef29cd39280011d9ad067             __data=无
+UT_Platform_Destiny              entries=1  bundle=a1aeabed0bf07127d56bf15110319d96             __data=无
+UT_Platform_Jump                 entries=1  bundle=ea004290be0706162477eba80f547026             __data=无
+UT_Platform_Gimmick              entries=1  bundle=5056c98cbce85f943164bfa85d86fd91             __data=无
+UT_Platform_108                  entries=1  bundle=c53bfdaa97c5750359c5de7e6369d3a9             __data=无
+UT_Platform_Start                entries=1  bundle=cd1797b60b19f55ea6abfe510bf88b2e             __data=无
+UT_Platform_Shop                 entries=1  bundle=bbca5053e54ce6662dfb8eae1a7ae536             __data=无
+UT_Monster_Bust_1003_0           entries=1  bundle=c80067d0f82fc45dc11ca5035d343cbe             __data=无
+UT_Monster_Bust_1006_0           entries=0  bundle=None                                         __data=无
+UT_Monster_Bust_1012_0           entries=0  bundle=None                                         __data=无
+UT_Monster_Bust_1017_0           entries=1  bundle=262b0ff8fd4e11a715924d0466012e44             __data=无
+UT_Monster_Bust_1027_0           entries=1  bundle=419a4b4069ac99b6e647ec2d3defe889             __data=无
+UT_Monster_Bust_1030_0           entries=1  bundle=680ca3891b36de680c60a9d648583a4c             __data=无
+UT_HandCard_10001                entries=1  bundle=d99c384a65ed2cd7b004346d2345d1c4             __data=无
+UT_HandCard_10002                entries=1  bundle=ae77b017abe4b98c5f0605d06205ad5f             __data=无
+UT_MapPreview_023                entries=0  bundle=None                                         __data=无
+UT_MapScene_023                  entries=0  bundle=None                                         __data=无
+
+—— catalog key 里 UT_ 前缀统计 ——
+  UT_Hero                      1380
+  UT_Item                      1211
+  UT_AccountHeadShot           236
+  UT_AccountBackground         193
+  UT_Achieve                   152
+  UT_Monster                   132
+  UT_Buff                      103
+  UT_CardBack                  77
+  UT_Relic                     75
+  UT_HandCard                  72
+  UT_MapEvent                  66
+  UT_Platform                  58
+  UT_Land                      35
+  UT_Mutator                   34
+  UT_Activity                  33
+  UT_Exchange                  32
+  UT_Event                     31
+  UT_GachaTheme                29
+  UT_Recharge                  27
+  UT_SGBBuilding               22
+  UT_MapScene                  17
+  UT_SGRelic                   17
+  UT_MapPreview                16
+  UT_Destiny                   12
+  UT_KillVfx                   11
+  UT_BattlePass                11
+  UT_ProductRecommendation     10
+  UT_Divination                10
+  UT_Banner                    10
+  UT_SkinGroup                 7
+  UT_SGPack                    5
+  UT_Difficulty                5
+  UT_Collaboration             4
+  UT_IAltArt                   4
+  UT_StoreBG                   4
+  UT_Survey                    3
+  UT_Campaign                  3
+  UT_NGO                       3
+  UT_CardFront                 2
+  UT_LandLottery               2

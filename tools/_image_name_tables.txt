@@ -1,0 +1,11 @@
+含这些资源名的表：
+   Fashion.bin                        {'UT_AccountHeadShot_Monster_': 6}
+   GameMode.bin                       {'UT_AccountHeadShot_Monster_': 2}
+   Map.bin                            {'UT_MapPreview_': 37, 'UT_MapScene_': 37, 'MiniMap_': 38}
+   Monster.bin                        {'UT_AccountHeadShot_Monster_': 102}
+
+==============================================================================
+ImageLocalization.bin（32232 字节）里所有 UT_MapPreview_* / UT_MapScene_* 字面量
+==============================================================================
+
+STRMap.bin 里含 '异变图书馆' = True

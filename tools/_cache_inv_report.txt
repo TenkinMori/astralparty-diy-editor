@@ -1,0 +1,35 @@
+==============================================================================
+Addressables 运行时缓存（**修正层级后**）
+==============================================================================
+缓存包数 = 1149（打开失败 0）
+缓存里 Texture2D 记录 = 6766（去重名 = 3387）
+
+—— ★ 专查 UT_AccountHeadShot_Monster_* ——
+   缓存里这一族 = 3 个：46,47,48
+
+   Monster_46  200x200  bundle=8d49d0b4c81aba82f0838e5c75daa696  ★★ 上一轮漏掉的
+   Monster_47  160x160  bundle=ff2f91de09c2abb96e1e12f54ac54718  ★★ 上一轮漏掉的
+   Monster_48  160x160  bundle=81161b89ebd67c23d2fa977f7bf4ab73  ★★ 上一轮漏掉的
+
+   46/47/48 是否在缓存里：{46: True, 47: True, 48: True}
+   其中 47/48 的原始尺寸是 160x160（不是 200x200 —— 表里写的是 200x200，但本地这一份资源本身就是 160）
+
+—— 缓存里含 'HeadShot' 的名字全量 ——
+   共 16 个
+      UT_AccountHeadShot_70045_sfw
+      UT_AccountHeadShot_70099
+      UT_AccountHeadShot_70100
+      UT_AccountHeadShot_70129
+      UT_AccountHeadShot_70201
+      UT_AccountHeadShot_70202
+      UT_AccountHeadShot_70203
+      UT_AccountHeadShot_70892
+      UT_AccountHeadShot_70893
+      UT_AccountHeadShot_70929
+      UT_AccountHeadShot_709305
+      UT_AccountHeadShot_709306
+      UT_AccountHeadShot_Boss_14
+      UT_AccountHeadShot_Monster_46
+      UT_AccountHeadShot_Monster_47
+      UT_AccountHeadShot_Monster_48
+

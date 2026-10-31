@@ -1,0 +1,22 @@
+# 构建产物
+bin/
+obj/
+**/bin/
+**/obj/
+dist/
+publish/
+
+# 缓存 / 临时
+__pycache__/
+*.pyc
+_临时构建/
+_发布暂存/
+_旧版备份/
+_自测/
+自测/
+
+# 发布包
+*.zip
+*.exe
+*.pdb
+*.bak*

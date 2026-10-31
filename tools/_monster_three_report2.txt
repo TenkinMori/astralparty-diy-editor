@@ -1,0 +1,36 @@
+==============================================================================
+bundle 81161b89ebd67c23d2fa977f7bf4ab73  ->  UT_AccountHeadShot_Monster_48
+==============================================================================
+  __data：C:\Users\DELL\AppData\LocalLow\feimo\AstralParty_CN\com.unity.addressables\AssetBundles\a536b06021dbf6bc6d9cca6bde202cef\81161b89ebd67c23d2fa977f7bf4ab73\__data（7109 字节）
+     ★ 资产名 UT_AccountHeadShot_Monster_48
+        尺寸 160x160（m_Width=160 m_Height=160 格式=25）
+        落地 D:\小小兔趴\5-DIY关卡\贴图缓存\UT_AccountHeadShot_Monster_48.png（4729 字节，UnityPy 解码后重编码 PNG）
+        颜色数 591
+
+==============================================================================
+bundle 8d49d0b4c81aba82f0838e5c75daa696  ->  UT_AccountHeadShot_Monster_46
+==============================================================================
+  __data：C:\Users\DELL\AppData\LocalLow\feimo\AstralParty_CN\com.unity.addressables\AssetBundles\32f361363ee97c2eb5aec8dd7a1fcf5a\8d49d0b4c81aba82f0838e5c75daa696\__data（6889 字节）
+     ★ 资产名 UT_AccountHeadShot_Monster_46
+        尺寸 200x200（m_Width=200 m_Height=200 格式=25）
+        落地 D:\小小兔趴\5-DIY关卡\贴图缓存\UT_AccountHeadShot_Monster_46.png（4889 字节，UnityPy 解码后重编码 PNG）
+        颜色数 364
+
+==============================================================================
+bundle ff2f91de09c2abb96e1e12f54ac54718  ->  UT_AccountHeadShot_Monster_47
+==============================================================================
+  __data：C:\Users\DELL\AppData\LocalLow\feimo\AstralParty_CN\com.unity.addressables\AssetBundles\ab4c4c3099096d64aaf0c0a52356eeab\ff2f91de09c2abb96e1e12f54ac54718\__data（5413 字节）
+     ★ 资产名 UT_AccountHeadShot_Monster_47
+        尺寸 160x160（m_Width=160 m_Height=160 格式=25）
+        落地 D:\小小兔趴\5-DIY关卡\贴图缓存\UT_AccountHeadShot_Monster_47.png（3489 字节，UnityPy 解码后重编码 PNG）
+        颜色数 338
+
+==============================================================================
+对照：缓存抽出（200x200） vs GameRes 的 160x160
+==============================================================================
+   46 缓存 (200, 200) / GameRes (200, 200)  同尺寸逐像素相同=True  缩小后仍有差异=False
+   47 缓存 (160, 160) / GameRes (160, 160)  同尺寸逐像素相同=True  缩小后仍有差异=False
+   48 缓存 (160, 160) / GameRes (160, 160)  同尺寸逐像素相同=True  缩小后仍有差异=False
+
+（说明：GameRes 里的是 160x160 的另一张产出，内容构图相同但分辨率更低；
+  正主是缓存包里的 200x200，已按 200x200 落地。）

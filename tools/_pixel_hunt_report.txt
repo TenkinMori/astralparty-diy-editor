@@ -1,0 +1,141 @@
+catalog = C:\Users\DELL\AppData\LocalLow\feimo\AstralParty_CN\com.unity.addressables\catalog_3.2.0.json
+catalog key = 13805
+
+==============================================================================
+① 相关 key 解到 bundle = 332 个（解不到的 key 0 个）
+==============================================================================
+  ... 已扫 40 包 / Texture2D 40 个（1s）
+  ... 已扫 80 包 / Texture2D 80 个（1s）
+  ... 已扫 120 包 / Texture2D 120 个（2s）
+  ... 已扫 160 包 / Texture2D 153 个（2s）
+  ... 已扫 200 包 / Texture2D 193 个（2s）
+  ... 已扫 240 包 / Texture2D 233 个（2s）
+
+实际打开 bundle = 260 / 目标 332（失败 72）
+看到的 Texture2D 名字（去重）= 249
+
+—— ★ 关键词命中（读的是包里 Texture2D 的 m_Name）——
+  [pixel    ] 0
+  [chibi    ] 0
+  [retro    ] 0
+  [8bit     ] 0
+  [dot      ] 0
+  [sprite   ] 0
+  [mini     ] 0
+  [sd       ] 0
+  [avatar   ] 0
+  [icon     ] 0
+  [head     ] 0
+  [monster  ] 121
+        UT_Monster_Card_1018                                       1068x1164
+        UT_Monster_Card_1033                                       1090x1012
+        UT_Monster_Bust_1020_0                                     1568x900
+        UT_Monster_Bust_1032_0                                     1568x900
+        UT_Monster_Bust_1010_0                                     1568x900
+        UT_Monster_Card_1039                                       1016x1196
+  [summon   ] 1
+        UT_Summon_111                                              220x220
+  [idle     ] 0
+  [walk     ] 0
+  [battle   ] 0
+  [fight    ] 0
+  [chara    ] 0
+  [spine    ] 0
+  [atlas    ] 0
+  [role     ] 0
+  [bust     ] 0
+  [card     ] 71
+        UT_HandCard_20011                                          404x400
+        UT_HandCard_21010                                          404x400
+        UT_HandCard_20009                                          404x400
+        UT_HandCard_20018                                          404x400
+        UT_HandCard_10009                                          404x400
+        UT_HandCard_20022                                          404x400
+
+—— Texture2D 名字最常见前缀（前 40）——
+  UT_Monster                                   121
+  UT_HandCard                                  71
+  UT_MapScene                                  16
+  UT_MapPreview                                15
+  Tx_Mask                                      4
+  Tx_Slash                                     2
+  Tex_Flare01D                                 1
+  maoTou2                                      1
+  GuoDu                                        1
+  Default-Particle                             1
+  Tex_Flare04F 1                               1
+  zhua11                                       1
+  glow                                         1
+  RingTex                                      1
+  HuiCheng                                     1
+  Tex_Pattern59                                1
+  Gradient01B                                  1
+  Mask002A 1                                   1
+  Gradient001C                                 1
+  Mask001                                      1
+  Grandient001D                                1
+  Noise01                                      1
+  TX_Trail                                     1
+  Tx_Burst                                     1
+  Mask002A                                     1
+  UT_Summon                                    1
+
+—— ★ 尺寸 <=200px 的 Texture2D（像素画的尺寸签名）——
+  共 1 个
+      Default-Particle                                           64x64
+
+==============================================================================
+② 小尺寸 PNG（<=200px）与颜色数 <=64 的像素画候选
+==============================================================================
+  小图总数 = 1411
+  —— 颜色数最少的 25 张 ——
+      UT_Buff_304_piano.png                              160x160 颜色 21      [游戏目录]
+      UT_Buff_302_Passive.png                            160x160 颜色 26      [游戏目录]
+      UT_Buff_301.png                                    160x160 颜色 47      [游戏目录]
+      UT_AccountHeadShot_70895.png                       200x200 颜色 52      [游戏目录]
+      UT_AccountHeadShot_70928.png                       200x200 颜色 55      [游戏目录]
+      UT_Item_PlayerPhoto_70895.png                      160x160 颜色 59      [游戏目录]
+      UT_Item_Currency_51.png                            160x160 颜色 109     [游戏目录]
+      UT_Item_AccountBackground_71001.png                160x160 颜色 151     [游戏目录]
+      UT_Mutator_60156.png                               150x150 颜色 172     [游戏目录]
+      UT_Mutator_60106.png                               150x150 颜色 183     [游戏目录]
+      UT_Mutator_60151.png                               150x150 颜色 184     [游戏目录]
+      UT_Mutator_60012.png                               150x150 颜色 203     [游戏目录]
+      UT_Mutator_60113.png                               150x150 颜色 206     [游戏目录]
+      UT_Mutator_60152.png                               150x150 颜色 206     [游戏目录]
+      UT_SGRelic_60004.png                               200x200 颜色 211     [游戏目录]
+      UT_Mutator_60155.png                               150x150 颜色 212     [游戏目录]
+      UT_Mutator_60009.png                               150x150 颜色 215     [游戏目录]
+      UT_Mutator_60153.png                               150x150 颜色 226     [游戏目录]
+      UT_SGRelic_60005.png                               200x200 颜色 227     [游戏目录]
+      UT_Mutator_60102.png                               150x150 颜色 240     [游戏目录]
+      UT_Mutator_60013.png                               150x150 颜色 241     [游戏目录]
+      UT_Mutator_60007.png                               150x150 颜色 243     [游戏目录]
+      UT_Mutator_60004.png                               150x150 颜色 245     [游戏目录]
+      UT_Mutator_60010.png                               150x150 颜色 252     [游戏目录]
+      UT_Mutator_60011.png                               150x150 颜色 252     [游戏目录]
+
+  —— 颜色数 <=64 的（≤64 = 真像素画签名）——
+      命中 6 张
+      UT_Buff_304_piano.png                              160x160 颜色 21      [游戏目录]
+      UT_Buff_302_Passive.png                            160x160 颜色 26      [游戏目录]
+      UT_Buff_301.png                                    160x160 颜色 47      [游戏目录]
+      UT_AccountHeadShot_70895.png                       200x200 颜色 52      [游戏目录]
+      UT_AccountHeadShot_70928.png                       200x200 颜色 55      [游戏目录]
+      UT_Item_PlayerPhoto_70895.png                      160x160 颜色 59      [游戏目录]
+
+  —— UT_Monster_* 里 <=200px 的：0 张 ——
+
+==============================================================================
+③ GameRes\MovieClip
+==============================================================================
+  条目数 = 7
+      PlayerInfo_Ani_Bottom_f0.png
+      PlayerInfo_Ani_Bottom_f1.png
+      PlayerInfo_Ani_Bottom_f2.png
+      PlayerInfo_Ani_Bottom_f3.png
+      PlayerInfo_Ani_Bottom_f4.png
+      PlayerInfo_Ani_Bottom_f5.png
+      PlayerInfo_Ani_Bottom_f6.png
+
+用时 4.9 秒

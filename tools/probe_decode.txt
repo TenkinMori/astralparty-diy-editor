@@ -1,0 +1,153 @@
+==============================================================================
+① 直接解一张 BC7 贴图
+  m_Name = UT_Monster_Bust_1003_0  1568x900  format=25 mip=1
+  data.image -> <PIL.Image.Image image mode=RGBA size=1568x900 at 0xCB8DF90>
+  有 image_data     = True
+  有 get_image      = False
+  有 m_TextureFormat = True
+  image_data -> 0 字节
+
+  UnityPy 版本 = 1.25.4
+  texture2ddecoder   在（D:\小小兔趴\5-DIY关卡\tools\pylibs\texture2ddecoder\__init__.py）
+  etcpak             在（D:\小小兔趴\5-DIY关卡\tools\pylibs\etcpak\__init__.py）
+  astc_encoder       在（D:\小小兔趴\5-DIY关卡\tools\pylibs\astc_encoder\__init__.py）
+  PIL                在（D:\小小兔趴\5-DIY关卡\tools\pylibs\PIL\__init__.py）
+
+==============================================================================
+② catalog 里 UT_Monster* 的全部名字
+  共 132 条
+    UT_Monster_Card                67
+    UT_Monster_Bust                65
+
+    UT_Monster_Bust_1001_0
+    UT_Monster_Bust_1002_0
+    UT_Monster_Bust_1003_0
+    UT_Monster_Bust_1004_0
+    UT_Monster_Bust_1005_0
+    UT_Monster_Bust_1007_0
+    UT_Monster_Bust_1008_0
+    UT_Monster_Bust_1009_0
+    UT_Monster_Bust_1010_0
+    UT_Monster_Bust_1011_0
+    UT_Monster_Bust_1011_0_sfw
+    UT_Monster_Bust_1013_0
+    UT_Monster_Bust_1014_0
+    UT_Monster_Bust_1015_0
+    UT_Monster_Bust_1016_0
+    UT_Monster_Bust_1017_0
+    UT_Monster_Bust_1018_0
+    UT_Monster_Bust_1019_0
+    UT_Monster_Bust_1020_0
+    UT_Monster_Bust_1021_0
+    UT_Monster_Bust_1022_0
+    UT_Monster_Bust_1023_0
+    UT_Monster_Bust_1024_0
+    UT_Monster_Bust_1025_0
+    UT_Monster_Bust_1026_0
+    UT_Monster_Bust_1027_0
+    UT_Monster_Bust_1027_0_sfw
+    UT_Monster_Bust_1028_0
+    UT_Monster_Bust_1029_0
+    UT_Monster_Bust_1030_0
+    UT_Monster_Bust_1031_0
+    UT_Monster_Bust_1032_0
+    UT_Monster_Bust_1033_0
+    UT_Monster_Bust_1034_0
+    UT_Monster_Bust_1035_0
+    UT_Monster_Bust_1036_0
+    UT_Monster_Bust_1037_0
+    UT_Monster_Bust_1038_0
+    UT_Monster_Bust_1039_0
+    UT_Monster_Bust_1040_0
+    UT_Monster_Bust_1041_0
+    UT_Monster_Bust_1042_0
+    UT_Monster_Bust_1043_0
+    UT_Monster_Bust_1044_0
+    UT_Monster_Bust_1045_0
+    UT_Monster_Bust_1046_0
+    UT_Monster_Bust_1047_0
+    UT_Monster_Bust_1048_0
+    UT_Monster_Bust_1053_0
+    UT_Monster_Bust_1054_0
+    UT_Monster_Bust_1055_0
+    UT_Monster_Bust_1056_0
+    UT_Monster_Bust_1057_0
+    UT_Monster_Bust_1058_0
+    UT_Monster_Bust_1059_0
+    UT_Monster_Bust_1061_0
+    UT_Monster_Bust_1062_0
+    UT_Monster_Bust_1063_0
+    UT_Monster_Bust_1064_0
+    UT_Monster_Bust_1065_0
+    UT_Monster_Bust_1066_0
+    UT_Monster_Bust_1067_0
+    UT_Monster_Bust_1068_0
+    UT_Monster_Bust_1069_0
+    UT_Monster_Bust_1070_0
+    UT_Monster_Card_1001
+    UT_Monster_Card_1002
+    UT_Monster_Card_1003
+    UT_Monster_Card_1004
+    UT_Monster_Card_1005
+    UT_Monster_Card_1007
+    UT_Monster_Card_1008
+    UT_Monster_Card_1009
+    UT_Monster_Card_1010
+    UT_Monster_Card_1011
+    UT_Monster_Card_1011_sfw
+    UT_Monster_Card_1013
+    UT_Monster_Card_1014
+    UT_Monster_Card_1015
+    UT_Monster_Card_1016
+    UT_Monster_Card_1017
+    UT_Monster_Card_1018
+    UT_Monster_Card_1018_sfw
+    UT_Monster_Card_1019
+    UT_Monster_Card_1020
+    UT_Monster_Card_1021
+    UT_Monster_Card_1022
+    UT_Monster_Card_1023
+    UT_Monster_Card_1024
+    UT_Monster_Card_1025
+    UT_Monster_Card_1026
+    UT_Monster_Card_1027
+    UT_Monster_Card_1027_sfw
+    UT_Monster_Card_1028
+    UT_Monster_Card_1029
+    UT_Monster_Card_1030
+    UT_Monster_Card_1031
+    UT_Monster_Card_1032
+    UT_Monster_Card_1033
+    UT_Monster_Card_1034
+    UT_Monster_Card_1035
+    UT_Monster_Card_1036
+    UT_Monster_Card_1037
+    UT_Monster_Card_1038
+    UT_Monster_Card_1039
+    UT_Monster_Card_1040
+    UT_Monster_Card_1041
+    UT_Monster_Card_1042
+    UT_Monster_Card_1043
+    UT_Monster_Card_1044
+    UT_Monster_Card_1045
+    UT_Monster_Card_1046
+    UT_Monster_Card_1047
+    UT_Monster_Card_1048
+    UT_Monster_Card_1050
+    UT_Monster_Card_1053
+    UT_Monster_Card_1054
+    UT_Monster_Card_1055
+    UT_Monster_Card_1056
+    UT_Monster_Card_1057
+    UT_Monster_Card_1058
+    UT_Monster_Card_1059
+    UT_Monster_Card_1061
+    UT_Monster_Card_1062
+    UT_Monster_Card_1063
+    UT_Monster_Card_1064
+    UT_Monster_Card_1065
+    UT_Monster_Card_1066
+    UT_Monster_Card_1067
+    UT_Monster_Card_1068
+    UT_Monster_Card_1069
+    UT_Monster_Card_1070

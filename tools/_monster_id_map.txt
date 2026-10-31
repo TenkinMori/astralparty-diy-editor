@@ -1,0 +1,119 @@
+Monster.bin entry = 80
+
+======================================================================================
+像素小人  ->  怪物 id  ->  名字（Monster.bin field 19）
+======================================================================================
+  UT_AccountHeadShot_Boss_01         1 个怪：1003(?)
+  UT_AccountHeadShot_Monster_01      1 个怪：1001(?)
+  UT_AccountHeadShot_Boss_02         4 个怪：1004(?), 1051(?), 1060(?), 100401(?)
+  UT_AccountHeadShot_Monster_02      2 个怪：1002(?), 1052(?)
+  UT_AccountHeadShot_Monster_03      2 个怪：1005(?), 1006(?)
+  UT_Item_PlayerPhoto_Boss_03        2 个怪：1011(?), 1012(?)
+  UT_AccountHeadShot_Boss_04         1 个怪：1013(?)
+  UT_AccountHeadShot_Monster_04      1 个怪：1008(?)
+  UT_AccountHeadShot_Boss_05         1 个怪：1014(?)
+  UT_AccountHeadShot_Monster_05      1 个怪：1007(?)
+  UT_AccountHeadShot_Boss_06         2 个怪：1019(?), 3002(?)
+  UT_AccountHeadShot_Monster_06      1 个怪：1010(?)
+  UT_AccountHeadShot_Boss_07         3 个怪：1018(?), 3001(?), 3005(?)
+  UT_AccountHeadShot_Monster_07      1 个怪：1009(?)
+  UT_AccountHeadShot_Boss_08         3 个怪：1026(?), 2026(?), 3003(?)
+  UT_AccountHeadShot_Monster_08      1 个怪：1016(?)
+  UT_AccountHeadShot_Boss_09         4 个怪：1027(?), 2027(?), 3004(?), 3006(?)
+  UT_AccountHeadShot_Monster_09      1 个怪：1015(?)
+  UT_AccountHeadShot_Boss_10         1 个怪：1033(?)
+  UT_AccountHeadShot_Monster_10      1 个怪：1017(?)
+  UT_AccountHeadShot_Boss_11         3 个怪：1048(?), 1049(?), 1053(?)
+  UT_AccountHeadShot_Monster_11      1 个怪：1023(?)
+  UT_AccountHeadShot_Boss_12         1 个怪：1055(?)
+  UT_AccountHeadShot_Monster_12      1 个怪：1022(?)
+  UT_AccountHeadShot_Boss_13         1 个怪：1065(?)
+  UT_AccountHeadShot_Monster_13      1 个怪：1021(?)
+  UT_AccountHeadShot_Boss_14         1 个怪：1067(?)
+  UT_AccountHeadShot_Monster_14      1 个怪：1020(?)
+  UT_AccountHeadShot_Monster_15      1 个怪：1024(?)
+  UT_AccountHeadShot_Monster_16      1 个怪：1025(?)
+  UT_AccountHeadShot_Monster_17      1 个怪：1028(?)
+  UT_AccountHeadShot_Monster_18      1 个怪：1029(?)
+  UT_AccountHeadShot_Monster_19      2 个怪：1030(?), 3051(?)
+  UT_AccountHeadShot_Monster_20      1 个怪：1032(?)
+  UT_AccountHeadShot_Monster_21      1 个怪：1031(?)
+  UT_AccountHeadShot_Monster_22      1 个怪：1034(?)
+  UT_AccountHeadShot_Monster_23      1 个怪：1035(?)
+  UT_AccountHeadShot_Monster_24      1 个怪：1036(?)
+  UT_AccountHeadShot_Monster_25      1 个怪：1037(?)
+  UT_AccountHeadShot_Monster_26      1 个怪：1038(?)
+  UT_AccountHeadShot_Monster_27      1 个怪：1039(?)
+  UT_AccountHeadShot_Monster_28      1 个怪：1040(?)
+  UT_AccountHeadShot_Monster_29      1 个怪：1041(?)
+  UT_AccountHeadShot_Monster_30      1 个怪：1042(?)
+  UT_AccountHeadShot_Monster_31      1 个怪：1043(?)
+  UT_AccountHeadShot_Monster_32      1 个怪：1044(?)
+  UT_AccountHeadShot_Monster_33      1 个怪：1045(?)
+  UT_AccountHeadShot_Monster_34      1 个怪：1046(?)
+  UT_AccountHeadShot_Monster_35      1 个怪：1047(?)
+  UT_AccountHeadShot_Monster_36      1 个怪：1054(?)
+  UT_AccountHeadShot_Monster_37      1 个怪：1056(?)
+  UT_AccountHeadShot_Monster_38      1 个怪：1057(?)
+  UT_AccountHeadShot_Monster_39      1 个怪：1058(?)
+  UT_AccountHeadShot_Monster_40      1 个怪：1059(?)
+  UT_AccountHeadShot_Monster_41      1 个怪：1061(?)
+  UT_AccountHeadShot_Monster_42      1 个怪：1062(?)
+  UT_AccountHeadShot_Monster_43      1 个怪：1063(?)
+  UT_AccountHeadShot_Monster_44      1 个怪：1064(?)
+  UT_AccountHeadShot_Monster_45      1 个怪：1066(?)
+  UT_AccountHeadShot_Monster_46      1 个怪：1068(?)
+  UT_AccountHeadShot_Monster_47      1 个怪：1069(?)
+  UT_AccountHeadShot_Monster_48      1 个怪：1070(?)
+  UT_AccountHeadShot_70913           1 个怪：1050(?)
+
+======================================================================================
+贴图缓存里已落地 45 张
+======================================================================================
+  UT_AccountHeadShot_Monster_01.png        -> 1001 ?
+  UT_AccountHeadShot_Monster_02.png        -> 1002 ?, 1052 ?
+  UT_AccountHeadShot_Monster_03.png        -> 1005 ?, 1006 ?
+  UT_AccountHeadShot_Monster_04.png        -> 1008 ?
+  UT_AccountHeadShot_Monster_05.png        -> 1007 ?
+  UT_AccountHeadShot_Monster_06.png        -> 1010 ?
+  UT_AccountHeadShot_Monster_07.png        -> 1009 ?
+  UT_AccountHeadShot_Monster_08.png        -> 1016 ?
+  UT_AccountHeadShot_Monster_09.png        -> 1015 ?
+  UT_AccountHeadShot_Monster_10.png        -> 1017 ?
+  UT_AccountHeadShot_Monster_11.png        -> 1023 ?
+  UT_AccountHeadShot_Monster_12.png        -> 1022 ?
+  UT_AccountHeadShot_Monster_13.png        -> 1021 ?
+  UT_AccountHeadShot_Monster_14.png        -> 1020 ?
+  UT_AccountHeadShot_Monster_15.png        -> 1024 ?
+  UT_AccountHeadShot_Monster_16.png        -> 1025 ?
+  UT_AccountHeadShot_Monster_17.png        -> 1028 ?
+  UT_AccountHeadShot_Monster_18.png        -> 1029 ?
+  UT_AccountHeadShot_Monster_19.png        -> 1030 ?, 3051 ?
+  UT_AccountHeadShot_Monster_20.png        -> 1032 ?
+  UT_AccountHeadShot_Monster_21.png        -> 1031 ?
+  UT_AccountHeadShot_Monster_22.png        -> 1034 ?
+  UT_AccountHeadShot_Monster_23.png        -> 1035 ?
+  UT_AccountHeadShot_Monster_24.png        -> 1036 ?
+  UT_AccountHeadShot_Monster_25.png        -> 1037 ?
+  UT_AccountHeadShot_Monster_26.png        -> 1038 ?
+  UT_AccountHeadShot_Monster_27.png        -> 1039 ?
+  UT_AccountHeadShot_Monster_28.png        -> 1040 ?
+  UT_AccountHeadShot_Monster_29.png        -> 1041 ?
+  UT_AccountHeadShot_Monster_30.png        -> 1042 ?
+  UT_AccountHeadShot_Monster_31.png        -> 1043 ?
+  UT_AccountHeadShot_Monster_32.png        -> 1044 ?
+  UT_AccountHeadShot_Monster_33.png        -> 1045 ?
+  UT_AccountHeadShot_Monster_34.png        -> 1046 ?
+  UT_AccountHeadShot_Monster_35.png        -> 1047 ?
+  UT_AccountHeadShot_Monster_36.png        -> 1054 ?
+  UT_AccountHeadShot_Monster_37.png        -> 1056 ?
+  UT_AccountHeadShot_Monster_38.png        -> 1057 ?
+  UT_AccountHeadShot_Monster_39.png        -> 1058 ?
+  UT_AccountHeadShot_Monster_40.png        -> 1059 ?
+  UT_AccountHeadShot_Monster_41.png        -> 1061 ?
+  UT_AccountHeadShot_Monster_42.png        -> 1062 ?
+  UT_AccountHeadShot_Monster_43.png        -> 1063 ?
+  UT_AccountHeadShot_Monster_44.png        -> 1064 ?
+  UT_AccountHeadShot_Monster_45.png        -> 1066 ?
+
+没被怪物表引用的：无

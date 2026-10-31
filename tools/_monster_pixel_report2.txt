@@ -1,0 +1,51 @@
+Monster.bin 登记的像素怪头像（UT_AccountHeadShot_Monster_*）= 48 个名字
+全库清单里这一族 = 45 张，分布在 45 个包
+
+落地/复核 = 45 张
+清单：D:\小小兔趴\5-DIY关卡\贴图缓存\像素怪物小人清单.txt
+
+  UT_AccountHeadShot_Monster_01          200x200 怪 id 1001             小浣熊
+  UT_AccountHeadShot_Monster_02          200x200 怪 id 1002,1052        海盗鲨鱼 / 海盗鲨鱼
+  UT_AccountHeadShot_Monster_03          200x200 怪 id 1005,1006        海盗精锐 / 海盗精锐
+  UT_AccountHeadShot_Monster_04          200x200 怪 id 1008             狂躁红灵
+  UT_AccountHeadShot_Monster_05          200x200 怪 id 1007             冰冷蓝灵
+  UT_AccountHeadShot_Monster_06          200x200 怪 id 1010             长戟灵体
+  UT_AccountHeadShot_Monster_07          200x200 怪 id 1009             刀剑灵体
+  UT_AccountHeadShot_Monster_08          200x200 怪 id 1016             爆竹呱呱
+  UT_AccountHeadShot_Monster_09          200x200 怪 id 1015             氛围机器人
+  UT_AccountHeadShot_Monster_10          200x200 怪 id 1017             机械蛇龙
+  UT_AccountHeadShot_Monster_11          200x200 怪 id 1023             魔法茶壶
+  UT_AccountHeadShot_Monster_12          200x200 怪 id 1022             果冻巫师
+  UT_AccountHeadShot_Monster_13          200x200 怪 id 1021             果冻护卫
+  UT_AccountHeadShot_Monster_14          200x200 怪 id 1020             果冻战士
+  UT_AccountHeadShot_Monster_15          200x200 怪 id 1024             变异茶壶
+  UT_AccountHeadShot_Monster_16          200x200 怪 id 1025             海王鲨
+  UT_AccountHeadShot_Monster_17          200x200 怪 id 1028             蟹布罗
+  UT_AccountHeadShot_Monster_18          200x200 怪 id 1029             虾布罗
+  UT_AccountHeadShot_Monster_19          200x200 怪 id 1030,3051        金小鱼 / 金小鱼
+  UT_AccountHeadShot_Monster_20          200x200 怪 id 1032             练家子
+  UT_AccountHeadShot_Monster_21          200x200 怪 id 1031             大嗓门
+  UT_AccountHeadShot_Monster_22          200x200 怪 id 1034             惊喜猴子盒
+  UT_AccountHeadShot_Monster_23          200x200 怪 id 1035             圆锯猴助手
+  UT_AccountHeadShot_Monster_24          200x200 怪 id 1036             科学怪猿
+  UT_AccountHeadShot_Monster_25          200x200 怪 id 1037             人工生命体—天崩
+  UT_AccountHeadShot_Monster_26          200x200 怪 id 1038             人工生命体—噩兆
+  UT_AccountHeadShot_Monster_27          200x200 怪 id 1039             人工生命体—混乱
+  UT_AccountHeadShot_Monster_28          200x200 怪 id 1040             糖果皮纳塔
+  UT_AccountHeadShot_Monster_29          200x200 怪 id 1041             武魂灵体-戮
+  UT_AccountHeadShot_Monster_30          200x200 怪 id 1042             武魂灵体-怨
+  UT_AccountHeadShot_Monster_31          200x200 怪 id 1043             迎宾燕
+  UT_AccountHeadShot_Monster_32          200x200 怪 id 1044             家禽服务员
+  UT_AccountHeadShot_Monster_33          200x200 怪 id 1045             铜盏仙鹤
+  UT_AccountHeadShot_Monster_34          200x200 怪 id 1046             铜盏孔雀
+  UT_AccountHeadShot_Monster_35          200x200 怪 id 1047             铜盏鸳鸯
+  UT_AccountHeadShot_Monster_36          200x200 怪 id 1054             三联爆竹呱
+  UT_AccountHeadShot_Monster_37          200x200 怪 id 1056             智械海盗鲨
+  UT_AccountHeadShot_Monster_38          200x200 怪 id 1057             智械海王鲨
+  UT_AccountHeadShot_Monster_39          200x200 怪 id 1058             智械中枢
+  UT_AccountHeadShot_Monster_40          200x200 怪 id 1059             宝藏桶
+  UT_AccountHeadShot_Monster_41          200x200 怪 id 1061             裁判艾米
+  UT_AccountHeadShot_Monster_42          200x200 怪 id 1062             机械投手
+  UT_AccountHeadShot_Monster_43          200x200 怪 id 1063             机械四分卫
+  UT_AccountHeadShot_Monster_44          200x200 怪 id 1064             机械监控师
+  UT_AccountHeadShot_Monster_45          200x200 怪 id 1066             思维飞艇

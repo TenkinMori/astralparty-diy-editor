@@ -1,0 +1,759 @@
+{
+ "map": 17,
+ "scene": "Map_017",
+ "bundle": "bad81bbcaa8d40089eda4c1c0f755990",
+ "nodes": [
+  {
+   "id": 0,
+   "landType": 19,
+   "neighbors": [
+    17,
+    27
+   ],
+   "initDir": 17,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -109.1,
+   "y": 12.7,
+   "z": -33.3
+  },
+  {
+   "id": 2,
+   "landType": 1,
+   "neighbors": [
+    42,
+    39
+   ],
+   "initDir": 39,
+   "serial": 2,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -13.8938,
+   "y": 12.7,
+   "z": 187.9398
+  },
+  {
+   "id": 3,
+   "landType": 19,
+   "neighbors": [
+    18,
+    26
+   ],
+   "initDir": 18,
+   "serial": 3,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 111.0,
+   "y": 12.7,
+   "z": 32.7316
+  },
+  {
+   "id": 8,
+   "landType": 1,
+   "neighbors": [
+    40,
+    41
+   ],
+   "initDir": 40,
+   "serial": 1,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 13.2362,
+   "y": 12.7,
+   "z": -188.2917
+  },
+  {
+   "id": 9,
+   "landType": 2,
+   "neighbors": [
+    35,
+    33
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -44.9,
+   "y": 12.7,
+   "z": -61.932
+  },
+  {
+   "id": 10,
+   "landType": 2,
+   "neighbors": [
+    36,
+    34
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 44.1589,
+   "y": 12.7,
+   "z": 63.2368
+  },
+  {
+   "id": 11,
+   "landType": 22,
+   "neighbors": [
+    44,
+    31
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -79.9,
+   "y": 12.7,
+   "z": -190.034
+  },
+  {
+   "id": 12,
+   "landType": 22,
+   "neighbors": [
+    32,
+    43
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 78.1,
+   "y": 12.7,
+   "z": 188.2255
+  },
+  {
+   "id": 13,
+   "landType": 17,
+   "neighbors": [
+    16,
+    20
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 14,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 140.0,
+   "y": 12.7,
+   "z": 153.2
+  },
+  {
+   "id": 14,
+   "landType": 17,
+   "neighbors": [
+    15,
+    19
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 13,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -138.1,
+   "y": 12.7,
+   "z": -154.7
+  },
+  {
+   "id": 15,
+   "landType": 24,
+   "neighbors": [
+    24,
+    14
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -139.6629,
+   "y": 12.7,
+   "z": -121.0002
+  },
+  {
+   "id": 16,
+   "landType": 24,
+   "neighbors": [
+    25,
+    13
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 140.2,
+   "y": 12.7,
+   "z": 117.4394
+  },
+  {
+   "id": 17,
+   "landType": 17,
+   "neighbors": [
+    46,
+    35,
+    0
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -79.4,
+   "y": 12.7,
+   "z": -33.4838
+  },
+  {
+   "id": 18,
+   "landType": 17,
+   "neighbors": [
+    45,
+    36,
+    3
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 78.6,
+   "y": 12.7,
+   "z": 30.6654
+  },
+  {
+   "id": 19,
+   "landType": 15,
+   "neighbors": [
+    14,
+    31
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -107.8,
+   "y": 12.7,
+   "z": -158.9
+  },
+  {
+   "id": 20,
+   "landType": 15,
+   "neighbors": [
+    13,
+    32
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 109.7,
+   "y": 12.7,
+   "z": 157.2
+  },
+  {
+   "id": 21,
+   "landType": 15,
+   "neighbors": [
+    33,
+    29,
+    37
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 14.5181,
+   "y": 12.7,
+   "z": -61.932
+  },
+  {
+   "id": 22,
+   "landType": 15,
+   "neighbors": [
+    34,
+    30,
+    38
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -14.7,
+   "y": 12.7,
+   "z": 63.2368
+  },
+  {
+   "id": 23,
+   "landType": 22,
+   "neighbors": [
+    30,
+    48
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -79.4,
+   "y": 12.7,
+   "z": 60.5
+  },
+  {
+   "id": 24,
+   "landType": 12,
+   "neighbors": [
+    27,
+    15
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -139.5464,
+   "y": 12.7,
+   "z": -79.2
+  },
+  {
+   "id": 25,
+   "landType": 12,
+   "neighbors": [
+    26,
+    16
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 140.2,
+   "y": 12.7,
+   "z": 79.9
+  },
+  {
+   "id": 26,
+   "landType": 1,
+   "neighbors": [
+    3,
+    25
+   ],
+   "initDir": 3,
+   "serial": 3,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 140.2,
+   "y": 12.7,
+   "z": 35.5
+  },
+  {
+   "id": 27,
+   "landType": 1,
+   "neighbors": [
+    0,
+    24
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -139.068,
+   "y": 12.7,
+   "z": -35.7
+  },
+  {
+   "id": 28,
+   "landType": 22,
+   "neighbors": [
+    29,
+    47
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 78.6,
+   "y": 12.7,
+   "z": -61.932
+  },
+  {
+   "id": 29,
+   "landType": 19,
+   "neighbors": [
+    28,
+    21
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 45.5425,
+   "y": 12.7,
+   "z": -61.932
+  },
+  {
+   "id": 30,
+   "landType": 19,
+   "neighbors": [
+    22,
+    23
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -47.0,
+   "y": 12.7,
+   "z": 63.2368
+  },
+  {
+   "id": 31,
+   "landType": 21,
+   "neighbors": [
+    19,
+    11
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -78.5949,
+   "y": 12.7,
+   "z": -163.0476
+  },
+  {
+   "id": 32,
+   "landType": 21,
+   "neighbors": [
+    20,
+    12
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 79.6,
+   "y": 12.7,
+   "z": 162.0
+  },
+  {
+   "id": 33,
+   "landType": 21,
+   "neighbors": [
+    9,
+    21
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -15.4,
+   "y": 12.7,
+   "z": -61.932
+  },
+  {
+   "id": 34,
+   "landType": 21,
+   "neighbors": [
+    10,
+    22
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 16.131,
+   "y": 12.7,
+   "z": 63.2368
+  },
+  {
+   "id": 35,
+   "landType": 14,
+   "neighbors": [
+    17,
+    9
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -46.1024,
+   "y": 12.7,
+   "z": -35.2339
+  },
+  {
+   "id": 36,
+   "landType": 14,
+   "neighbors": [
+    18,
+    10
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 47.8,
+   "y": 12.7,
+   "z": 33.3143
+  },
+  {
+   "id": 37,
+   "landType": 20,
+   "neighbors": [
+    21,
+    40
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 14.3743,
+   "y": 12.7,
+   "z": -107.4
+  },
+  {
+   "id": 38,
+   "landType": 20,
+   "neighbors": [
+    39,
+    22
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -13.8938,
+   "y": 12.7,
+   "z": 104.3962
+  },
+  {
+   "id": 39,
+   "landType": 14,
+   "neighbors": [
+    2,
+    38
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -13.8938,
+   "y": 12.7,
+   "z": 145.6863
+  },
+  {
+   "id": 40,
+   "landType": 14,
+   "neighbors": [
+    37,
+    8
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 14.4,
+   "y": 12.7,
+   "z": -147.2
+  },
+  {
+   "id": 41,
+   "landType": 8,
+   "neighbors": [
+    8,
+    44
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -15.1069,
+   "y": 12.7,
+   "z": -190.107
+  },
+  {
+   "id": 42,
+   "landType": 8,
+   "neighbors": [
+    43,
+    2
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 16.5825,
+   "y": 12.7,
+   "z": 189.1
+  },
+  {
+   "id": 43,
+   "landType": 12,
+   "neighbors": [
+    12,
+    42
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 43.6636,
+   "y": 12.7,
+   "z": 189.1
+  },
+  {
+   "id": 44,
+   "landType": 12,
+   "neighbors": [
+    41,
+    11
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -43.558,
+   "y": 12.7,
+   "z": -190.5204
+  },
+  {
+   "id": 45,
+   "landType": 20,
+   "neighbors": [
+    47,
+    18
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 78.6,
+   "y": 12.7,
+   "z": 0.7855
+  },
+  {
+   "id": 46,
+   "landType": 20,
+   "neighbors": [
+    48,
+    17
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -79.4,
+   "y": 12.7,
+   "z": -3.0
+  },
+  {
+   "id": 47,
+   "landType": 8,
+   "neighbors": [
+    28,
+    45
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": 78.6,
+   "y": 12.7,
+   "z": -29.9142
+  },
+  {
+   "id": 48,
+   "landType": 8,
+   "neighbors": [
+    23,
+    46
+   ],
+   "initDir": 0,
+   "serial": 0,
+   "jump": 0,
+   "gimmick": [],
+   "runtimeLandType": 0,
+   "disable": 0,
+   "x": -79.4,
+   "y": 12.7,
+   "z": 27.8
+  }
+ ]
+}

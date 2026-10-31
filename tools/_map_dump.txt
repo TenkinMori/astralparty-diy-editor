@@ -1,0 +1,42 @@
+找到的 Map.bin 候选：
+   D:\小小兔趴\5-DIY关卡\_截图\页面演示\server\data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\3-工具\_保活沙箱\proj\server\data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\3-工具\_自测沙箱\_服务端临时表\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\3-工具\启动器自测\_sandbox\_服务端临时表\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\3-工具\沙箱E2E\_tmp\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\server\data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\memleak\data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\memleak\data_run1\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\memleak\data_run2\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\noise_bench\data_after\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\noise_bench\data_after_minute\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\noise_bench\data_before\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\noise_bench\data_before_minute\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\noise_bench\ka_sandbox\server\data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\probe_exit_reenter\data_ship\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\probe_exit_reenter\data_xr\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\reconnect_probe\data_scen\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\reconnect_probe\data_xr_regress\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\selftest_data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\selftest_launcher_data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\selftest_resilience\data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\4-服务端\work\selftest_settings_data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\5-DIY关卡\_截图\页面演示\server\data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\_迁移沙箱\AstralPartyServer\server\data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\_迁移沙箱\AstralPartyServer\server\data-备份-20261003-181305\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\分发-迁移\v3-20261024\server\data\gamedata\Map.bin  (22102 字节)
+   D:\小小兔趴\分发-迁移\v3-20261024-樱花\server\data\gamedata\Map.bin  (22102 字节)
+用：D:\小小兔趴\5-DIY关卡\_截图\页面演示\server\data\gamedata\Map.bin
+
+==============================================================================
+field 4 = 场景表（场景id -> 场景名）
+==============================================================================
+
+==============================================================================
+field 2 = 地图表（全部地图，含每个字段原值）
+==============================================================================
+
+==============================================================================
+82016 逐字段展开（重点看 Mids / 图片名）
+==============================================================================
+

@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>DIY关卡编辑器</AssemblyName>
+    <RootNamespace>DiyEditor</RootNamespace>
+    <Product>小小兔趴 · DIY 关卡编辑器</Product>
+    <AssemblyTitle>小小兔趴 · DIY 关卡编辑器</AssemblyTitle>
+    <Description>打开 / 查看 / 编辑 / 导出关卡配置 JSON（纯本地，只读写你给的文件）</Description>
+    <Version>1.0.0</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <!-- 入口点写在 App.xaml.cs 里（App.Main）：只有这样才能在不开窗口的情况下跑自测。
+         WPF 的 markup 编译默认把 App.xaml 当 ApplicationDefinition，会顺手生成一个
+         同签名的 obj App.g.cs（里面自带 Main）⇒ 两个入口点冲突。
+         这里改成把 App.xaml 当普通 Page（样式资源照样编进 pack URI，
+         InitializeComponent 仍由 WPF 按 partial class 生成），入口点就只剩我们那一个。 -->
+    <EnableDefaultApplicationDefinition>false</EnableDefaultApplicationDefinition>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <DebugType>embedded</DebugType>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\PingFangSC-Semibold.ttf" />
+  </ItemGroup>
+
+  <!-- ★★ 内置缓存（用户 2026-10-12：「要内置」）：
+       把工程根上的 `棋盘缓存\`（官方画板 json）与 `贴图缓存\`（官方贴图 PNG）
+       **原样嵌进 exe**，于是"只有 exe 一个文件、放在任何空目录里"也能画出棋盘和图标。
+       ★ 读取顺序是**磁盘优先、内置兜底**（见 `EmbeddedCache.cs`）：磁盘上有就用磁盘那一份，
+         用户可以覆盖 / 更新 / 删掉重来；没有才回内置。**绝不往磁盘解包**。
+       ★★ 资源名的形状（踩过一次的坑）：MSBuild 把 `LogicalName` 里的**目录分隔符也当成 `.`**
+          —— 实际进资源表的名字是 `DiyEditor.Cache.棋盘缓存.023.json` /
+          `DiyEditor.Cache.贴图缓存.UT_Platform_Gift.png`（**用 `.` 不用 `\` / `/`**）。
+          读取端 `EmbeddedCache` 就按这个形状拼（一开始按 `/` 拼，结果资源表里明明有 187 条、
+          一条都匹配不上 ⇒ 内置等于没装）。 -->
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildProjectDirectory)\..\棋盘缓存\*.json">
+      <LogicalName>DiyEditor.Cache.棋盘缓存.%(Filename)%(Extension)</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildProjectDirectory)\..\贴图缓存\*.*">
+      <LogicalName>DiyEditor.Cache.贴图缓存.%(Filename)%(Extension)</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

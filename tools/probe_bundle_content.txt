@@ -1,0 +1,8 @@
+==============================================================================
+D:\steam\steamapps\common\Astral Party\8vJXn6CN\AstralParty_CN_Data\StreamingAssets\aa\StandaloneWindows64\c80067d0f82fc45dc11ca5035d343cbe.bundle（206883 字节）
+  对象类型：AssetBundle×1, Texture2D×1
+  Texture2D    UT_Monster_Bust_1003_0                   1568x900 fmt=25
+==============================================================================
+D:\steam\steamapps\common\Astral Party\8vJXn6CN\AstralParty_CN_Data\StreamingAssets\aa\StandaloneWindows64\262b0ff8fd4e11a715924d0466012e44.bundle（326793 字节）
+  对象类型：AssetBundle×1, Texture2D×1
+  Texture2D    UT_Monster_Bust_1017_0                   1568x900 fmt=25

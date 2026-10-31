@@ -1,0 +1,58 @@
+# 「图鉴」里那套像素风怪物小人 —— 落地清单（01..48 全齐）
+#
+# 源（三条路，按优先级）
+#   ① 安装目录 Addressables 包：AstralParty_CN_Data\StreamingAssets\aa\StandaloneWindows64\<hash>.bundle
+#   ② 运行时下载缓存：      %LocalLow%\feimo\AstralParty_CN\com.unity.addressables\AssetBundles\<h1>\<hash>\__data
+#   ③ 成品 PNG 直放：       GameRes\Img\<资产名>.png
+# 与怪物 id / 名字的对应：Monster.bin field 19（头像名）+ field 4（名字 id） -> STRMonster.bin field 2
+# 落地目录：D:\小小兔趴\5-DIY关卡\贴图缓存\
+#
+# 序号	怪id	中文名	尺寸	来源	落地文件
+1	1001	小浣熊	200x200	安装包	UT_AccountHeadShot_Monster_01.png	已落地
+2	1002,1052	海盗鲨鱼 / 海盗鲨鱼	200x200	安装包	UT_AccountHeadShot_Monster_02.png	已落地
+3	1005,1006	海盗精锐 / 海盗精锐	200x200	安装包	UT_AccountHeadShot_Monster_03.png	已落地
+4	1008	狂躁红灵	200x200	安装包	UT_AccountHeadShot_Monster_04.png	已落地
+5	1007	冰冷蓝灵	200x200	安装包	UT_AccountHeadShot_Monster_05.png	已落地
+6	1010	长戟灵体	200x200	安装包	UT_AccountHeadShot_Monster_06.png	已落地
+7	1009	刀剑灵体	200x200	安装包	UT_AccountHeadShot_Monster_07.png	已落地
+8	1016	爆竹呱呱	200x200	安装包	UT_AccountHeadShot_Monster_08.png	已落地
+9	1015	氛围机器人	200x200	安装包	UT_AccountHeadShot_Monster_09.png	已落地
+10	1017	机械蛇龙	200x200	安装包	UT_AccountHeadShot_Monster_10.png	已落地
+11	1023	魔法茶壶	200x200	安装包	UT_AccountHeadShot_Monster_11.png	已落地
+12	1022	果冻巫师	200x200	安装包	UT_AccountHeadShot_Monster_12.png	已落地
+13	1021	果冻护卫	200x200	安装包	UT_AccountHeadShot_Monster_13.png	已落地
+14	1020	果冻战士	200x200	安装包	UT_AccountHeadShot_Monster_14.png	已落地
+15	1024	变异茶壶	200x200	安装包	UT_AccountHeadShot_Monster_15.png	已落地
+16	1025	海王鲨	200x200	安装包	UT_AccountHeadShot_Monster_16.png	已落地
+17	1028	蟹布罗	200x200	安装包	UT_AccountHeadShot_Monster_17.png	已落地
+18	1029	虾布罗	200x200	安装包	UT_AccountHeadShot_Monster_18.png	已落地
+19	1030,3051	金小鱼 / 金小鱼	200x200	安装包	UT_AccountHeadShot_Monster_19.png	已落地
+20	1032	练家子	200x200	安装包	UT_AccountHeadShot_Monster_20.png	已落地
+21	1031	大嗓门	200x200	安装包	UT_AccountHeadShot_Monster_21.png	已落地
+22	1034	惊喜猴子盒	200x200	安装包	UT_AccountHeadShot_Monster_22.png	已落地
+23	1035	圆锯猴助手	200x200	安装包	UT_AccountHeadShot_Monster_23.png	已落地
+24	1036	科学怪猿	200x200	安装包	UT_AccountHeadShot_Monster_24.png	已落地
+25	1037	人工生命体—天崩	200x200	安装包	UT_AccountHeadShot_Monster_25.png	已落地
+26	1038	人工生命体—噩兆	200x200	安装包	UT_AccountHeadShot_Monster_26.png	已落地
+27	1039	人工生命体—混乱	200x200	安装包	UT_AccountHeadShot_Monster_27.png	已落地
+28	1040	糖果皮纳塔	200x200	安装包	UT_AccountHeadShot_Monster_28.png	已落地
+29	1041	武魂灵体-戮	200x200	安装包	UT_AccountHeadShot_Monster_29.png	已落地
+30	1042	武魂灵体-怨	200x200	安装包	UT_AccountHeadShot_Monster_30.png	已落地
+31	1043	迎宾燕	200x200	安装包	UT_AccountHeadShot_Monster_31.png	已落地
+32	1044	家禽服务员	200x200	安装包	UT_AccountHeadShot_Monster_32.png	已落地
+33	1045	铜盏仙鹤	200x200	安装包	UT_AccountHeadShot_Monster_33.png	已落地
+34	1046	铜盏孔雀	200x200	安装包	UT_AccountHeadShot_Monster_34.png	已落地
+35	1047	铜盏鸳鸯	200x200	安装包	UT_AccountHeadShot_Monster_35.png	已落地
+36	1054	三联爆竹呱	200x200	安装包	UT_AccountHeadShot_Monster_36.png	已落地
+37	1056	智械海盗鲨	200x200	安装包	UT_AccountHeadShot_Monster_37.png	已落地
+38	1057	智械海王鲨	200x200	安装包	UT_AccountHeadShot_Monster_38.png	已落地
+39	1058	智械中枢	200x200	安装包	UT_AccountHeadShot_Monster_39.png	已落地
+40	1059	宝藏桶	200x200	安装包	UT_AccountHeadShot_Monster_40.png	已落地
+41	1061	裁判艾米	200x200	安装包	UT_AccountHeadShot_Monster_41.png	已落地
+42	1062	机械投手	200x200	安装包	UT_AccountHeadShot_Monster_42.png	已落地
+43	1063	机械四分卫	200x200	安装包	UT_AccountHeadShot_Monster_43.png	已落地
+44	1064	机械监控师	200x200	安装包	UT_AccountHeadShot_Monster_44.png	已落地
+45	1066	思维飞艇	200x200	安装包	UT_AccountHeadShot_Monster_45.png	已落地
+46	1068	看守	200x200	运行时缓存	UT_AccountHeadShot_Monster_46.png	已落地
+47	1069	罪恶茶壶	160x160	运行时缓存	UT_AccountHeadShot_Monster_47.png	已落地
+48	1070	大盗	160x160	运行时缓存	UT_AccountHeadShot_Monster_48.png	已落地

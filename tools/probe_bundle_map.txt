@@ -1,0 +1,98 @@
+catalog = C:\Users\DELL\AppData\LocalLow\feimo\AstralParty_CN\com.unity.addressables\catalog_3.2.0.json
+extra 字节 = 5067345
+
+=== UT_Platform_Gift ===
+  internalId = d
+  provider   = UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
+  dep(bundle)= 7db751de399a9a94c25687f2dcd0422e.bundle
+  dep_hash   = 1026405489
+  extra@-1
+  type       = UnityEngine.Texture2D
+    [bundle loc] internalId = {UnityEngine.AddressableAssets.Addressables.RuntimePath}\StandaloneWindows64\7db751de399a9a94c25687f2dcd0422e.bundle
+    [bundle loc] provider   = UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+    [bundle loc] dep        = None
+    [bundle loc] extra@2983366
+      hex = 074c556e6974792e5265736f757263654d616e616765722c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c4a55
+      str = b'\x07LUnity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=nullJUnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions\x9c\x02\x00\x00{\x00"\x00m\x00_\x00H\x00a\x00s\x00h\x00"\x00:\x00"\x007\x00d\x00b\x007\x005\x001\x00d\x00e\x003\x009\x009\x00a\x009\x00a\x009\x004\x00c\x002\x005\x006\x008\x007\x00f\x002\x00d\x00c\x00d\x000\x004\x002\x002\x00e\x00"\x00,\x00"\x00m\x00_\x00C\x00r\x00c\x00"'
+
+=== UT_Platform_Shop ===
+  internalId = 9
+  provider   = UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
+  dep(bundle)= bbca5053e54ce6662dfb8eae1a7ae536.bundle
+  dep_hash   = -2107021009
+  extra@-1
+  type       = UnityEngine.Texture2D
+    [bundle loc] internalId = {UnityEngine.AddressableAssets.Addressables.RuntimePath}\StandaloneWindows64\bbca5053e54ce6662dfb8eae1a7ae536.bundle
+    [bundle loc] provider   = UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+    [bundle loc] dep        = None
+    [bundle loc] extra@3992758
+      hex = 074c556e6974792e5265736f757263654d616e616765722c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c4a55
+      str = b'\x07LUnity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=nullJUnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions\x9c\x02\x00\x00{\x00"\x00m\x00_\x00H\x00a\x00s\x00h\x00"\x00:\x00"\x00b\x00b\x00c\x00a\x005\x000\x005\x003\x00e\x005\x004\x00c\x00e\x006\x006\x006\x002\x00d\x00f\x00b\x008\x00e\x00a\x00e\x001\x00a\x007\x00a\x00e\x005\x003\x006\x00"\x00,\x00"\x00m\x00_\x00C\x00r\x00c\x00"'
+
+=== UT_Monster_Bust_1003_0 ===
+  internalId = 5
+  provider   = UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
+  dep(bundle)= c80067d0f82fc45dc11ca5035d343cbe.bundle
+  dep_hash   = 122575942
+  extra@-1
+  type       = UnityEngine.Texture2D
+    [bundle loc] internalId = {UnityEngine.AddressableAssets.Addressables.RuntimePath}\StandaloneWindows64\c80067d0f82fc45dc11ca5035d343cbe.bundle
+    [bundle loc] provider   = UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+    [bundle loc] dep        = None
+    [bundle loc] extra@4172810
+      hex = 074c556e6974792e5265736f757263654d616e616765722c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c4a55
+      str = b'\x07LUnity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=nullJUnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions\x9e\x02\x00\x00{\x00"\x00m\x00_\x00H\x00a\x00s\x00h\x00"\x00:\x00"\x00c\x008\x000\x000\x006\x007\x00d\x000\x00f\x008\x002\x00f\x00c\x004\x005\x00d\x00c\x001\x001\x00c\x00a\x005\x000\x003\x005\x00d\x003\x004\x003\x00c\x00b\x00e\x00"\x00,\x00"\x00m\x00_\x00C\x00r\x00c\x00"'
+
+=== UT_HandCard_10001 ===
+  internalId = 4
+  provider   = UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
+  dep(bundle)= d99c384a65ed2cd7b004346d2345d1c4.bundle
+  dep_hash   = 1239401274
+  extra@-1
+  type       = UnityEngine.Texture2D
+    [bundle loc] internalId = {UnityEngine.AddressableAssets.Addressables.RuntimePath}\StandaloneWindows64\d99c384a65ed2cd7b004346d2345d1c4.bundle
+    [bundle loc] provider   = UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+    [bundle loc] dep        = None
+    [bundle loc] extra@4476736
+      hex = 074c556e6974792e5265736f757263654d616e616765722c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c4a55
+      str = b'\x07LUnity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=nullJUnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions\x9c\x02\x00\x00{\x00"\x00m\x00_\x00H\x00a\x00s\x00h\x00"\x00:\x00"\x00d\x009\x009\x00c\x003\x008\x004\x00a\x006\x005\x00e\x00d\x002\x00c\x00d\x007\x00b\x000\x000\x004\x003\x004\x006\x00d\x002\x003\x004\x005\x00d\x001\x00c\x004\x00"\x00,\x00"\x00m\x00_\x00C\x00r\x00c\x00"'
+
+=== Map_023 ===
+  internalId = dd723ba3748807845ad806882744ffac
+  provider   = UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
+  dep(bundle)= 618109968
+  dep_hash   = -773319700
+  extra@-1
+  type       = UnityEngine.ResourceManagement.ResourceProviders.SceneInstance
+    [bundle loc] internalId = {App.WebServerConfig.Path}\370c53bd3c4b8d4fdbcf99fcd9898172.bundle
+    [bundle loc] provider   = UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+    [bundle loc] dep        = None
+    [bundle loc] extra@194349
+      hex = 074c556e6974792e5265736f757263654d616e616765722c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c4a55
+      str = b'\x07LUnity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=nullJUnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions\xa2\x02\x00\x00{\x00"\x00m\x00_\x00H\x00a\x00s\x00h\x00"\x00:\x00"\x003\x007\x000\x00c\x005\x003\x00b\x00d\x003\x00c\x004\x00b\x008\x00d\x004\x00f\x00d\x00b\x00c\x00f\x009\x009\x00f\x00c\x00d\x009\x008\x009\x008\x001\x007\x002\x00"\x00,\x00"\x00m\x00_\x00C\x00r\x00c\x00"'
+    [bundle loc] internalId = {UnityEngine.AddressableAssets.Addressables.RuntimePath}\StandaloneWindows64\8d31efe79f70949df6980f02178e2596.bundle
+    [bundle loc] provider   = UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+    [bundle loc] dep        = None
+    [bundle loc] extra@3222882
+      hex = 074c556e6974792e5265736f757263654d616e616765722c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c4a55
+      str = b'\x07LUnity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=nullJUnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions\xc6\x02\x00\x00{\x00"\x00m\x00_\x00H\x00a\x00s\x00h\x00"\x00:\x00"\x008\x00d\x003\x001\x00e\x00f\x00e\x007\x009\x00f\x007\x000\x009\x004\x009\x00d\x00f\x006\x009\x008\x000\x00f\x000\x002\x001\x007\x008\x00e\x002\x005\x009\x006\x00"\x00,\x00"\x00m\x00_\x00C\x00r\x00c\x00"'
+    [bundle loc] internalId = {UnityEngine.AddressableAssets.Addressables.RuntimePath}\StandaloneWindows64\9108fa33debf1c8ac9d7931fe7f40d57.bundle
+    [bundle loc] provider   = UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+    [bundle loc] dep        = None
+    [bundle loc] extra@3297262
+      hex = 074c556e6974792e5265736f757263654d616e616765722c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c4a55
+      str = b'\x07LUnity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=nullJUnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions\xb2\x02\x00\x00{\x00"\x00m\x00_\x00H\x00a\x00s\x00h\x00"\x00:\x00"\x009\x001\x000\x008\x00f\x00a\x003\x003\x00d\x00e\x00b\x00f\x001\x00c\x008\x00a\x00c\x009\x00d\x007\x009\x003\x001\x00f\x00e\x007\x00f\x004\x000\x00d\x005\x007\x00"\x00,\x00"\x00m\x00_\x00C\x00r\x00c\x00"'
+
+=== UT_Platform_108 ===
+  internalId = 2
+  provider   = UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
+  dep(bundle)= c53bfdaa97c5750359c5de7e6369d3a9.bundle
+  dep_hash   = 1170732464
+  extra@-1
+  type       = UnityEngine.Texture2D
+    [bundle loc] internalId = {UnityEngine.AddressableAssets.Addressables.RuntimePath}\StandaloneWindows64\c53bfdaa97c5750359c5de7e6369d3a9.bundle
+    [bundle loc] provider   = UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+    [bundle loc] dep        = None
+    [bundle loc] extra@4140613
+      hex = 074c556e6974792e5265736f757263654d616e616765722c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c4a55
+      str = b'\x07LUnity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=nullJUnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions\x9c\x02\x00\x00{\x00"\x00m\x00_\x00H\x00a\x00s\x00h\x00"\x00:\x00"\x00c\x005\x003\x00b\x00f\x00d\x00a\x00a\x009\x007\x00c\x005\x007\x005\x000\x003\x005\x009\x00c\x005\x00d\x00e\x007\x00e\x006\x003\x006\x009\x00d\x003\x00a\x009\x00"\x00,\x00"\x00m\x00_\x00C\x00r\x00c\x00"'

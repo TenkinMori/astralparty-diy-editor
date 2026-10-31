@@ -1,0 +1,39 @@
+<UserControl x:Class="DiyEditor.PageMonsters"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DiyEditor">
+  <!-- 第④页：怪物 = 怪物池。
+       按进度分类 + 未配置的单独一栏；点一只怪可以改那五项属性。 -->
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <StackPanel Grid.Row="0">
+      <TextBlock Text="怪物" Style="{StaticResource H2}" />
+      <TextBlock x:Name="SubLine" Style="{StaticResource Note}" Margin="0,8,0,10" MaxWidth="1120"
+                 HorizontalAlignment="Left" TextWrapping="Wrap"
+                 Text="这里就是怪物池：棋盘上放过、或进度里挑过的怪都在池子里。" />
+    </StackPanel>
+
+    <Grid Grid.Row="1">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="392" />
+      </Grid.ColumnDefinitions>
+
+      <!-- ── 左：按进度分类 + 未配置那一栏 ────────────────────────── -->
+      <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto"
+                    HorizontalScrollBarVisibility="Disabled" Focusable="False">
+        <StackPanel x:Name="ListHost" Margin="0,0,16,16" />
+      </ScrollViewer>
+
+      <!-- ── 右：编这一只（血量/防御/攻击/掉落星币/是否反击） ──────── -->
+      <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto"
+                    HorizontalScrollBarVisibility="Disabled" Focusable="False">
+        <StackPanel x:Name="EditorHost" />
+      </ScrollViewer>
+    </Grid>
+  </Grid>
+</UserControl>

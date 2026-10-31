@@ -1,0 +1,81 @@
+<UserControl x:Class="DiyEditor.PageLint"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DiyEditor">
+  <!-- ★ 第⑤页只干一件事：先校验（服务端会丢什么 / 哪里会玩不起来），再导出。 -->
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <StackPanel Grid.Row="0">
+      <TextBlock Text="校验 / 保存" Style="{StaticResource H2}" />
+      <TextBlock x:Name="SubLine" Style="{StaticResource Note}" Margin="0,8,0,8" MaxWidth="980"
+                 HorizontalAlignment="Left" Text="还没打开关卡。" />
+      <TextBlock x:Name="SaveWhere" Style="{StaticResource FieldHint}" Margin="0,0,0,10" MaxWidth="980"
+                 HorizontalAlignment="Left" Text="" />
+      <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+        <Button x:Name="BtnRecheck" Style="{StaticResource Ghost}" Content="重新校验"
+                Click="OnRecheck" />
+        <Button x:Name="BtnSaveAs" Style="{StaticResource Primary}" Content="保存到本地 DIY 关卡…"
+                Margin="12,0,0,0" Click="OnSaveAs" />
+        <Button x:Name="BtnOverwrite" Style="{StaticResource Ghost}"
+                Content="另存为到别处…" Margin="12,0,0,0" Click="OnSaveAsElsewhere" />
+      </StackPanel>
+      <WrapPanel x:Name="Counts" Margin="0,0,0,8" />
+    </StackPanel>
+
+    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto"
+                  HorizontalScrollBarVisibility="Disabled" Focusable="False">
+      <StackPanel Margin="0,0,14,20">
+        <local:GlassSurface Style="{StaticResource Cap}">
+          <StackPanel>
+            <TextBlock Text="校验结果" Style="{StaticResource H1}" />
+            <TextBlock Style="{StaticResource FieldHint}" Margin="0,10,0,0"
+                       ToolTip="校验项：缺少四个角色的出生点 · 有怪物未配置进度 · 有进度事件没挑事件 id（触发点）。第三条是第 11 波加的 —— 触发进度只能靠事件 id 编码（MapEvent.bin 的 field4 ÷ 2）。"
+                       Text="三条：缺少四个角色的出生点 · 有怪物未配置进度 · 有进度事件没挑事件 id（触发点）。" />
+            <StackPanel x:Name="Findings" Margin="0,14,0,0" />
+          </StackPanel>
+        </local:GlassSurface>
+
+        <local:GlassSurface Style="{StaticResource Cap}" Margin="0,14,0,0">
+          <StackPanel>
+            <TextBlock Text="导出" Style="{StaticResource H1}" />
+            <TextBlock x:Name="ExportNote" Style="{StaticResource FieldHint}" Margin="0,10,0,0"
+                       ToolTip="另存为：原子写，不留半截文件。覆盖原文件：先按 sha256 备份到「导出备份」，再原子替换。"
+                       Text="另存为用原子写；覆盖前先按 sha256 备份。" />
+            <Grid Margin="0,14,0,0">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="*" />
+              </Grid.ColumnDefinitions>
+              <TextBlock Grid.Column="0" Text="缩进 / 换行" Style="{StaticResource FieldLabel}"
+                         VerticalAlignment="Top" />
+              <TextBlock Grid.Column="1" x:Name="FormatNote" Style="{StaticResource FieldHint}" />
+            </Grid>
+            <Grid Margin="0,12,0,0">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="*" />
+              </Grid.ColumnDefinitions>
+              <TextBlock Grid.Column="0" Text="原文 sha256" Style="{StaticResource FieldLabel}"
+                         VerticalAlignment="Top" />
+              <TextBlock Grid.Column="1" x:Name="SourceHash" Style="{StaticResource FieldHint}" Text="—" />
+            </Grid>
+            <TextBlock x:Name="ExportLog" Style="{StaticResource Note}" Margin="0,14,0,0" />
+          </StackPanel>
+        </local:GlassSurface>
+
+        <local:GlassSurface Style="{StaticResource Cap}" Margin="0,14,0,0">
+          <StackPanel>
+            <TextBlock Text="服务端会丢的字段清单" Style="{StaticResource H1}" />
+            <TextBlock Style="{StaticResource FieldHint}" Margin="0,10,0,0"
+                       Text="只挑它认识的键，其余一个不留。" />
+            <StackPanel x:Name="Whitelist" Margin="0,12,0,0" />
+          </StackPanel>
+        </local:GlassSurface>
+      </StackPanel>
+    </ScrollViewer>
+  </Grid>
+</UserControl>

@@ -1,0 +1,75 @@
+STRMonster 键数 = 195；样例：1022=“又又又出现事件了？太棒了！”, 10233=生气的时候会咕嘟咕嘟冒泡，那可是开水！, 10231=魔法茶壶, 10230=魔法茶壶, 1012=“我也不知道这玩意买来干嘛用，但是买都买了”, 10223=别看他走路晃悠悠的，吃它一发魔法可不是闹着玩的。
+
+==============================================================================
+Monster.bin 里各 wire5 字段 与 STRMonster 键的交集（找名字 id 字段）
+==============================================================================
+   field 4    命中  80 /  80
+   field 3    命中  80 /  80
+   field 6    命中  57 /  80
+   field 1    命中   6 /  80
+   field 21   命中   4 /  80
+   field 8    命中   1 /  79
+   field 17   命中   0 /  41
+   field 16   命中   0 /  69
+   field 15   命中   0 /  75
+   field 14   命中   0 /  80
+   field 13   命中   0 /  54
+   field 2    命中   0 /  79
+
+选定名字字段 = field 4
+
+==============================================================================
+像素怪头像  ->  怪 id  ->  中文名
+==============================================================================
+   UT_AccountHeadShot_Monster_01      1001 小浣熊
+   UT_AccountHeadShot_Monster_02      1002 海盗鲨鱼; 1052 海盗鲨鱼
+   UT_AccountHeadShot_Monster_03      1005 海盗精锐; 1006 海盗精锐
+   UT_AccountHeadShot_Monster_04      1008 狂躁红灵
+   UT_AccountHeadShot_Monster_05      1007 冰冷蓝灵
+   UT_AccountHeadShot_Monster_06      1010 长戟灵体
+   UT_AccountHeadShot_Monster_07      1009 刀剑灵体
+   UT_AccountHeadShot_Monster_08      1016 爆竹呱呱
+   UT_AccountHeadShot_Monster_09      1015 氛围机器人
+   UT_AccountHeadShot_Monster_10      1017 机械蛇龙
+   UT_AccountHeadShot_Monster_11      1023 魔法茶壶
+   UT_AccountHeadShot_Monster_12      1022 果冻巫师
+   UT_AccountHeadShot_Monster_13      1021 果冻护卫
+   UT_AccountHeadShot_Monster_14      1020 果冻战士
+   UT_AccountHeadShot_Monster_15      1024 变异茶壶
+   UT_AccountHeadShot_Monster_16      1025 海王鲨
+   UT_AccountHeadShot_Monster_17      1028 蟹布罗
+   UT_AccountHeadShot_Monster_18      1029 虾布罗
+   UT_AccountHeadShot_Monster_19      1030 金小鱼; 3051 金小鱼
+   UT_AccountHeadShot_Monster_20      1032 练家子
+   UT_AccountHeadShot_Monster_21      1031 大嗓门
+   UT_AccountHeadShot_Monster_22      1034 惊喜猴子盒
+   UT_AccountHeadShot_Monster_23      1035 圆锯猴助手
+   UT_AccountHeadShot_Monster_24      1036 科学怪猿
+   UT_AccountHeadShot_Monster_25      1037 人工生命体—天崩
+   UT_AccountHeadShot_Monster_26      1038 人工生命体—噩兆
+   UT_AccountHeadShot_Monster_27      1039 人工生命体—混乱
+   UT_AccountHeadShot_Monster_28      1040 糖果皮纳塔
+   UT_AccountHeadShot_Monster_29      1041 武魂灵体-戮
+   UT_AccountHeadShot_Monster_30      1042 武魂灵体-怨
+   UT_AccountHeadShot_Monster_31      1043 迎宾燕
+   UT_AccountHeadShot_Monster_32      1044 家禽服务员
+   UT_AccountHeadShot_Monster_33      1045 铜盏仙鹤
+   UT_AccountHeadShot_Monster_34      1046 铜盏孔雀
+   UT_AccountHeadShot_Monster_35      1047 铜盏鸳鸯
+   UT_AccountHeadShot_Monster_36      1054 三联爆竹呱
+   UT_AccountHeadShot_Monster_37      1056 智械海盗鲨
+   UT_AccountHeadShot_Monster_38      1057 智械海王鲨
+   UT_AccountHeadShot_Monster_39      1058 智械中枢
+   UT_AccountHeadShot_Monster_40      1059 宝藏桶
+   UT_AccountHeadShot_Monster_41      1061 裁判艾米
+   UT_AccountHeadShot_Monster_42      1062 机械投手
+   UT_AccountHeadShot_Monster_43      1063 机械四分卫
+   UT_AccountHeadShot_Monster_44      1064 机械监控师
+   UT_AccountHeadShot_Monster_45      1066 思维飞艇
+   UT_AccountHeadShot_Monster_46      1068 看守
+   UT_AccountHeadShot_Monster_47      1069 罪恶茶壶
+   UT_AccountHeadShot_Monster_48      1070 大盗
+
+头像总数 = 48（Monster.bin 里被引用的）
+本地包里有实体的 = 0
+表里登记但**本地包没有**的 = UT_AccountHeadShot_Monster_01(1001), UT_AccountHeadShot_Monster_02(1002/1052), UT_AccountHeadShot_Monster_03(1005/1006), UT_AccountHeadShot_Monster_04(1008), UT_AccountHeadShot_Monster_05(1007), UT_AccountHeadShot_Monster_06(1010), UT_AccountHeadShot_Monster_07(1009), UT_AccountHeadShot_Monster_08(1016), UT_AccountHeadShot_Monster_09(1015), UT_AccountHeadShot_Monster_10(1017), UT_AccountHeadShot_Monster_11(1023), UT_AccountHeadShot_Monster_12(1022), UT_AccountHeadShot_Monster_13(1021), UT_AccountHeadShot_Monster_14(1020), UT_AccountHeadShot_Monster_15(1024), UT_AccountHeadShot_Monster_16(1025), UT_AccountHeadShot_Monster_17(1028), UT_AccountHeadShot_Monster_18(1029), UT_AccountHeadShot_Monster_19(1030/3051), UT_AccountHeadShot_Monster_20(1032), UT_AccountHeadShot_Monster_21(1031), UT_AccountHeadShot_Monster_22(1034), UT_AccountHeadShot_Monster_23(1035), UT_AccountHeadShot_Monster_24(1036), UT_AccountHeadShot_Monster_25(1037), UT_AccountHeadShot_Monster_26(1038), UT_AccountHeadShot_Monster_27(1039), UT_AccountHeadShot_Monster_28(1040), UT_AccountHeadShot_Monster_29(1041), UT_AccountHeadShot_Monster_30(1042), UT_AccountHeadShot_Monster_31(1043), UT_AccountHeadShot_Monster_32(1044), UT_AccountHeadShot_Monster_33(1045), UT_AccountHeadShot_Monster_34(1046), UT_AccountHeadShot_Monster_35(1047), UT_AccountHeadShot_Monster_36(1054), UT_AccountHeadShot_Monster_37(1056), UT_AccountHeadShot_Monster_38(1057), UT_AccountHeadShot_Monster_39(1058), UT_AccountHeadShot_Monster_40(1059), UT_AccountHeadShot_Monster_41(1061), UT_AccountHeadShot_Monster_42(1062), UT_AccountHeadShot_Monster_43(1063), UT_AccountHeadShot_Monster_44(1064), UT_AccountHeadShot_Monster_45(1066), UT_AccountHeadShot_Monster_46(1068), UT_AccountHeadShot_Monster_47(1069), UT_AccountHeadShot_Monster_48(1070)

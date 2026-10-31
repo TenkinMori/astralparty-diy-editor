@@ -1,0 +1,300 @@
+Map.bin = D:\小小兔趴\4-服务端\server\data\gamedata\Map.bin
+在 = True
+字节数 = 22102
+
+—— 顶层字段分布 ——
+  field 1   wire 2  x24
+  field 2   wire 2  x25
+  field 3   wire 2  x27
+  field 4   wire 2  x27
+  field 5   wire 2  x18
+  field 6   wire 2  x19
+  field 7   wire 2  x5
+  field 8   wire 2  x5
+  field 9   wire 2  x12
+  field 10  wire 2  x13
+  field 11  wire 2  x32
+  field 12  wire 2  x32
+
+==============================================================================
+field 1 的每一条（登记表）—— 共 24 条
+==============================================================================
+── 第 1 条 ──
+    f1   wire5 = 81003
+    f2   wire5 = 81003
+    f3   wire5 = 810030
+    f4   wire5 = 810031
+    f5   wire2 二进制 1 字节
+    f7   wire2 子消息(4 字节) 内含字段 3
+    f8   wire2 字符串 = 'UT_MapPreview_003'
+    f9   wire2 字符串 = 'UT_MapScene_003'
+    f15  wire2 二进制 4 字节
+    f17  wire2 子消息(6 字节) 内含字段 1
+    f18  wire2 子消息(6 字节) 内含字段 1
+    f21  wire5 = 2
+── 第 2 条 ──
+    f1   wire5 = 81005
+    f2   wire5 = 81005
+    f3   wire5 = 810050
+    f4   wire5 = 810051
+    f5   wire2 二进制 1 字节
+    f7   wire2 二进制 4 字节
+    f8   wire2 字符串 = 'UT_MapPreview_005'
+    f9   wire2 字符串 = 'UT_MapScene_005'
+    f17  wire2 子消息(6 字节) 内含字段 1
+    f18  wire2 子消息(6 字节) 内含字段 1
+    f21  wire5 = 2
+── 第 3 条 ──
+    f1   wire5 = 81004
+    f2   wire5 = 81004
+    f3   wire5 = 810040
+    f4   wire5 = 810041
+    f5   wire2 二进制 1 字节
+    f7   wire2 子消息(8 字节) 内含字段 3
+    f8   wire2 字符串 = 'UT_MapPreview_004'
+    f9   wire2 字符串 = 'UT_MapScene_004'
+    f15  wire2 二进制 4 字节
+── 第 4 条 ──
+    f1   wire5 = 81006
+    f2   wire5 = 81006
+    f3   wire5 = 810060
+    f4   wire5 = 810061
+    f5   wire2 二进制 1 字节
+    f7   wire2 子消息(4 字节) 内含字段 3
+    f8   wire2 字符串 = 'UT_MapPreview_006'
+    f9   wire2 字符串 = 'UT_MapScene_006'
+    f15  wire2 子消息(8 字节) 内含字段 61
+── 第 5 条 ──
+    f1   wire5 = 81007
+    f2   wire5 = 81007
+    f3   wire5 = 810070
+    f4   wire5 = 810071
+    f5   wire2 字符串 = '*'
+    f8   wire2 字符串 = 'UT_MapPreview_007'
+    f9   wire2 字符串 = 'UT_MapScene_021'
+    f10  wire5 = 81007
+    f15  wire2 子消息(8 字节) 内含字段 61
+    f17  wire2 子消息(6 字节) 内含字段 1
+    f18  wire2 子消息(6 字节) 内含字段 1
+    f21  wire5 = 1
+── 第 6 条 ──
+    f1   wire5 = 81011
+    f2   wire5 = 81011
+    f3   wire5 = 810110
+    f4   wire5 = 810111
+    f5   wire2 二进制 1 字节
+    f7   wire2 二进制 4 字节
+    f8   wire2 字符串 = 'UT_MapPreview_011'
+    f9   wire2 字符串 = 'UT_MapScene_011'
+    f13  wire0 = 25
+    f15  wire2 子消息(4 字节) 内含字段 61
+── 第 7 条 ──
+    f1   wire5 = 81099
+    f2   wire5 = 81099
+    f5   wire2 二进制 2 字节
+── 第 8 条 ──
+    f1   wire5 = 82009
+    f2   wire5 = 81009
+    f4   wire5 = 810091
+    f5   wire2 二进制 1 字节
+    f7   wire2 子消息(4 字节) 内含字段 4
+    f8   wire2 字符串 = 'UT_MapPreview_009'
+    f9   wire2 字符串 = 'UT_MapScene_009'
+    f11  wire2 子消息(8 字节) 内含字段 7
+    f13  wire0 = 23
+── 第 9 条 ──
+    f1   wire5 = 82007
+    f2   wire5 = 82007
+    f3   wire5 = 820070
+    f4   wire5 = 820071
+    f5   wire2 二进制 1 字节
+    f6   wire2 二进制 4 字节
+    f8   wire2 字符串 = 'UT_MapPreview_007'
+    f9   wire2 字符串 = 'UT_MapScene_007'
+    f10  wire5 = 82007
+    f12  wire2 二进制 4 字节
+    f14  wire2 二进制 12 字节
+    f15  wire2 子消息(16 字节) 内含字段 61,0,0,61,0
+── 第 10 条 ──
+    f1   wire5 = 82008
+    f2   wire5 = 81008
+    f3   wire5 = 810080
+    f4   wire5 = 810081
+    f5   wire2 二进制 1 字节
+    f6   wire2 子消息(4 字节) 内含字段 11,0
+    f8   wire2 字符串 = 'UT_MapPreview_008'
+    f9   wire2 字符串 = 'UT_MapScene_008'
+    f10  wire5 = 82008
+    f11  wire2 子消息(4 字节) 内含字段 3
+    f14  wire2 二进制 12 字节
+    f15  wire2 子消息(24 字节) 内含字段 61,0,62,0
+    f17  wire2 子消息(6 字节) 内含字段 1
+    f18  wire2 子消息(6 字节) 内含字段 1
+    f21  wire5 = 2
+── 第 11 条 ──
+    f1   wire5 = 82010
+    f2   wire5 = 81010
+    f3   wire5 = 810100
+    f4   wire5 = 810101
+    f5   wire2 二进制 1 字节
+    f6   wire2 子消息(4 字节) 内含字段 11
+    f8   wire2 字符串 = 'UT_MapPreview_010'
+    f9   wire2 字符串 = 'UT_MapScene_010'
+    f10  wire5 = 82010
+    f11  wire2 子消息(8 字节) 内含字段 2
+    f14  wire2 二进制 8 字节
+    f15  wire2 二进制 24 字节
+    f17  wire2 子消息(6 字节) 内含字段 1
+    f18  wire2 子消息(6 字节) 内含字段 1
+    f21  wire5 = 2
+── 第 12 条 ──
+    f1   wire5 = 82012
+    f2   wire5 = 81012
+    f3   wire5 = 810120
+    f4   wire5 = 810121
+    f5   wire2 二进制 3 字节
+    f6   wire2 子消息(8 字节) 内含字段 574
+    f8   wire2 字符串 = 'UT_MapPreview_012'
+    f9   wire2 字符串 = 'UT_MapScene_012'
+    f10  wire5 = 82012
+    f11  wire2 子消息(4 字节) 内含字段 2
+    f14  wire2 二进制 12 字节
+    f15  wire2 二进制 20 字节
+── 第 13 条 ──
+    f1   wire5 = 82013
+    f2   wire5 = 82013
+    f3   wire5 = 820130
+    f4   wire5 = 820131
+    f5   wire2 二进制 1 字节
+    f6   wire2 二进制 4 字节
+    f7   wire2 二进制 4 字节
+    f8   wire2 字符串 = 'UT_MapPreview_013'
+    f9   wire2 字符串 = 'UT_MapScene_013'
+    f10  wire5 = 82013
+    f12  wire2 二进制 4 字节
+    f14  wire2 二进制 24 字节
+    f15  wire2 二进制 44 字节
+    f16  wire2 二进制 32 字节
+── 第 14 条 ──
+    f1   wire5 = 82014
+    f2   wire5 = 82014
+    f3   wire5 = 820140
+    f4   wire5 = 820141
+    f5   wire2 字符串 = ' '
+    f6   wire2 二进制 4 字节
+    f8   wire2 字符串 = 'UT_MapPreview_014'
+    f9   wire2 字符串 = 'UT_MapScene_014'
+    f10  wire5 = 82014
+    f11  wire2 二进制 12 字节
+    f12  wire2 二进制 4 字节
+    f13  wire0 = 26
+    f14  wire2 二进制 12 字节
+    f15  wire2 二进制 36 字节
+── 第 15 条 ──
+    f1   wire5 = 82015
+    f2   wire5 = 82015
+    f3   wire5 = 820150
+    f4   wire5 = 820151
+    f5   wire2 字符串 = '"'
+    f6   wire2 二进制 4 字节
+    f8   wire2 字符串 = 'UT_MapPreview_015'
+    f9   wire2 字符串 = 'UT_MapScene_015'
+    f10  wire5 = 82015
+    f11  wire2 二进制 12 字节
+    f14  wire2 二进制 12 字节
+    f15  wire2 二进制 40 字节
+    f16  wire2 二进制 36 字节
+── 第 16 条 ──
+    f1   wire5 = 82016
+    f2   wire5 = 82016
+    f3   wire5 = 820160
+    f4   wire5 = 820161
+    f5   wire2 字符串 = '.'
+    f6   wire2 子消息(4 字节) 内含字段 12,0
+    f8   wire2 字符串 = 'UT_MapPreview_016'
+    f9   wire2 字符串 = 'UT_MapScene_016'
+    f10  wire5 = 82016
+    f11  wire2 子消息(4 字节) 内含字段 4
+    f14  wire2 二进制 8 字节
+    f15  wire2 二进制 28 字节
+    f17  wire2 子消息(6 字节) 内含字段 1
+    f18  wire2 子消息(6 字节) 内含字段 1
+    f19  wire2 子消息(6 字节) 内含字段 1
+    f20  wire2 子消息(6 字节) 内含字段 1
+    f21  wire5 = 1
+    f22  wire5 = 1
+── 第 17 条 ──
+    f1   wire5 = 83001
+    f2   wire5 = 83001
+    f3   wire5 = 830010
+    f4   wire5 = 830011
+    f5   wire2 字符串 = '&'
+    f6   wire2 二进制 8 字节
+    f8   wire2 字符串 = 'UT_MapPreview_019'
+    f9   wire2 字符串 = 'UT_MapScene_019'
+    f10  wire5 = 83001
+    f11  wire2 子消息(4 字节) 内含字段 2
+    f14  wire2 子消息(8 字节) 内含字段 1075
+    f15  wire2 二进制 36 字节
+    f17  wire2 子消息(6 字节) 内含字段 1
+    f18  wire2 子消息(6 字节) 内含字段 1
+── 第 18 条 ──
+    f1   wire5 = 83002
+    f2   wire5 = 83002
+    f3   wire5 = 830020
+    f4   wire5 = 830021
+    f5   wire2 字符串 = ','
+    f6   wire2 子消息(8 字节) 内含字段 258661
+    f8   wire2 字符串 = 'UT_MapPreview_019'
+    f9   wire2 字符串 = 'UT_MapScene_019'
+    f10  wire5 = 83002
+    f14  wire2 子消息(8 字节) 内含字段 1075
+    f15  wire2 二进制 40 字节
+    f17  wire2 子消息(6 字节) 内含字段 1
+    f18  wire2 子消息(6 字节) 内含字段 1
+── 第 19 条 ──
+    f1   wire5 = 83003
+    f2   wire5 = 83003
+    f3   wire5 = 830030
+    f4   wire5 = 830031
+    f5   wire2 字符串 = '('
+    f6   wire2 二进制 4 字节
+    f8   wire2 字符串 = 'UT_MapPreview_020'
+    f9   wire2 字符串 = 'UT_MapScene_020'
+    f10  wire5 = 83003
+    f11  wire2 子消息(4 字节) 内含字段 4,0
+    f13  wire0 = 27
+    f14  wire2 二进制 24 字节
+    f15  wire2 二进制 36 字节
+    f17  wire2 子消息(6 字节) 内含字段 1
+    f18  wire2 子消息(6 字节) 内含字段 1
+── 第 20 条 ──
+    f1   wire5 = 101
+    f2   wire5 = 101
+    f5   wire2 二进制 2 字节
+    f6   wire2 二进制 4 字节
+    f7   wire2 二进制 4 字节
+    f15  wire2 子消息(12 字节) 内含字段 61,0
+── 第 21 条 ──
+    f1   wire5 = 102
+    f2   wire5 = 102
+    f5   wire2 二进制 2 字节
+    f6   wire2 二进制 4 字节
+    f7   wire2 二进制 20 字节
+    f15  wire2 二进制 8 字节
+── 第 22 条 ──
+    f1   wire5 = 103
+    f2   wire5 = 103
+    f5   wire2 二进制 2 字节
+    f15  wire2 子消息(8 字节) 内含字段 61
+── 第 23 条 ──
+    f1   wire5 = 1001
+    f5   wire2 二进制 2 字节
+    f6   wire2 子消息(4 字节) 内含字段 61
+    f15  wire2 子消息(4 字节) 内含字段 61
+── 第 24 条 ──
+    f1   wire5 = 1002
+    f5   wire2 二进制 2 字节
+    f6   wire2 二进制 4 字节
+    f7   wire2 子消息(8 字节) 内含字段 13
+    f15  wire2 二进制 16 字节

@@ -1,0 +1,169 @@
+表目录   = C:\Users\DELL\Documents\AstralParty Next\测试服\server\data\gamedata
+游戏根   = d:\steam\steamapps\common\Astral Party\8vJXn6CN
+catalog  = C:\Users\DELL\AppData\LocalLow\feimo\AstralParty_CN\com.unity.addressables\catalog_3.3.0.json
+包目录   = d:\steam\steamapps\common\Astral Party\8vJXn6CN\AstralParty_CN_Data\StreamingAssets\aa\StandaloneWindows64（在）
+产物     = D:\小小兔趴\5-DIY关卡\图标缓存
+
+catalog 地址 14970 条（解到 bundle 的 5530 条）
+Monster.bin 怪 84 只 · Skin.bin 明细 106 条
+
+要抠 84 张（68 个包）
+  044cdc0c73268492 → 1 张
+  12156c55ad9ce7c8 → 1 张
+  16372c643433e5e2 → 1 张
+  226fe4fe551b6b7f → 1 张
+  2b9c788449861f5c → 1 张
+  2bf47e7375a901e7 → 1 张
+  2c88bb3c5eca8ca0 → 1 张
+  2f50811bf6b9aada → 1 张
+  30656bc80a956828 → 1 张
+  36bbbe98525eb5e1 → 1 张
+  382e4a89b856216f → 1 张
+  39eafeca0a96a42b → 1 张
+  3d12be00fedfb9f3 → 1 张
+  3fb03459dffbdb6c → 1 张
+  424a5352df1783a8 → 1 张
+  5279381f78b06f2b → 1 张
+  566099a28b5226c2 → 1 张
+  582332a16cf7278c → 1 张
+  60cc7c232adf93de → 1 张
+  62b25a9ad002122f → 1 张
+  632728997874b4d1 → 1 张
+  66f9b9bb082cfb52 → 1 张
+  683311fee801432e → 1 张
+  690bf6ca011bfb84 → 1 张
+  6c125aeec662b4e8 → 1 张
+  6d6d605f5747bb1d → 1 张
+  6eeae3271f15d1f3 → 1 张
+  6f562b8367d7662b → 1 张
+  72123478db1941e0 → 1 张
+  75f05c7b506299ff → 1 张
+  77df5ffa2314f6c0 → 1 张
+  7a64ee69bf597ade → 1 张
+  7b53e31fe72d2927 → 1 张
+  7d56e543b1b75352 → 1 张
+  7e811d219e0478e1 → 1 张
+  8017dc046f7b5d1b → 1 张
+  89fe80f3a0b3ed9e → 1 张
+  8c2b68be3594da9b → 1 张
+  96756d5fe0be53c5 → 1 张
+  9d39d05abe6b3164 → 1 张
+  a08508efdd37813d → 1 张
+  adf1d0861b5716c1 → 1 张
+  b7c957e093a8cc89 → 1 张
+  b8d0b3fc7c3d8ddc → 1 张
+  bcbd0339d67ba008 → 1 张
+  bf9d76663db575f7 → 1 张
+  bfbde79319e00dda → 1 张
+  c354b45ce4983595 → 1 张
+  c3d0016be0f57a96 → 1 张
+  c6a1d01c0a08e8d5 → 1 张
+  c6dce2ed3c522743 → 1 张
+  ccb4aeb0aa4a4c30 → 1 张
+  cdc9acc79a64682c → 1 张
+  cea327606b8de087 → 1 张
+  d37d81582dd2c5dd → 1 张
+  d3f267dcd076433a → 1 张
+  dda3b37bab31a3bb → 1 张
+  e18369faa9f6ae09 → 1 张
+  e6eca7fdd2978451 → 1 张
+  e74132b2be51850c → 1 张
+  ebbbbe3cafb8ede9 → 1 张
+  ec3da9eb298b3f6b → 1 张
+  ec8ad2f1cb26fc60 → 1 张
+  ed24ee495965e301 → 1 张
+  f231e2113634f971 → 1 张
+  f81f1a5a78a96e38 → 1 张
+  facab577c5891043 → 1 张
+  fe38cdef41eb5d98 → 1 张
+
+==============================================================================
+这一趟落盘 84 张 · 失败 0 条
+
+—— 逐只（84 只）——
+  怪 1001  标签 Monster1001    用 UT_Monster_Bust_1001_0           226fe4fe551b 373033 字节
+  怪 1002  标签 Monster1002    用 UT_Monster_Bust_1002_0           2c88bb3c5eca 235135 字节
+  怪 1003  标签 Monster1003    用 UT_Monster_Bust_1003_0           39eafeca0a96 373354 字节
+  怪 1004  标签 Monster1004    用 UT_Monster_Bust_1004_0           66f9b9bb082c 382458 字节
+  怪 1005  标签 Monster1005    用 UT_Monster_Bust_1005_0           b8d0b3fc7c3d 286889 字节
+  怪 1006  标签 Monster1005    用 UT_Monster_Bust_1005_0           b8d0b3fc7c3d 286889 字节
+  怪 100401 标签 Monster1004    用 UT_Monster_Bust_1004_0           66f9b9bb082c 382458 字节
+  怪 1007  标签 Monster1007    用 UT_Monster_Bust_1007_0           c3d0016be0f5 162167 字节
+  怪 1008  标签 Monster1008    用 UT_Monster_Bust_1008_0           16372c643433 167432 字节
+  怪 1009  标签 Monster1009    用 UT_Monster_Bust_1009_0           ec3da9eb298b 261715 字节
+  怪 1010  标签 Monster1010    用 UT_Monster_Bust_1010_0           7a64ee69bf59 301297 字节
+  怪 1011  标签 Monster1011    用 UT_Monster_Bust_1011_0           89fe80f3a0b3 685713 字节
+  怪 1012  标签 Monster1011    用 UT_Monster_Bust_1011_0           89fe80f3a0b3 685713 字节
+  怪 1013  标签 Monster1013    用 UT_Monster_Bust_1013_0           2f50811bf6b9 766232 字节
+  怪 1014  标签 Monster1014    用 UT_Monster_Bust_1014_0           6c125aeec662 263773 字节
+  怪 1015  标签 Monster1015    用 UT_Monster_Bust_1015_0           e18369faa9f6 245246 字节
+  怪 1016  标签 Monster1016    用 UT_Monster_Bust_1016_0           7d56e543b1b7 178233 字节
+  怪 1017  标签 Monster1017    用 UT_Monster_Bust_1017_0           cea327606b8d 465506 字节
+  怪 1018  标签 Monster1018    用 UT_Monster_Bust_1018_0           fe38cdef41eb 622420 字节
+  怪 1019  标签 Monster1019    用 UT_Monster_Bust_1019_0           2bf47e7375a9 580826 字节
+  怪 1020  标签 Monster1020    用 UT_Monster_Bust_1020_0           683311fee801 344420 字节
+  怪 1021  标签 Monster1021    用 UT_Monster_Bust_1021_0           3d12be00fedf 188398 字节
+  怪 1022  标签 Monster1022    用 UT_Monster_Bust_1022_0           e74132b2be51 218052 字节
+  怪 1023  标签 Monster1023    用 UT_Monster_Bust_1023_0           6f562b8367d7 180869 字节
+  怪 1024  标签 Monster1024    用 UT_Monster_Bust_1024_0           6eeae3271f15 173789 字节
+  怪 1025  标签 Monster1025    用 UT_Monster_Bust_1025_0           5279381f78b0 396051 字节
+  怪 1026  标签 Monster1026    用 UT_Monster_Bust_1026_0           ec8ad2f1cb26 482534 字节
+  怪 1027  标签 Monster1027    用 UT_Monster_Bust_1027_0           424a5352df17 762608 字节
+  怪 1028  标签 Monster1028    用 UT_Monster_Bust_1028_0           582332a16cf7 331978 字节
+  怪 1029  标签 Monster1029    用 UT_Monster_Bust_1029_0           b7c957e093a8 267151 字节
+  怪 1030  标签 Monster1030    用 UT_Monster_Bust_1030_0           632728997874 270274 字节
+  怪 1031  标签 Monster1031    用 UT_Monster_Bust_1031_0           ccb4aeb0aa4a 323136 字节
+  怪 1032  标签 Monster1032    用 UT_Monster_Bust_1032_0           d3f267dcd076 304387 字节
+  怪 1033  标签 Monster1033    用 UT_Monster_Bust_1033_0           12156c55ad9c 619497 字节
+  怪 1034  标签 Monster1034    用 UT_Monster_Bust_1034_0           f231e2113634 256477 字节
+  怪 1035  标签 Monster1035    用 UT_Monster_Bust_1035_0           72123478db19 292811 字节
+  怪 1036  标签 Monster1036    用 UT_Monster_Bust_1036_0           77df5ffa2314 299326 字节
+  怪 1037  标签 Monster1037    用 UT_Monster_Bust_1037_0           96756d5fe0be 262348 字节
+  怪 1038  标签 Monster1038    用 UT_Monster_Bust_1038_0           c6a1d01c0a08 249191 字节
+  怪 1039  标签 Monster1039    用 UT_Monster_Bust_1039_0           9d39d05abe6b 296162 字节
+  怪 1040  标签 Monster1040    用 UT_Monster_Bust_1040_0           bcbd0339d67b 247903 字节
+  怪 1041  标签 Monster1041    用 UT_Monster_Bust_1041_0           d37d81582dd2 398681 字节
+  怪 1042  标签 Monster1042    用 UT_Monster_Bust_1042_0           75f05c7b5062 422928 字节
+  怪 1043  标签 Monster1043    用 UT_Monster_Bust_1043_0           e6eca7fdd297 228356 字节
+  怪 1044  标签 Monster1044    用 UT_Monster_Bust_1044_0           2b9c78844986 346953 字节
+  怪 1045  标签 Monster1045    用 UT_Monster_Bust_1045_0           8017dc046f7b 389875 字节
+  怪 1046  标签 Monster1046    用 UT_Monster_Bust_1046_0           f81f1a5a78a9 463455 字节
+  怪 1047  标签 Monster1047    用 UT_Monster_Bust_1047_0           ed24ee495965 237198 字节
+  怪 1048  标签 Monster1048    用 UT_Monster_Bust_1048_0           bfbde79319e0 574904 字节
+  怪 1049  标签 Monster1048    用 UT_Monster_Bust_1048_0           bfbde79319e0 574904 字节
+  怪 1050  标签 Monster1050    用 UT_Hero_Bust_113_0               cdc9acc79a64 392667 字节
+  怪 1051  标签 Monster1004    用 UT_Monster_Bust_1004_0           66f9b9bb082c 382458 字节
+  怪 1052  标签 Monster1002    用 UT_Monster_Bust_1002_0           2c88bb3c5eca 235135 字节
+  怪 1053  标签 Monster1053    用 UT_Monster_Bust_1053_0           30656bc80a95 965040 字节
+  怪 1054  标签 Monster1054    用 UT_Monster_Bust_1054_0           facab577c589 344024 字节
+  怪 1055  标签 Monster1055    用 UT_Monster_Bust_1055_0           7e811d219e04 611494 字节
+  怪 1056  标签 Monster1056    用 UT_Monster_Bust_1056_0           382e4a89b856 203407 字节
+  怪 1057  标签 Monster1057    用 UT_Monster_Bust_1057_0           3fb03459dffb 302936 字节
+  怪 1058  标签 Monster1058    用 UT_Monster_Bust_1058_0           bf9d76663db5 332967 字节
+  怪 1059  标签 Monster1059    用 UT_Monster_Bust_1059_0           8c2b68be3594 263932 字节
+  怪 1060  标签 Monster1004    用 UT_Monster_Bust_1004_0           66f9b9bb082c 382458 字节
+  怪 1061  标签 Monster1061    用 UT_Monster_Bust_1061_0           36bbbe98525e 617934 字节
+  怪 1062  标签 Monster1062    用 UT_Monster_Bust_1062_0           6d6d605f5747 263591 字节
+  怪 1063  标签 Monster1063    用 UT_Monster_Bust_1063_0           044cdc0c7326 342979 字节
+  怪 1064  标签 Monster1064    用 UT_Monster_Bust_1064_0           7b53e31fe72d 214711 字节
+  怪 1065  标签 Monster1065    用 UT_Monster_Bust_1065_0           566099a28b52 310085 字节
+  怪 1066  标签 Monster1066    用 UT_Monster_Bust_1066_0           c354b45ce498 367041 字节
+  怪 1067  标签 Monster1067    用 UT_Monster_Bust_1067_0           690bf6ca011b 190603 字节
+  怪 1068  标签 Monster1068    用 UT_Monster_Bust_1068_0           60cc7c232adf 275230 字节
+  怪 1069  标签 Monster1069    用 UT_Monster_Bust_1069_0           62b25a9ad002 223554 字节
+  怪 1070  标签 Monster1070    用 UT_Monster_Bust_1070_0           adf1d0861b57 384449 字节
+  怪 1071  标签 Monster1071    用 UT_Monster_Bust_1071_0           c6dce2ed3c52 726782 字节
+  怪 1072  标签 Monster1072    用 UT_Monster_Bust_1072_0           dda3b37bab31 226063 字节
+  怪 1073  标签 Monster1073    用 UT_Monster_Bust_1073_0           ebbbbe3cafb8 252409 字节
+  怪 1074  标签 Monster1074    用 UT_Monster_Bust_1074_0           a08508efdd37 209572 字节
+  怪 2026  标签 Monster1026    用 UT_Monster_Bust_1026_0           ec8ad2f1cb26 482534 字节
+  怪 2027  标签 Monster1027    用 UT_Monster_Bust_1027_0           424a5352df17 762608 字节
+  怪 3001  标签 Monster1018    用 UT_Monster_Bust_1018_0           fe38cdef41eb 622420 字节
+  怪 3002  标签 Monster1019    用 UT_Monster_Bust_1019_0           2bf47e7375a9 580826 字节
+  怪 3003  标签 Monster1026    用 UT_Monster_Bust_1026_0           ec8ad2f1cb26 482534 字节
+  怪 3004  标签 Monster1027    用 UT_Monster_Bust_1027_0           424a5352df17 762608 字节
+  怪 3005  标签 Monster1018    用 UT_Monster_Bust_1018_0           fe38cdef41eb 622420 字节
+  怪 3006  标签 Monster1027    用 UT_Monster_Bust_1027_0           424a5352df17 762608 字节
+  怪 3051  标签 Monster1030    用 UT_Monster_Bust_1030_0           632728997874 270274 字节
+
+图标缓存里现在有 84 个 <id>.png

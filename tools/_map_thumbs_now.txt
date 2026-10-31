@@ -1,0 +1,27 @@
+地图 101    画板 103    海盗王嘎呜          f8=（表里没登记）               (本地无) f9=（表里没登记）               (本地无) → （没有缩略图）
+地图 102    画板 104    浣熊             f8=（表里没登记）               (本地无) f9=（表里没登记）               (本地无) → （没有缩略图）
+地图 103    画板 102    对抗训练           f8=（表里没登记）               (本地无) f9=（表里没登记）               (本地无) → （没有缩略图）
+地图 1001   画板 1001   地图 1001        f8=（表里没登记）               (本地无) f9=（表里没登记）               (本地无) → （没有缩略图）
+地图 1002   画板 1002   地图 1002        f8=（表里没登记）               (本地无) f9=（表里没登记）               (本地无) → （没有缩略图）
+地图 81003  画板 003    游乐园            f8=UT_MapPreview_003     (本地有) f9=UT_MapScene_003       (本地有) → 官方美术 UT_MapPreview_003（Map.bin f8）
+地图 81004  画板 004    十字路口站          f8=UT_MapPreview_004     (本地有) f9=UT_MapScene_004       (本地有) → 官方美术 UT_MapPreview_004（Map.bin f8）
+地图 81005  画板 005    樱花小镇           f8=UT_MapPreview_005     (本地有) f9=UT_MapScene_005       (本地有) → 官方美术 UT_MapPreview_005（Map.bin f8）
+地图 81006  画板 006    魅影都市           f8=UT_MapPreview_006     (本地有) f9=UT_MapScene_006       (本地有) → 官方美术 UT_MapPreview_006（Map.bin f8）
+地图 81007  画板 021    梦想号-上层甲板       f8=UT_MapPreview_007     (本地有) f9=UT_MapScene_021       (本地有) → 官方美术 UT_MapPreview_007（Map.bin f8）
+地图 81011  画板 011    丛林冒险           f8=UT_MapPreview_011     (本地有) f9=UT_MapScene_011       (本地有) → 官方美术 UT_MapPreview_011（Map.bin f8）
+地图 81099  画板 999    Map_010        f8=（表里没登记）               (本地无) f9=（表里没登记）               (本地无) → （没有缩略图）
+地图 82007  画板 007    星趴·梦想号         f8=UT_MapPreview_007     (本地有) f9=UT_MapScene_007       (本地有) → 官方美术 UT_MapPreview_007（Map.bin f8）
+地图 82008  画板 008    御魂庆典           f8=UT_MapPreview_008     (本地有) f9=UT_MapScene_008       (本地有) → 官方美术 UT_MapPreview_008（Map.bin f8）
+地图 82009  画板 009    礼物广场           f8=UT_MapPreview_009     (本地有) f9=UT_MapScene_009       (本地有) → 官方美术 UT_MapPreview_009（Map.bin f8）
+地图 82010  画板 010    水乡古镇           f8=UT_MapPreview_010     (本地有) f9=UT_MapScene_010       (本地有) → 官方美术 UT_MapPreview_010（Map.bin f8）
+地图 82012  画板 012    魔法学院           f8=UT_MapPreview_012     (本地有) f9=UT_MapScene_012       (本地有) → 官方美术 UT_MapPreview_012（Map.bin f8）
+地图 82013  画板 015    龙宫游乐园          f8=UT_MapPreview_013     (本地有) f9=UT_MapScene_013       (本地有) → 官方美术 UT_MapPreview_013（Map.bin f8）
+地图 82014  画板 016    幽魂暗巷           f8=UT_MapPreview_014     (本地有) f9=UT_MapScene_014       (本地有) → 官方美术 UT_MapPreview_014（Map.bin f8）
+地图 82015  画板 017    园林中庭           f8=UT_MapPreview_015     (本地有) f9=UT_MapScene_015       (本地有) → 官方美术 UT_MapPreview_015（Map.bin f8）
+地图 82016  画板 023    异变图书馆          f8=UT_MapPreview_016     (本地有) f9=UT_MapScene_016       (本地有) → 官方美术 UT_MapPreview_016（Map.bin f8）
+地图 82017  画板 007    雅央的炼狱挑战        f8=（表里没登记）               (本地无) f9=（表里没登记）               (本地无) → 官方美术 UT_MapPreview_007（同画板号 007 的邻图借用；本条 Map.bin 没登记）
+地图 83001  画板 019    海选赛运动场         f8=UT_MapPreview_019     (本地有) f9=UT_MapScene_019       (本地有) → 官方美术 UT_MapPreview_019（Map.bin f8）
+地图 83002  画板 022    淘汰赛运动场         f8=UT_MapPreview_019     (本地有) f9=UT_MapScene_019       (本地有) → 官方美术 UT_MapPreview_019（Map.bin f8）
+地图 83003  画板 020    决赛大赛场          f8=UT_MapPreview_020     (本地有) f9=UT_MapScene_020       (本地有) → 官方美术 UT_MapPreview_020（Map.bin f8）
+
+取材计数：官方美术(f8) 19 张 · 官方大图(f9兜底) 0 张 · 渲染缓存 0 张 · 这一趟现渲染 0 张 · 仍然没有 6 张。
